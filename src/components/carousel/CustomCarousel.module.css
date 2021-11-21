@@ -131,6 +131,7 @@
   flex-wrap: nowrap;
   align-items: center;
   padding-bottom: 30px;
+  justify-content: center;
 }
 
 .motoContainer {

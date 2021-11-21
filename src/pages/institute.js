@@ -7,6 +7,7 @@ import NavigationCommonLayout  from "../components/navigationcommonlayout/Naviga
 import { Container, Row, Col } from "react-bootstrap";
 import {  BsFillArrowRightCircleFill } from "react-icons/bs";
 import { instituteList } from "../data/commonLayoutNavigationData";
+import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
 
 export default function Institute() {
   const { t, lang } = useTranslation();
@@ -15,7 +16,11 @@ export default function Institute() {
   return (
       <div>
     <Header />
-    <div style={{color:'red', textAlign:'center'}}>TODO: Add the main componet here.</div>
+    <MainLayoutSection 
+      title="Institute" 
+      description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
+      photo="/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png"
+    /> 
     <NavigationCommonLayout navigationList={instituteList}/> 
 
 <Container>

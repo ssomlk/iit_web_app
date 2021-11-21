@@ -23,10 +23,14 @@ export default function AboutUs() {
         <meta name="description" content="international institute of theravada" />
       </Head>
 
-      <div className='navbarCarouselWrapper'>
+      <div className='navbarCarouselWrapper about'>
         <Header />
       </div>
-    <MainLayoutSection/> 
+    <MainLayoutSection 
+      title="About Us" 
+      description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
+      photo="/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png"
+    /> 
   <NavigationCommonLayout navigationList={aboutUsList}/>
 
 <Container style={{textAlign: 'center', color: '#5D5D5D', paddingTop:'10px', fontSize:'45px', fontWeight:'500' }}>

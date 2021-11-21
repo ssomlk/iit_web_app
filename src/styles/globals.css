@@ -26,6 +26,10 @@ p {
   background: #e6c49d 0% 0% no-repeat padding-box;
 }
 
+.navbarCarouselWrapper.about {
+  background-color: transparent;
+}
+
 .caroucap {
   position: relative;
   bottom: 0;
@@ -33,6 +37,10 @@ p {
   left: 0;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.banner-img-max-width-about {
+  max-width: 644px;
 }
 
 .banner-img-max-width {
@@ -157,4 +165,19 @@ p {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+
+.banner-text-left-about-pd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 575px) {
+  .banner-text-left-about-pd {
+    align-items: center;
+  }
 }

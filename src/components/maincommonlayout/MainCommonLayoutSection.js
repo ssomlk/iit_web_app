@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import styles from "./MainLayoutSection.module.css";
 
-const MainLayoutSection = () => {
+const MainCommonLayoutSection = () => {
   const renderMainLayoutSection = () => {
     return (
     <div className={styles.customAboutUsEllipse}>
@@ -27,5 +27,5 @@ const MainLayoutSection = () => {
        </Container>
        );
 };
-export default MainLayoutSection;
+export default MainCommonLayoutSection;
 

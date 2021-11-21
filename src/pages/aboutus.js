@@ -3,7 +3,7 @@ import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import MainLayoutSection from "../components/maincommonlayout/MainLayoutSection";
+import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
 import NavigationCommonLayout  from "../components/navigationcommonlayout/NavigationCommonLayout";
 import { Container, Row, Col } from "react-bootstrap";
 import {  BsFillArrowRightCircleFill } from "react-icons/bs";

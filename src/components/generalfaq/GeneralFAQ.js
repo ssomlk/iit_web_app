@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Accordion } from "react-bootstrap";
 import faqData from '../../data/generalFAQData.json'
-import styles from './GeneralFAQ.module.css';
+import styles from './GeneralFaqSection.module.css';
 
 const GeneralFAQ = () => {
   const renderAccordion = (card, index) => {

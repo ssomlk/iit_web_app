@@ -1,0 +1,160 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+h3,
+p {
+  color: black;
+}
+
+.navbarCarouselWrapper {
+  position: relative;
+  background: #e6c49d 0% 0% no-repeat padding-box;
+}
+
+.caroucap {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.banner-img-max-width {
+  max-width: 698px;
+}
+
+.banner-social-icon-max-width {
+  max-width: 21px;
+}
+
+.banner-social-icon-max-height {
+  max-height: 24px;
+}
+
+.banner-social-icon-max-width-31 {
+  max-width: 31px;
+}
+
+.banner-social-icon-max-width-53 {
+  max-width: 53px;
+}
+
+.width-50-per {
+  display: flex;
+  width: 50%;
+}
+
+.width-75-per {
+  width: 75%;
+}
+
+.width-25-per {
+  width: 75%;
+}
+
+.height-100-per {
+  height: 100%;
+}
+
+.banner-text-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 575px) {
+  .banner-text-left {
+    align-items: center;
+  }
+}
+
+.iconsButton img {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 15px;
+}
+
+.mt-10 {
+  margin-top: 15px;
+}
+
+.pd-30 {
+  padding: 30px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.rotate-90-deg {
+  transform: rotate(-90deg);
+}
+
+.img-container {
+  display: flex;
+  flex: 1;
+}
+
+.text-container {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-width-215 {
+  width: 215px;
+}
+
+.text-width-121 {
+  width: 121px;
+}
+
+.font-17 {
+  font-size: 17px;
+  letter-spacing: 5px;
+}
+
+.sliderTwoTemple {
+  height: 190px;
+  width: 190px;
+  min-width: 190px;
+  min-height: 190px;
+  background-color: #65471f;
+  border-radius: 100%;
+  margin: 20px;
+  padding: 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}

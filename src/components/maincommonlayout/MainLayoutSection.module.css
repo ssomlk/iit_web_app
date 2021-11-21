@@ -1,0 +1,76 @@
+.mainImg{
+    /* content: url(/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png) 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    /* padding-right: 20%; */
+}
+.mainBody{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-60) var(--unnamed-font-family-playfair-display);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-616057);
+text-align: left;
+font: normal normal bold 45px/60px Playfair Display;
+letter-spacing: 0px;
+color: #616057;
+opacity: 1;
+
+}
+.mainTitle{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/70px var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal bold 60px/70px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+padding-top: 100px;
+
+}
+
+.navbarCarouselWrapper {
+    background: #ffffff 0% 0% no-repeat padding-box!important;
+}
+
+
+.customAboutUsCarouselWrapper {
+    /* position: inherit; */
+    /* background: #e6c49d 0% 0% no-repeat padding-box; */
+    /* top: 139px; */
+/* left: 0px; */
+width: 1928px;
+height: 816px;
+margin-left: -15px;
+
+  }
+  
+.customAboutUsEllipse {
+    position: inherit;
+    bottom: 6%;
+    left: 14%;
+    width: 126%;
+    height: 50vmax;
+    background: transparent url(/MaskGroup-3.svg) 0% 0% no-repeat padding-box;
+    opacity: 1.37;
+    background-size: cover;
+    background-position: bottom right;
+  }
+  
+  @media (max-width: 1199px) {
+  }
+  
+  @media (max-width: 1399px) {
+  }
+  
+  @media (max-width: 991px) {
+  }
+  
+  @media (max-width: 767px) {
+  }
+  
+  @media (max-width: 575px) {
+    /* .customAboutUsEllipse {
+      bottom: 50%;
+      left: -2%;
+      width: 100%;
+    } */
+  }
+  

@@ -1,0 +1,67 @@
+.mainDiv{
+    background-color: #044884
+}
+
+.instituteHeading{
+    color:white;
+    text-align: left;
+    font: normal normal bold 19px/19px Raleway;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 0 !important;
+}
+
+.hrLine{
+        color: white;
+        height: 50px;
+        background-color: white;
+        border: 3px solid #FFFFFF;
+        opacity: 1;
+}
+
+.liMain{
+    list-style-type: none;
+    opacity:100%;
+    text-align:left;
+    font: bold normal normal 14px/34px Raleway;
+    letter-spacing: 0px;
+    width:100%
+}
+
+.liSub{
+    list-style-type: none;
+    opacity:55%;
+    text-align:left;
+    font: normal normal normal 14px/34px Raleway;
+    letter-spacing: 0px;
+    width:100%
+}
+
+.supportBtn{
+    border-radius: 30px;
+}
+
+.contactDetails{
+    opacity:55%;
+    font: normal normal normal 14px Raleway;
+    letter-spacing: 0px;
+    width:100%
+}
+
+.lastLine{
+    text-align:left;
+    font: normal normal normal 14px Raleway;
+    letter-spacing: 0px;
+    width:100%;
+    background-color: #044884;
+    color:white;
+    padding-left: 30px;
+}
+
+.copyright{
+    opacity:55%;
+    font: normal normal normal 14px Raleway;
+    /* letter-spacing: 0px; */
+    /* width:100%; */
+}

@@ -1,0 +1,67 @@
+.header{
+    text-align: left;
+    font: normal normal 600 33px/78px Raleway;
+    letter-spacing: 0px;
+    color: #847563;
+    opacity: 1;
+    margin-left:15px;
+}
+
+.body{
+    text-align: left;
+font: normal normal normal 26px Raleway;
+letter-spacing: 0px;
+color: #847563;
+opacity: 1;
+margin-left:15px;
+
+}
+
+.questionSpan{
+    text-align: left;
+font: normal normal 60 44px Raleway;
+letter-spacing: 0px;
+color: #ECB87A;
+opacity: 1;
+}
+
+.answerSpan{
+    text-align: left;
+font: normal normal 60 44px Raleway;
+letter-spacing: 0px;
+color: #847563;
+opacity: 0.39;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 1399px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+    .header{
+        font: normal normal 60 25px/50px Raleway;
+    }
+    .answerSpan{
+        font: normal normal 60 25px Raleway;
+    }
+    .questionSpan{
+        font: normal normal 60 25px Raleway;
+    }
+}
+
+@media (max-width: 575px) {
+    .header{
+        font: normal normal 60 15px/50px Raleway;
+    }
+    .answerSpan{
+        font: normal normal 60 15px Raleway;
+    }
+    .questionSpan{
+        font: normal normal 60 15px Raleway;
+    }
+}

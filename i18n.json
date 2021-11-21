@@ -1,0 +1,12 @@
+{
+    "locales": [
+        "en-US",
+        "si-LK"
+    ],
+    "defaultLocale": "en-US",
+    "pages": {
+        "*": [
+            "common"
+        ]
+    }
+}

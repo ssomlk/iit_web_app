@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Courses and Trainings",
+        "image":"coursesAndTrainningIcon.svg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
+        "link":"www.google.com",
+        "color":"#FFD426",
+        "titleColor":"#132072",
+        "arrowColor":""
+    },
+    {
+        "title":"Meditation Programme",
+        "image":"meditationProgIcon.svg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
+        "link":"",
+        "color":"#FFEDA5",
+        "titleColor":"#132072",
+        "arrowColor":""
+    },
+    {
+        "title":"Our Services",
+        "image":"ourServicesIcon.svg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
+        "link":"",
+        "color":"#025BC1",
+        "titleColor":"#FFFFFF",
+        "arrowColor":""
+    },
+    {
+        "title":"Get Registered",
+        "image":"getRegisteredIcon.svg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
+        "link":"",
+        "color":"#1E1EA2",
+        "titleColor":"#FFFFFF",
+        "arrowColor":""
+    }
+]

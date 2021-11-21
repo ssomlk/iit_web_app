@@ -1,0 +1,27 @@
+[
+    {
+        "title":"Learning",
+        "body":"The original teachings of the Buddha: the Dhamma and Vinaya preserved under the Theravāda tradition enshrined in the Pāli Canon.",
+        "image":"learning.png"
+    },
+    {
+        "title":"Discipline",
+        "body":"Training according to the disciplinary rules as per the Vinaya Pitaka.",
+        "image":"discipline.png"
+    },
+    {
+        "title":"Training in meditation",
+        "body":"Samatha and Vipassanā meditation practices.",
+        "image":"trainning-meditation.png"
+    },
+    {
+        "title":"Propagation",
+        "body":"Disseminating the Theravāda teachings to a global audience.",
+        "image":"propagation.png"
+    },
+    {
+        "title":"Prolonging the dispensation (sāsana)",
+        "body":"Building the capacity of trainee-clergy (monks and nuns), so that once trained, they would be able to ordain and train novices to preserve the Bhikkhu lineage in an efficient manner..",
+        "image":"prolonging.png"
+    }
+]

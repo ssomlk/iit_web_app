@@ -3,11 +3,11 @@ import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-// import MainLayoutSection from "../components/mainCommonLayout/MainLayoutSection";
-// import NavigationCommonLayout  from "../components/navigationCommonLayout/NavigationCommonLayout";
+import MainLayoutSection from "../components/maincommonlayout/MainLayoutSection";
+import NavigationCommonLayout  from "../components/navigationcommonlayout/NavigationCommonLayout";
 import { Container, Row, Col } from "react-bootstrap";
 import {  BsFillArrowRightCircleFill } from "react-icons/bs";
-// import OurFocusCardDeck from "../components/ourFocusCardDeck/OurFocusCardDeck";
+import OurFocusCardDeck from "../components/ourfocuscarddeck/OurFocusCardDeck";
 import { aboutUsList } from "../data/commonLayoutNavigationData";
 
 export default function AboutUs() {
@@ -26,8 +26,8 @@ export default function AboutUs() {
       <div className='navbarCarouselWrapper'>
         <Header />
       </div>
-    {/* <MainLayoutSection/> */}
-{/* <NavigationCommonLayout navigationList={aboutUsList}/> */}
+    <MainLayoutSection/> 
+  <NavigationCommonLayout navigationList={aboutUsList}/>
 
 <Container style={{textAlign: 'center', color: '#5D5D5D', paddingTop:'10px', fontSize:'45px', fontWeight:'500' }}>
 <Row >
@@ -123,7 +123,7 @@ View in google map
 </Row>
   </Container>
 
-{/* <OurFocusCardDeck/> */}
+<OurFocusCardDeck/>
 
       <Footer/>
     </div>

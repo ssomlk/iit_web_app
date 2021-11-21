@@ -3,7 +3,7 @@ import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-// import NavigationCommonLayout  from "../components/navigationCommonLayout/NavigationCommonLayout";
+import NavigationCommonLayout  from "../components/navigationcommonlayout/NavigationCommonLayout";
 import { Container, Row, Col } from "react-bootstrap";
 import {  BsFillArrowRightCircleFill } from "react-icons/bs";
 import { instituteList } from "../data/commonLayoutNavigationData";
@@ -16,7 +16,7 @@ export default function Institute() {
       <div>
     <Header />
     <div style={{color:'red', textAlign:'center'}}>TODO: Add the main componet here.</div>
-    {/* <NavigationCommonLayout navigationList={instituteList}/> */}
+    <NavigationCommonLayout navigationList={instituteList}/> 
 
 <Container>
 <div style={{color: '#5D5D5D',font: 'normal normal bold 50px/59px Raleway',marginBottom:'20px', marginTop:'20px' }}>Academic Staff</div>

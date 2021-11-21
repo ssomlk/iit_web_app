@@ -4,9 +4,9 @@ import { useRouter } from "next/router";
 import CustomCarousel from "../components/carousel/CustomCarousel";
 import CardDeckComponent from "../components/carddeck/CardDeckComponent";
 import Header from "../components/header/Header";
-// import NewsAndEventsComponent from "../components/newsandevents/NewsAndEventsComponent";
-// import Footer from "../components/footer/Footer";
-// import GeneralFAQ from "../components/generalfaq/GeneralFAQ";
+import NewsAndEventsComponent from "../components/newsandevents/NewsAndEventsComponent";
+import Footer from "../components/footer/Footer";
+import GeneralFAQ from "../components/generalfaq/GeneralFAQ";
 
 
 export default function Home() {
@@ -28,9 +28,9 @@ export default function Home() {
       </div>
       
       <CardDeckComponent/>
-      {/* <NewsAndEventsComponent/>
+       <NewsAndEventsComponent/>
       <GeneralFAQ/>
-      <Footer/> */}
+      <Footer/> 
     </div>
 
     

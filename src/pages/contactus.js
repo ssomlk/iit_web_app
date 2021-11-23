@@ -97,21 +97,21 @@ export default function AboutUs() {
                 <div className="mb-26 flex">
                     <div className="mr-32">
                         <label htmlFor="contactName" className="form-label contactLabelsText">Name</label>
-                        <input type="text" className="form-control min-width-356" id="contactName"/>
+                        <input type="text" className="form-control width-356" id="contactName"/>
                     </div>
                     <div>
                         <label htmlFor="contactEmail" className="form-label contactLabelsText">Email</label>
-                        <input type="email" className="form-control min-width-356" id="contactEmail" placeholder="name@example.com"/>
+                        <input type="email" className="form-control width-356" id="contactEmail" placeholder="name@example.com"/>
                     </div>
                 </div>
                 <div className="mb-26 flex">
                     <div className="mr-32">
                         <label htmlFor="contactPhone" className="form-label contactLabelsText">Phone</label>
-                        <input type="text" className="form-control min-width-356" id="contactPhone"/>
+                        <input type="text" className="form-control width-356" id="contactPhone"/>
                     </div>
                     <div>
                         <label htmlFor="contactSubject" className="form-label contactLabelsText">Subject</label>
-                        <input type="text" className="form-control min-width-356" id="contactSubject"/>
+                        <input type="text" className="form-control width-356" id="contactSubject"/>
                     </div>
                 </div>
                 <div className="mb-26">
@@ -125,7 +125,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* <Footer/> */}
+      <Footer/>
     </div>
 
     

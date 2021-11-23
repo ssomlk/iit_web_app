@@ -33,7 +33,71 @@ export default function AboutUs() {
         photo="/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png"
       /> 
 
-      <Footer/>
+      <div className="contactDataWrapper">
+        <div className="contactLeftContainer paddingHorizontal30">
+            <div className="nameContainer">
+                <div className="lineHeight1">International Institute of</div>
+                <div className="lineHeight1">Terawada</div>
+            </div>
+            <div className="addressContainer mb-25 pl-20">
+                <div className="addressImageCont mr-24">
+                    <img
+                        className="d-block w-100 pin-img-max-width"
+                        src="/Address.svg"
+                        alt="Address.svg"
+                        width="24px"
+                    />
+                </div>
+                <div className="addressNameContainer">
+                    <div>
+                        Hinetikalma Watta Road
+                    </div>
+                    <div>
+                        Kaluwaragas wewa
+                    </div>
+                    <div>
+                        Sri Lanka
+                    </div>
+                </div>
+            </div>
+            <div className="commMethodContainer mb-25 pl-20">
+                <div className="contactImageCont mr-18">
+                    <img
+                        className="d-block w-100 contact-img-max-width"
+                        src="/contact.svg"
+                        alt="Contact.svg"
+                        width="36px"
+                    />
+                </div>
+                <div className="contactDetailsContainer">
+                    <div>
+                        info@iit.lk
+                    </div>
+                    <div>
+                        +94 112 897 8899
+                    </div>
+                </div>
+            </div>
+            <div className="directionsContainer mb-25 pl-20">
+                <div className="directionsImageCont mr-24">
+                    <img
+                        className="d-block w-100 pin-img-max-width"
+                        src="/Directions.svg"
+                        alt="Directions.svg"
+                        width="24px"
+                    />
+                </div>
+                <div className="directionDetailsContainer">
+                    <a>Get Directions</a>
+                </div>
+            </div>
+        </div>
+        <div className="contactRightContainer paddingHorizontal30">
+            <div>LOLOLLLL</div>
+        </div>
+      </div>
+
+      {/* <Footer/> */}
     </div>
 
     

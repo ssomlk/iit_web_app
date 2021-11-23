@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -26,7 +29,8 @@ p {
   background: #e6c49d 0% 0% no-repeat padding-box;
 }
 
-.navbarCarouselWrapper.about {
+.navbarCarouselWrapper.about,
+.navbarCarouselWrapper.contact {
   background-color: transparent;
 }
 
@@ -180,4 +184,132 @@ p {
   .banner-text-left-about-pd {
     align-items: center;
   }
+}
+
+/* ********************************* */
+
+.pin-img-max-width {
+  max-width: 24px;
+}
+
+.contact-img-max-width {
+  max-width: 31px;
+}
+
+.directions-img-max-width {
+  max-width: 24px;
+}
+
+.contactDataWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paddingLeft30 {
+  padding-left: 30px;
+}
+
+.pr-99 {
+  padding-right: 99px;
+}
+
+.nameContainer {
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.lineHeight1 {
+  line-height: 1;
+}
+
+.addressContainer,
+.commMethodContainer,
+.directionsContainer {
+  display: flex;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mr-18 {
+  margin-right: 18px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.addressNameContainer,
+.contactDetailsContainer,
+.directionDetailsContainer {
+  font-family: "Raleway";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.mr-32 {
+  margin-right: 32px;
+}
+
+.mb-26 {
+  margin-bottom: 26px;
+}
+
+.contactLabelsText {
+  font-family: "Raleway";
+  font-size: 19px;
+  font-weight: 500;
+  color: #302d2d;
+}
+
+.width-356 {
+  width: 356px;
+}
+
+.min-height-213 {
+  min-height: 213px !important;
+}
+
+.submitButton {
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 34px;
+  background-color: #966304;
+  cursor: pointer;
+  color: white;
+  border-style: none;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pd-19 {
+  padding: 19px;
+}
+
+.height-68 {
+  height: 68px;
+}
+
+.bg-color-brown {
+  background: #96630421 0% 0% no-repeat padding-box;
+}
+
+.contactInputText {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 600;
 }

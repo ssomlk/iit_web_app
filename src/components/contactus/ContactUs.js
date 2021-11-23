@@ -3,7 +3,7 @@ import React from 'react';
 function ContactUs() {  
     return (
         <div className="contactDataWrapper">
-        <div className="contactLeftContainer paddingHorizontal30">
+        <div className="contactLeftContainer paddingLeft30 pr-99">
             <div className="nameContainer">
                 <div className="lineHeight1">International Institute of</div>
                 <div className="lineHeight1">Terawada</div>

@@ -204,9 +204,12 @@ p {
   margin-bottom: 30px;
 }
 
-.paddingHorizontal30 {
+.paddingLeft30 {
   padding-left: 30px;
-  padding-right: 30px;
+}
+
+.pr-99 {
+  padding-right: 99px;
 }
 
 .nameContainer {

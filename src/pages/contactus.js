@@ -93,7 +93,32 @@ export default function AboutUs() {
             </div>
         </div>
         <div className="contactRightContainer paddingHorizontal30">
-            <div>LOLOLLLL</div>
+            <form className="contactUsForm">
+                <div className="mb-26 flex">
+                    <div className="mr-32">
+                        <label for="contactName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="contactName"/>
+                    </div>
+                    <div>
+                        <label for="contactEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com"/>
+                    </div>
+                </div>
+                <div className="mb-26 flex">
+                    <div className="mr-32">
+                        <label for="contactPhone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="contactPhone"/>
+                    </div>
+                    <div>
+                        <label for="contactSubject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="contactSubject"/>
+                    </div>
+                </div>
+                <div className="mb-26">
+                    <label for="contactMessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                </div>
+            </form>
         </div>
       </div>
 

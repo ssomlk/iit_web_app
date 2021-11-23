@@ -266,3 +266,11 @@ p {
   font-weight: 500;
   color: #302d2d;
 }
+
+.min-width-356 {
+  min-width: 356px;
+}
+
+.min-height-213 {
+  min-height: 213px !important;
+}

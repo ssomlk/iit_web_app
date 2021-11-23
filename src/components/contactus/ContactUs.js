@@ -63,7 +63,7 @@ function ContactUs() {
         </div>
         <div className="contactRightContainer paddingHorizontal30">
             <form className="contactUsForm">
-                <div className="mb-26 flex">
+                <div className="mb-26 flex-container">
                     <div className="mr-32">
                         <label htmlFor="contactName" className="form-label contactLabelsText">Name</label>
                         <input type="text" className="form-control width-356 pd-19 bg-color-brown contactInputText height-68" id="contactName"/>
@@ -73,7 +73,7 @@ function ContactUs() {
                         <input type="email" className="form-control width-356 pd-19 bg-color-brown contactInputText height-68" id="contactEmail"/>
                     </div>
                 </div>
-                <div className="mb-26 flex">
+                <div className="mb-26 flex-container">
                     <div className="mr-32">
                         <label htmlFor="contactPhone" className="form-label contactLabelsText">Phone</label>
                         <input type="text" className="form-control width-356 pd-19 bg-color-brown contactInputText height-68" id="contactPhone"/>

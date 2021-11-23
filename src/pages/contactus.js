@@ -118,6 +118,9 @@ export default function AboutUs() {
                     <label htmlFor="contactMessage" className="form-label contactLabelsText">Message</label>
                     <textarea className="form-control min-height-213" id="contactMessage" rows="3"></textarea>
                 </div>
+                <div className="mb-26">
+                    <button type="button" class="submitButton">SUBMIT</button>
+                </div>
             </form>
         </div>
       </div>

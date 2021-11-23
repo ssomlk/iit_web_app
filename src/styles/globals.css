@@ -274,3 +274,14 @@ p {
 .min-height-213 {
   min-height: 213px !important;
 }
+
+.submitButton {
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 34px;
+  background-color: #966304;
+  cursor: pointer;
+  color: white;
+}

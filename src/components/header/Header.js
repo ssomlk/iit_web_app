@@ -37,7 +37,7 @@ function Header() {
                         <Nav.Link href="#meditation">Meditation</Nav.Link>
                         <Nav.Link href="#news">News & Events</Nav.Link>
                         <Nav.Link href="#publications">Publications</Nav.Link>
-                        <Nav.Link href="#contact">Contact Us</Nav.Link>
+                        <Nav.Link href="/contactus">Contact Us</Nav.Link>
                         <Nav.Link href="#support">
                             <span className={styles.supportButton} >
                                 SUPPORT

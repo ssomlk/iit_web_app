@@ -7,7 +7,7 @@ import Header from "../components/header/Header";
 import NewsAndEventsComponent from "../components/newsandevents/NewsAndEventsComponent";
 import Footer from "../components/footer/Footer";
 import GeneralFAQ from "../components/generalfaq/GeneralFAQ";
-import Testomonials from "../components/testomonials/Testomonials";
+import Testimonials from "../components/testimonials/Testimonials";
 
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
       
       <CardDeckComponent/>
        <NewsAndEventsComponent/>
-      <Testomonials/>
+      <Testimonials/>
       <GeneralFAQ/>
       <Footer/> 
     </div>

@@ -96,26 +96,26 @@ export default function AboutUs() {
             <form className="contactUsForm">
                 <div className="mb-26 flex">
                     <div className="mr-32">
-                        <label htmlFor="contactName" className="form-label">Name</label>
+                        <label htmlFor="contactName" className="form-label contactLabelsText">Name</label>
                         <input type="text" className="form-control" id="contactName"/>
                     </div>
                     <div>
-                        <label htmlFor="contactEmail" className="form-label">Email</label>
+                        <label htmlFor="contactEmail" className="form-label contactLabelsText">Email</label>
                         <input type="email" className="form-control" id="contactEmail" placeholder="name@example.com"/>
                     </div>
                 </div>
                 <div className="mb-26 flex">
                     <div className="mr-32">
-                        <label htmlFor="contactPhone" className="form-label">Phone</label>
+                        <label htmlFor="contactPhone" className="form-label contactLabelsText">Phone</label>
                         <input type="text" className="form-control" id="contactPhone"/>
                     </div>
                     <div>
-                        <label htmlFor="contactSubject" className="form-label">Subject</label>
+                        <label htmlFor="contactSubject" className="form-label contactLabelsText">Subject</label>
                         <input type="text" className="form-control" id="contactSubject"/>
                     </div>
                 </div>
                 <div className="mb-26">
-                    <label htmlFor="contactMessage" className="form-label">Message</label>
+                    <label htmlFor="contactMessage" className="form-label contactLabelsText">Message</label>
                     <textarea className="form-control" id="contactMessage" rows="3"></textarea>
                 </div>
             </form>

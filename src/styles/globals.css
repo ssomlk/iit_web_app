@@ -259,3 +259,10 @@ p {
 .mb-26 {
   margin-bottom: 26px;
 }
+
+.contactLabelsText {
+  font-family: "Raleway";
+  font-size: 19px;
+  font-weight: 500;
+  color: #302d2d;
+}

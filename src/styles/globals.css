@@ -26,7 +26,8 @@ p {
   background: #e6c49d 0% 0% no-repeat padding-box;
 }
 
-.navbarCarouselWrapper.about {
+.navbarCarouselWrapper.about,
+.navbarCarouselWrapper.contact {
   background-color: transparent;
 }
 

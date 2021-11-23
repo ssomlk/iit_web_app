@@ -284,4 +284,5 @@ p {
   background-color: #966304;
   cursor: pointer;
   color: white;
+  border-style: none;
 }

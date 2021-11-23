@@ -3,9 +3,9 @@ import { Container } from "react-bootstrap";
 import styles from "./MainLayoutSection.module.css";
 import Carousel from 'react-bootstrap/Carousel';
 
-function MainCommonLayoutSection({title, description, photo}){
+function MainCommonLayoutSection({title, description, photo, backgroundImg}){
   return(
-    <div className={styles.customCarouselWrapper}>
+    <div className={styles.customCarouselWrapper} style={{backgroundImage:backgroundImg}}>
        <div className={styles.carouwrap}>
        <div className={styles.motoContainer}>
             <div className='width-50-per'>

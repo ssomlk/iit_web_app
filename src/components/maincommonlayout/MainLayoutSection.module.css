@@ -30,8 +30,11 @@
 
 .customCarouselWrapper {
   position: relative;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  background: transparent url(/MaskGroup-3.svg) 0% 0% no-repeat padding-box;
+  /* background: transparent url(/MaskGroup-3.svg) 0% 0% no-repeat padding-box; */
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-color: transparent;
+  background-repeat: no-repeat;
   opacity: 1.37;
   background-size: cover;
   background-position: bottom right;

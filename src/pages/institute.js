@@ -19,7 +19,8 @@ export default function Institute() {
     <MainLayoutSection 
       title="Institute" 
       description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
-      photo="/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png"
+      photo="/one-buddha-gold-temple-thailand.png"
+      backgroundImg="url(/MaskGroup-1.svg)"
     /> 
     <NavigationCommonLayout navigationList={instituteList}/> 
 

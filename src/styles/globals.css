@@ -289,3 +289,17 @@ p {
   font-size: 18px;
   font-weight: 500;
 }
+
+.pd-21 {
+  padding: 21px;
+}
+
+.bg-color-brown {
+  background: #96630421 0% 0% no-repeat padding-box;
+}
+
+.contactInputText {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -96,27 +96,27 @@ export default function AboutUs() {
             <form className="contactUsForm">
                 <div className="mb-26 flex">
                     <div className="mr-32">
-                        <label for="contactName" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="contactName"/>
+                        <label htmlFor="contactName" className="form-label">Name</label>
+                        <input type="text" className="form-control" id="contactName"/>
                     </div>
                     <div>
-                        <label for="contactEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com"/>
+                        <label htmlFor="contactEmail" className="form-label">Email</label>
+                        <input type="email" className="form-control" id="contactEmail" placeholder="name@example.com"/>
                     </div>
                 </div>
                 <div className="mb-26 flex">
                     <div className="mr-32">
-                        <label for="contactPhone" class="form-label">Phone</label>
-                        <input type="text" class="form-control" id="contactPhone"/>
+                        <label htmlFor="contactPhone" className="form-label">Phone</label>
+                        <input type="text" className="form-control" id="contactPhone"/>
                     </div>
                     <div>
-                        <label for="contactSubject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="contactSubject"/>
+                        <label htmlFor="contactSubject" className="form-label">Subject</label>
+                        <input type="text" className="form-control" id="contactSubject"/>
                     </div>
                 </div>
                 <div className="mb-26">
-                    <label for="contactMessage" class="form-label">Message</label>
-                    <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                    <label htmlFor="contactMessage" className="form-label">Message</label>
+                    <textarea className="form-control" id="contactMessage" rows="3"></textarea>
                 </div>
             </form>
         </div>

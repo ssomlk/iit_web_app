@@ -207,3 +207,9 @@
     padding-left: 20px;
   }
 }
+
+.InvalidFeedback {
+  padding-top: 5px;
+  font-size: 14px;
+  color: red;
+}

@@ -1,35 +1,6 @@
-.mainImg {
-  /* content: url(/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png) 0% 0% no-repeat padding-box; */
-  opacity: 1;
-  /* padding-right: 20%; */
-}
-.mainBody {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-45) /
-    var(--unnamed-line-spacing-60) var(--unnamed-font-family-playfair-display);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-616057);
-  text-align: left;
-  font: normal normal bold 45px/60px Playfair Display;
-  letter-spacing: 0px;
-  color: #616057;
-  opacity: 1;
-}
-
-.mainTitle {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/70px
-    var(--unnamed-font-family-raleway);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font: normal normal bold 60px/70px Raleway;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-  padding-top: 100px;
-}
-
 .mainHeader {
   max-width: 1920px;
-  margin: 0 auto;
+  margin: 0 0 3% 0;
 }
 
 .headerBackground {
@@ -40,9 +11,19 @@
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 1;
-  background-position: bottom;
-  background-size: cover;
-  background-position-x: -139px;
+  background-size: auto;
+  background-position: 116% 100%;
+}
+
+.headerImageContainer {
+  max-width: 644px;
+}
+
+.headerImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 10.7%;
 }
 
 .carouwrap {
@@ -54,12 +35,14 @@
   justify-content: center;
 }
 
-.motoContainer {
-  display: flex;
-  flex: 7;
-  flex-direction: row-reverse;
-  max-width: 1500px;
-  padding-top: 30px;
+.headerContainer {
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.motoContainer{
+  padding-top: 18.75%;
+  padding-left: 20%;
 }
 
 @media (max-width: 575px) {

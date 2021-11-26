@@ -4,9 +4,8 @@
   /* padding-right: 20%; */
 }
 .mainBody {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-45) / var(--unnamed-line-spacing-60)
-    var(--unnamed-font-family-playfair-display);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-45) /
+    var(--unnamed-line-spacing-60) var(--unnamed-font-family-playfair-display);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-616057);
   text-align: left;
@@ -17,8 +16,8 @@
 }
 
 .mainTitle {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    60px/70px var(--unnamed-font-family-raleway);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/70px
+    var(--unnamed-font-family-raleway);
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
   font: normal normal bold 60px/70px Raleway;
@@ -28,15 +27,19 @@
   padding-top: 100px;
 }
 
-.customCarouselWrapper {
-  position: relative;
-  /* background: transparent url(/MaskGroup-3.svg) 0% 0% no-repeat padding-box; */
+.mainHeader {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.headerBackground {
+  max-width: 1928px;
+  max-height: 816px;
   background-origin: padding-box;
   background-clip: padding-box;
-  background-color: transparent;
+  background-color: transparent;  
   background-repeat: no-repeat;
-  opacity: 1.37;
-  background-size: cover;
+  opacity: 1;
   background-position: bottom right;
 }
 

@@ -138,7 +138,7 @@ function ContactUs() {
                 <div className={styles.mb26}>
                     <ReCAPTCHA
                         ref={recaptchaRef}
-                        sitekey={process.env.RECAPTCHA_SITE_KEY}
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         size="normal"
                     />
                 </div>

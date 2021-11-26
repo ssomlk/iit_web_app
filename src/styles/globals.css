@@ -12,24 +12,7 @@
 --global-color-4e4e4e: #4E4E4E;
 
 /* Font/text values */
---global-font-family-raleway: Raleway;
---global-font-family-playfair-display: Playfair Display;
---global-font-style-normal: normal;
---global-font-weight-600: 600px;
---global-font-weight-normal: normal;
---global-font-weight-bold: bold;
---global-font-size-20: 20px;
---global-font-size-24: 24px;
---global-font-size-30: 30px;
---global-font-size-42: 42px;
---global-font-size-45: 45px;
---global-font-size-50: 50px;
---global-character-spacing-0: 0px;
---global-line-spacing-29: 29px;
---global-line-spacing-35: 35px;
---global-line-spacing-49: 49px;
---global-line-spacing-59: 59px;
---global-line-spacing-60: 60px;
+--global-font-family: "raleway";
 
 }
 

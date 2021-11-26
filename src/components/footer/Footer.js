@@ -10,7 +10,7 @@ function Footer() {
         <div className="container">
 
           <div className="row py-4 d-flex align-items-center">
-            <div className="col-sm-6 col-md-6 col-lg-7 text-center text-md-left mb-md-0">
+            <div className="col-sm-6 col-md-6 col-lg-7 text-center text-md-left mb-md-0 p-0 ">
               <h6 className={styles.instituteHeading}>
                   International
                 <br />
@@ -19,7 +19,7 @@ function Footer() {
                   Theravada
               </h6>
             </div>
-            <div className="col-sm-6 col-md-6 col-lg-5 text-center text-md-right ">
+            <div className="col-sm-6 col-md-6 col-lg-5 text-end text-md-right p-0 ">
 
               <a href='#'>
                 <BsFacebook color='white' size={25} />
@@ -48,11 +48,12 @@ function Footer() {
         </div>
 
         <hr className={styles.hrLine} />
+       
 
-        <Container fluid>
-          <Row xs={2} md={4} lg={6} style={{ color: 'white' }}>
-            <Col>
-              <ul>
+        <Container fluid className="padding-right=0px" >
+          <Row xs={2} md={4} lg={6} style={{ color: 'white' }} >
+            <Col className={styles.removePaddingStyle}>
+              <ul className={styles.removePaddingStyle} >
                 <li className={styles.liMain}> About Us</li>
                 <li className={styles.liSub}> <a href='#'> History of Theravada Buddhism</a></li>
                 <li className={styles.liSub}><a href='#'>History of IIT</a></li>
@@ -62,14 +63,14 @@ function Footer() {
                 <li className={styles.liSub}><a href='#'>Spirituality</a></li>
               </ul>
             </Col>
-            <Col>
+            <Col className={styles.removePaddingStyle}>
               <ul>
                 <li className={styles.liMain}> Monsastery</li>
                 <li className={styles.liSub}> <a href='#'> Facilities</a></li>
                 <li className={styles.liSub}><a href='#'>Practise Schedule</a></li>
               </ul>
             </Col>
-            <Col>
+            <Col className={styles.removePaddingStyle}>
               <ul>
                 <li className={styles.liMain}> Education</li>
                 <li className={styles.liSub}> <a href='#'> Teachers Details</a></li>
@@ -77,7 +78,7 @@ function Footer() {
                 <li className={styles.liSub}> <a href='#'>  Programms Trainings</a></li>
               </ul>
             </Col>
-            <Col>
+            <Col className={styles.removePaddingStyle}>
               <ul>
                 <li className={styles.liMain}> News & Events</li>
                 <li className={styles.liSub}> <a href='#'> News</a></li>
@@ -85,32 +86,34 @@ function Footer() {
                 <li className={styles.liSub}> <a href='#'>  Messages</a></li>
               </ul>
             </Col>
-            <Col>
+            <Col className={styles.removePaddingStyle}>
               <ul>
                 <li className={styles.liMain}> Meditation</li>
               </ul>
             </Col>
-            <Col>
-              <ul>
+            <Col className={styles.removePaddingStyle}>
+              <ul >
                 <Button variant="warning" className={styles.supportBtn}>Support</Button>
-                <div className={styles.liMain}>Contact Us </div>
+                <div  className={styles.liContactUs}>Contact Us </div>
                 <div className={styles.contactDetails}>info@iit.lk<br />+94 112 897 8899</div><br />
                 <div className={styles.contactDetails}> Hinetikalma Watta Road, Kaluwaragas wewa, Sri Lanka.</div><br />
                 <div className={styles.contactDetails}> Get Directions</div>
               </ul>
             </Col>
           </Row>
+
+          
+          <Row className={styles.lastLine} >
+          <Col className={styles.removePaddingStyle} xs={2} sm={3} md={2} lg={2} ><a href='#'> Privacy Policy</a></Col>
+          <Col xs={2} sm={3} md={6} lg={5}><a href='#'> Terms of Use</a></Col>
+          <Col className={styles.copyright} xs={8} sm={6} md={4} lg={5}>©2021 International institute of theravada</Col>
+        </Row>
         </Container>
+      
+
       </div>
 
-      {/* <!-- Copyright --> */}
-      <Container fluid>
-        <Row className={styles.lastLine}>
-          <Col xs={2} sm={3} md={2} lg={2}><a href='#'> Privacy Policy</a></Col>
-          <Col xs={2} sm={3} md={6} lg={7}><a href='#'> Terms of Use</a></Col>
-          <Col className={styles.copyright} xs={8} sm={6} md={4} lg={3}>©2021 International institute of theravada</Col>
-        </Row>
-      </Container>
+     
 
     </footer>);
 }

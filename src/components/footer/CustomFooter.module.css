@@ -1,9 +1,11 @@
 .mainDiv{
-    background-color: #044884
+    background-color: #044884;
+    padding: 55px 356px 233px 302px;
 }
 
 .instituteHeading{
     color:white;
+    /* color: var(--blue); */
     text-align: left;
     font: normal normal bold 19px/19px Raleway;
     letter-spacing: 0px;

@@ -54,7 +54,7 @@ function ContactUs() {
                 </div>
                 <div className={styles.addressNameContainer}>
                     <div>
-                        Hinetikalma Watta Road
+                        Hinetikamala Watta Road
                     </div>
                     <div>
                         Kaluwaragas wewa

@@ -33,14 +33,14 @@ function Header() {
                     <Nav>
                         <Nav.Link href="/aboutus">About Us</Nav.Link>
                         <Nav.Link href="/institute">Institute</Nav.Link>
-                        <Nav.Link href="#education">Education</Nav.Link>
+                        <Nav.Link href="/education">Education</Nav.Link>
                         <Nav.Link href="#meditation">Meditation</Nav.Link>
                         <Nav.Link href="#news">News & Events</Nav.Link>
                         <Nav.Link href="#publications">Publications</Nav.Link>
-                        <Nav.Link href="#contact">Contact Us</Nav.Link>
+                        <Nav.Link href="/contactus">Contact Us</Nav.Link>
                         <Nav.Link href="#support">
                             <span className={styles.supportButton} >
-                                SUPPORT
+                                How To Support
                             </span>
                         </Nav.Link>
                     </Nav>

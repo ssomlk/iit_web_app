@@ -1,0 +1,16 @@
+[
+    {
+        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum molestie magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc et tellus nec est consectetur feugiat tincidunt interdum nulla. Mauris a gravida metus, varius sagittis nunc. Curabitur viverra condimentum orci et porttitor.",
+        "author":"Ven. Panadure Seelarathana Thero",
+        "image":"",
+        "description":"Diploma in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. He has undergone monastic training under the Thai Forest Tradition.",
+        "video":"https://www.youtube.com/watch?v=zuIPOTyF1Ew"
+    },
+    {
+        "quote":"Lorem isociosqu ads sagittis nunc. Curabitur viverra condimentum orci et porttitor.",
+        "author":"Ven. Panadure Chandawimala Thero",
+        "image":"",
+        "description":"Diploma in Buddha Dhamma at the International Theravāda Buddhist Missionary University.",
+        "video":"https://www.youtube.com/watch?v=olkLu3BTLis"
+    }
+]

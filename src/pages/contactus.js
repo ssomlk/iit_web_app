@@ -1,38 +1,38 @@
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
-import CustomCarousel from "../components/carousel/CustomCarousel";
-import CardDeckComponent from "../components/carddeck/CardDeckComponent";
 import Header from "../components/header/Header";
-import NewsAndEventsComponent from "../components/newsandevents/NewsAndEventsComponent";
 import Footer from "../components/footer/Footer";
-import GeneralFAQ from "../components/generalfaq/GeneralFAQ";
-import Testimonials from "../components/testimonials/Testimonials";
+import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
+import ContactUs from "../components/contactus/ContactUs";
 
-
-export default function Home() {
+export default function AboutUs() {
   const { t, lang } = useTranslation();
   const router = useRouter();
 
   return (
     <div className='skeleton'>
       <Head>
-        <title>iit</title>
+        <title>Contact Us</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="international institute of theravada" />
       </Head>
 
-      <div className='navbarCarouselWrapper'>
+      <div className='navbarCarouselWrapper contact'>
         <Header />
-        <CustomCarousel/>
       </div>
-      
-      <CardDeckComponent/>
-       <NewsAndEventsComponent/>
-      <Testimonials/>
-      <GeneralFAQ/>
-      <Footer/> 
+
+      <MainLayoutSection 
+        title="Contact Us" 
+        description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
+        photo="/black-hand-buddha-statue-with-yellow-light.png"
+        backgroundImg="url(/MaskGroup-2.svg)"
+      /> 
+
+      <ContactUs/>
+
+      {/* <Footer/> */}
     </div>
 
     

@@ -11,3 +11,8 @@ export const instituteList = [
     "Administration"
 ]
 
+export const eduList = [
+    "Subjects",
+    "Courses",
+]
+

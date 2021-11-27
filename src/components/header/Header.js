@@ -10,12 +10,6 @@ function Header() {
                     <div className={styles.headerContainer}>
                         <div className={styles.headerIconContainer}>
                             <img src='/IIT-1.png' className={styles.bannerImage} />
-                            {/* <Image
-                                layout="responsive"
-                                src='/IIT-1.png'
-                                objectFit='contain'
-                                objectPosition='left'
-                            /> */}
                         </div>
                         <div className={styles.bannerText}>
                             <div>

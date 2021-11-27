@@ -20,7 +20,7 @@ export default function Institute() {
       title="Institute" 
       description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
       photo="/one-buddha-gold-temple-thailand.png"
-      backgroundImg="url(/MaskGroup-1.svg)"
+      backgroundImg="url(/Ellipse-4.svg)"
     /> 
     <NavigationCommonLayout navigationList={instituteList}/> 
 

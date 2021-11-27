@@ -7,8 +7,6 @@ import Axios from "axios";
 import { mainAxios } from "../../axios/axiosBackend";
 import styles from './ContactUs.module.css';
 
-
-
 const schema = yup.object().shape({
     contactName: yup.string().required("Name is mandatory"),
     contactSubject: yup.string().required("Subject is mandatory"),
@@ -30,11 +28,12 @@ const schema = yup.object().shape({
 
 function ContactUs() {  
     const recaptchaRef = React.useRef({});
-    const { register, handleSubmit, formState:{ errors }, trigger } = useForm({resolver: yupResolver(schema)});
+    const { register, handleSubmit, formState:{ errors }, trigger, resetField, clearErrors } = useForm({resolver: yupResolver(schema)});
 
     const onSubmit = async (data) => {
-        const token = recaptchaRef.current.getValue();
-        recaptchaRef.current.reset();
+        const token = 'fh9sdf9s8df';
+        //const token = recaptchaRef.current.getValue();
+        //recaptchaRef.current.reset();
         if(token == ""){
             return;
         }
@@ -42,12 +41,21 @@ function ContactUs() {
 
         mainAxios.post('/mail',chunk, {})
             .then((response) => {
-                console.log('Worked Shanka')
+                console.log('Works Shanka');
+                resetContactUsPageFields();
             })
             .catch((resError) => {
-                console.log('Error occured Shanka')
+                console.log('Error occured Shanka',resError)
             })
     };
+
+    const resetContactUsPageFields = () => {
+        resetField('contactName');
+        resetField('contactPhone');
+        resetField('contactEmail');
+        resetField('contactSubject');
+        resetField('contactMessage');
+    }
 
     const validateCommMethods = () => {
         trigger(["contactEmail","contactPhone"]);
@@ -153,11 +161,11 @@ function ContactUs() {
                     <div className={`${styles.InvalidFeedback}`}>{errors.contactMessage?.message}</div>
                 </div>
                 <div className={styles.mb26}>
-                    <ReCAPTCHA
+                    {/* <ReCAPTCHA
                         ref={recaptchaRef}
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         size="normal"
-                    />
+                    /> */}
                 </div>
                 <div className={styles.mb26}>
                     <button type="submit" className={styles.submitButton}>SUBMIT</button>

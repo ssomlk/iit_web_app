@@ -1,28 +1,14 @@
-.customHeader {
-  position: absolute;
-  display: flex;
-  top: 0px;
-  z-index: 50;
-  align-items: center;
-  background-color: transparent;
-  width: 100%;
-  max-width: 95.9375rem;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 1.25rem;
+.navBarContainer {
+  grid-template-columns: repeat(1, 100%);
+  grid-template-areas: "a";
+  padding-left: 10.25%;
+  padding-right: 9.8%;
 }
 
-.headerIconContainer {
-  display: flex;
-  align-items: center;
-  height: 6rem;
-  cursor: pointer;
-}
-
-.headerIconNameContainer {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
+.headerContainer {
+  display: grid;
+  grid-template-areas: "a b";
+  grid-template-columns: 42% 58%;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.188rem;
@@ -32,9 +18,24 @@
   opacity: 1;
 }
 
+.headerIconContainer {
+  grid-area: a;
+}
+
+.bannerImage {
+  max-width: 83px;
+}
+
+.bannerText {
+  justify-self: start;
+  align-self: center;
+  grid-area: b;
+}
+
 .customNavItem {
-  font-size: 16px;
-  font-weight: 600;
+  text-align: left;
+  font: normal normal 600 16px/19px Raleway;
+  letter-spacing: 0px;
   color: #616057;
 }
 
@@ -51,4 +52,96 @@
 
 .navBarTop {
   z-index: 50;
+}
+
+.navItems > a {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+@media (max-width: 1700px) {
+  .navItems > a {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (max-width: 1540px) {
+  .navItems > a {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+  }
+}
+
+@media (max-width: 1471px) {
+  .navBarContainer {
+    padding-left: 9.25%;
+    padding-right: 8.8%;
+  }
+
+  .navItems > a {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+  }
+}
+
+@media (max-width: 1372px) {
+  .navBarContainer {
+    padding-left: 6.25%;
+    padding-right: 5.8%;
+  }
+
+  .navItems > a {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
+
+@media (max-width: 1249px) {
+  .navBarContainer {
+    padding-left: 5.25%;
+    padding-right: 4.8%;
+  }
+
+  .navItems > a {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navBarContainer {
+    padding-left: 6.25%;
+    padding-right: 5.8%;
+  }
+
+  .headerContainer {
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+  }
+
+  .bannerImage {
+    max-width: 73px;
+  }
+}
+
+@media (max-width: 575px) {
+  .navBarContainer {
+    padding-left: 5.25%;
+    padding-right: 4.8%;
+  }
+
+  .navItems > a {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+  }
+
+  .headerContainer {
+    font: normal normal bold 12px/14px Raleway;
+    letter-spacing: 0px;
+  }
+
+  .bannerImage {
+    max-width: 44px;
+  }
 }

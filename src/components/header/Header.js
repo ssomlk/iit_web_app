@@ -4,18 +4,20 @@ import styles from './CustomHeader.module.css';
 
 function Header() {
     return (
-        <Navbar collapseOnSelect expand="lg" className={styles.navBarTop}>
-            <Container>
+        <div className={styles.navBarContainer}>
+            <Navbar collapseOnSelect expand="xl" className={styles.navBarTop}>
                 <Navbar.Brand href="/">
-                    <div className={styles.headerIconContainer}>
-                        <Image
-                            src='/IIT-1.png'
-                            width={83}
-                            height={96}
-                            objectFit='contain'
-                            objectPosition='left'
-                        />
-                        <div className={styles.headerIconNameContainer}>
+                    <div className={styles.headerContainer}>
+                        <div className={styles.headerIconContainer}>
+                            <img src='/IIT-1.png' className={styles.bannerImage} />
+                            {/* <Image
+                                layout="responsive"
+                                src='/IIT-1.png'
+                                objectFit='contain'
+                                objectPosition='left'
+                            /> */}
+                        </div>
+                        <div className={styles.bannerText}>
                             <div>
                                 International
                             </div>
@@ -30,7 +32,7 @@ function Header() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                    <Nav>
+                    <Nav className={styles.navItems}>
                         <Nav.Link href="/aboutus">About Us</Nav.Link>
                         <Nav.Link href="/institute">Institute</Nav.Link>
                         <Nav.Link href="/education">Education</Nav.Link>
@@ -45,8 +47,8 @@ function Header() {
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Navbar>
+        </div>
     );
 }
 

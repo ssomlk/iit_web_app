@@ -32,15 +32,15 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
 async function validateHuman(token: string): Promise<boolean> {
   const secret = process.env.RECAPTCHA_SECRET_KEY;
-  // const response = await fetch(
-  //   `https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${token}`,
-  //   {
-  //     method: "POST",
-  //   }
-  // );
-  const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{}, {});
-  console.log(response.data);
-  //const data = await response.json();
-  return true;
-  //return data.success;
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  //const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{}, {});
+  //console.log(response.data);
+  const data = await response.json();
+  //return true;
+  return data.success;
 }

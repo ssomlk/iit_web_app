@@ -1,9 +1,13 @@
 import React from 'react';
-import styles from './ContactUs.module.css';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+import Axios from "axios";
+import { mainAxios } from "../../axios/axiosBackend";
+import styles from './ContactUs.module.css';
+
+
 
 const schema = yup.object().shape({
     contactName: yup.string().required("Name is mandatory"),
@@ -25,11 +29,24 @@ const schema = yup.object().shape({
 ]);
 
 function ContactUs() {  
-    const recaptchaRef = React.createRef();
+    const recaptchaRef = React.useRef({});
     const { register, handleSubmit, formState:{ errors }, trigger } = useForm({resolver: yupResolver(schema)});
 
-    const onSubmit = (data) => {
-        alert(JSON.stringify(data));
+    const onSubmit = async (data) => {
+        const token = recaptchaRef.current.getValue();
+        recaptchaRef.current.reset();
+        if(token == ""){
+            return;
+        }
+        const chunk = {...data, token};
+
+        mainAxios.post('/mail',chunk, {})
+            .then((response) => {
+                console.log('Worked Shanka')
+            })
+            .catch((resError) => {
+                console.log('Error occured Shanka')
+            })
     };
 
     const validateCommMethods = () => {

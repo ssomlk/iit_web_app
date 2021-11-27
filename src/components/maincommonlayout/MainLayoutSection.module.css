@@ -28,7 +28,7 @@
   justify-self: right;
   max-width: 874px;
   padding-right: 20px;
-  padding-left: 40px;
+  padding-left: 55px;
 }
 
 .headerImageContainer {
@@ -64,7 +64,7 @@
     background-position: 100% 100%;
   }
 
-  .headerImageContainer{
+  .headerImageContainer {
     max-width: 600px;
   }
 }
@@ -74,41 +74,163 @@
     background-position: 90% 100%;
   }
 
-  .headerImageContainer{
+  .headerImageContainer {
     max-width: 580px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .headerBackground {
+    background-position: 93% 100%;
+  }
+
+  .headerImageContainer {
+    max-width: 540px;
   }
 }
 
 @media (max-width: 1280px) {
   .headerBackground {
-    background-position: 93% 100%;
+    height: 550px;
+    background-position: 88% 100%;
+  }
+  .headerImageContainer {
+    max-width: 500px;
   }
   .bannerTextOne {
-    font: normal normal bold 55px/65px Raleway;
+    font: normal normal bold 55px/60px Raleway;
   }
   .bannerTextTwo {
-    font: normal normal bold 35px/55px Raleway;
+    font: normal normal bold 35px/50px Raleway;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
+  .headerBackground {
+    height: 500px;
+    background-position: 85% 100%;
+  }
   .motoContainer {
-    flex-direction: column;
-    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .headerImageContainer {
+    max-width: 450px;
+  }
+  .bannerTextOne {
+    font: normal normal bold 50px/55px Raleway;
+  }
+  .bannerTextTwo {
+    font: normal normal bold 30px/45px Raleway;
+  }
+}
+
+@media (max-width: 800px) {
+  .headerBackground {
+    height: 420px;
+    background-position: 75% 100%;
+  }
+  .headerImageContainer {
+    max-width: 400px;
+  }
+  .bannerTextOne {
+    font: normal normal bold 45px/40px Raleway;
+  }
+  .bannerTextTwo {
+    font: normal normal bold 25px/35px Raleway;
+  }
+}
+
+@media (max-width: 800px) {
+  .headerBackground {
+    height: 390px;
+  }
+  .headerImageContainer {
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 770px) {
+  .headerBackground {
+    height: 350px;
+  }
+  .headerImageContainer {
+    max-width: 300px;
+  }
+  .bannerTextOne {
+    font: normal normal bold 40px/35px Raleway;
+  }
+  .bannerTextTwo {
+    font: normal normal bold 20px/30px Raleway;
   }
 }
 
 @media (max-width: 575px) {
+  .headerBackground {
+    height: 280px;
+    background-position: 65% 100%;
+  }
   .bannerTextOne {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font: normal normal bold 20px/15px Raleway;
     text-align: center;
-    color: #616057;
+  }
+  .bannerTextTwo {
+    font: normal normal bold 18px/25px Raleway;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerBackground {
+    min-height: 330px;
+    background-size: 150%;
+    background-position: 75% 130%;
+  }
+  .headerContainer {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-areas:
+      "b"
+      "a";
+  }
+  .bannerTextOne {
+    color: #000000;
+    font: normal normal bold 24px/29px Raleway;
+    opacity: 0.44;
+    margin: 0;
+  }
+  .bannerTextTwo {
+    display: none;
   }
 
-  .bannerTextTwo {
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
+  .headerImageContainer {
+    max-width: 250px;
+    align-self: end;
+    justify-self: center;
+    padding: 0px;
+    margin: 5% 0 3% 0;
   }
+
+  .motoContainer {
+    align-self: center;
+    justify-self: center;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .headerBackground {
+    background-position: 75% 150%;
+  }  
+}
+
+@media (max-width: 360px) {
+  .headerBackground {
+    background-position: 75% 170%;
+  }  
+}
+
+@media (max-width: 360px) {
+  .headerBackground {
+    background-position: 75% 180%;
+  }  
 }

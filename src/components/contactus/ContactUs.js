@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from "yup";
-import Axios from "axios";
-import { mainAxios } from "../../axios/axiosBackend";
+import * as yup from 'yup';
+import Axios from 'axios';
+import { mainAxios } from '../../axios/axiosBackend';
 import styles from './ContactUs.module.css';
+import AlertBox from '../alertbox/AlertBox';
+import CustomToast from '../toast/Toast';
 
 const schema = yup.object().shape({
     contactName: yup.string().required("Name is mandatory"),
@@ -28,9 +30,18 @@ const schema = yup.object().shape({
 
 function ContactUs() {  
     const recaptchaRef = React.useRef({});
+    let submitButton = React.useRef();
     const { register, handleSubmit, formState:{ errors }, trigger, resetField, clearErrors } = useForm({resolver: yupResolver(schema)});
 
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const [varient, setVarient] = useState("primary");
+    const [alertTitle, setAlertTitle] = useState("");
+    const [alertDesc, setAlertDesc] = useState("");
+
     const onSubmit = async (data) => {
+        disableDomElement(submitButton);
+
         const token = 'fh9sdf9s8df';
         //const token = recaptchaRef.current.getValue();
         //recaptchaRef.current.reset();
@@ -41,13 +52,33 @@ function ContactUs() {
 
         mainAxios.post('/mail',chunk, {})
             .then((response) => {
-                console.log('Works Shanka');
                 resetContactUsPageFields();
+                enableDomElement(submitButton);
+                setAlertBox('success', 'Success', 'Message sent to International Institute of Theravada successfully.');
+                setShow(true);
             })
             .catch((resError) => {
-                console.log('Error occured Shanka',resError)
+                enableDomElement(submitButton);
+                setAlertBox('danger', 'Failure', 'Error occured while trying to submit your data.');
+                setShow(true);
             })
     };
+
+    const setAlertBox = (variant, title, desc) => {
+        setVarient(variant);
+        setAlertTitle(title);
+        setAlertDesc(desc)
+    }
+
+    const disableDomElement = (domElement) => {
+        domElement.current &&
+            domElement.current.setAttribute("disabled", "disabled");
+    }
+
+    const enableDomElement = (domElement) => {
+        domElement.current &&
+            domElement.current.removeAttribute("disabled");
+    }
 
     const resetContactUsPageFields = () => {
         resetField('contactName');
@@ -62,7 +93,11 @@ function ContactUs() {
     }
 
     return (
-        <div className={styles.contactDataWrapper}>
+        <div className={styles.contactDataWrapper}>        
+
+        <AlertBox show={show} handleClose={handleClose} setShow={setShow} varient={varient} alertTitle={alertTitle} alertDesc={alertDesc}/>
+        {/* <CustomToast show={show} autohide={false} setShow={setShow} delay={5000} variant={"success"} timeDuration="" alertTitle={alertTitle} alertDesc={alertDesc}/> */}
+
         <div className={`${styles.contactLeftContainer} ${styles.paddingLeft30} ${styles.pr99}`}>
             <div className={styles.nameContainer}>
                 <div className={styles.lineHeight1}>International Institute of</div>
@@ -168,7 +203,7 @@ function ContactUs() {
                     /> */}
                 </div>
                 <div className={styles.mb26}>
-                    <button type="submit" className={styles.submitButton}>SUBMIT</button>
+                    <button type="submit" className={styles.submitButton} ref={submitButton}>SUBMIT</button>
                 </div>
             </form>
         </div>

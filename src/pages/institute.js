@@ -15,7 +15,9 @@ export default function Institute() {
 
   return (
       <div>
-    <Header />
+    <div className='navbarCarouselWrapper institute'>
+        <Header />
+      </div>
     <MainLayoutSection 
       title="Institute" 
       description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."

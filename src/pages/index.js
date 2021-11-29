@@ -24,18 +24,20 @@ export default function Home() {
       </Head>
 
       <div className='navbarCarouselWrapper'>
-        <Header />
-        <CustomCarousel/>
+        <div>
+          <Header />
+        </div>
+        <CustomCarousel />
       </div>
-      
-      <CardDeckComponent/>
-       <NewsAndEventsComponent/>
-      <Testimonials/>
-      <GeneralFAQ/>
-      <Footer/> 
+
+      <CardDeckComponent />
+      <NewsAndEventsComponent />
+      <Testimonials />
+      <GeneralFAQ />
+      <Footer />
     </div>
 
-    
+
   );
 }
 

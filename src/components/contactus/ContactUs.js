@@ -42,12 +42,13 @@ function ContactUs() {
     const onSubmit = async (data) => {
         disableDomElement(submitButton);
 
-        const token = 'fh9sdf9s8df';
-        //const token = recaptchaRef.current.getValue();
-        //recaptchaRef.current.reset();
+        const token = recaptchaRef.current.getValue();
+        recaptchaRef.current.reset();
+
         if(token == ""){
             return;
         }
+
         const chunk = {...data, token};
 
         mainAxios.post('/mail',chunk, {})
@@ -57,9 +58,10 @@ function ContactUs() {
                 setAlertBox('success', 'Success', 'Message sent to International Institute of Theravada successfully.');
                 setShow(true);
             })
-            .catch((resError) => {
+            .catch((e) => {
+                console.log('error', e.response.data);
                 enableDomElement(submitButton);
-                setAlertBox('danger', 'Failure', 'Error occured while trying to submit your data.');
+                setAlertBox('danger', 'Failure',  e.response.data.errors.join(", "));
                 setShow(true);
             })
     };
@@ -196,11 +198,11 @@ function ContactUs() {
                     <div className={`${styles.InvalidFeedback}`}>{errors.contactMessage?.message}</div>
                 </div>
                 <div className={styles.mb26}>
-                    {/* <ReCAPTCHA
+                    <ReCAPTCHA
                         ref={recaptchaRef}
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         size="normal"
-                    /> */}
+                    />
                 </div>
                 <div className={styles.mb26}>
                     <button type="submit" className={styles.submitButton} ref={submitButton}>SUBMIT</button>

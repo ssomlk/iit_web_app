@@ -159,8 +159,14 @@
         margin-right: 0px;
     }
 
-    .textOpacity{
+    .textOpacity {
         opacity: 51%;
         margin-top: 6%;
+    }
+}
+
+@media (min-width: 576px) {
+    .textColorWhite {
+        display: none;
     }
 }

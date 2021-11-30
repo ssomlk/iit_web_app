@@ -1,15 +1,13 @@
-.mainDiv{
+.mainDiv {
     background-color: #044884;
     padding: 1.6% 18% 12% 15%;
-    
 }
 
-
-.instituteHeading{
-    color:white;
+.instituteHeading {
+    color: white;
     /* color: var(--blue); */
     text-align: left;
-    font: normal normal bold 19px/19px var(--global-font-family)   ;
+    font: normal normal bold 19px/19px var(--global-font-family);
     letter-spacing: 1px;
     text-transform: uppercase;
     opacity: 1;
@@ -17,8 +15,7 @@
     margin-bottom: 0 !important;
 }
 
-.footerIcons
-{
+.footerIcons {
     text-align: right;
 }
 
@@ -29,19 +26,18 @@
         padding-bottom: 2%;
     }
 
-    .footerIcons
-    {
+    .footerIcons {
         text-align: center !important;
         margin-bottom: 7%;
     }
-  }
+}
 
-.hrLine{
-        color: white;
-        height: 50px;
-        background-color: white;
-        border: 2px solid #FFFFFF;
-        opacity: 1;
+.hrLine {
+    color: white;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    opacity: 1;
 }
 
 @media (max-width: 575px) {
@@ -50,93 +46,85 @@
     }
 }
 
-.removePaddingStyle
-{
+.removePaddingStyle {
     padding-right: 0px;
     padding-left: 0px;
 }
 
-.ulPaddingStyle{
+.ulPaddingStyle {
     padding-left: 32px;
 }
 
-.liMain{
+.liMain {
     list-style-type: none;
-    opacity:100%;
-    text-align:left;
+    opacity: 100%;
+    text-align: left;
     font: bold normal normal 14px/34px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%;
+    width: 100%;
 }
 
-.liSub{
+.liSub {
     list-style-type: none;
-    opacity:55%;
-    text-align:left;
+    opacity: 55%;
+    text-align: left;
     font: normal normal normal 14px/34px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%
+    width: 100%;
 }
 
 @media (max-width: 575px) {
-    .ulPaddingStyle{
+    .ulPaddingStyle {
         padding-left: 0px;
     }
-    .liMain{
+    .liMain {
         text-align: center;
     }
     .liSub {
         display: none;
     }
-    
 }
 
-
-.supportBtn{
-    border-radius: 30px; 
+.supportBtn {
+    border-radius: 30px;
 }
 
-.liContactUs{
+.liContactUs {
     list-style-type: none;
-    opacity:100%;
-    text-align:left;
+    opacity: 100%;
+    text-align: left;
     font: bold normal normal 14px/34px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%;
+    width: 100%;
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
-
-
-.contactDetails{
-    opacity:55%;
+.contactDetails {
+    opacity: 55%;
     font: normal normal normal 14px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%
+    width: 100%;
 }
 
-
-
-.lastLine{
-    text-align:left;
+.lastLine {
+    text-align: left;
     font: normal normal normal 14px var(--global-font-family);
     letter-spacing: 0px;
     background-color: #044884;
-    color:white;
+    color: white;
     padding-left: 0px;
     padding-right: 0px;
     margin-right: 0px;
     margin-top: 70px;
 }
 
-.lastLineForMobile
-{
+.lastLineForMobile {
     display: none;
 }
 
-.copyright{
-    opacity:55%;
+.copyright {
+    opacity: 55%;
     font: normal normal normal 14px var(--global-font-family);
     text-align: right;
     padding-right: 0px;
@@ -150,17 +138,29 @@
         display: none;
     }
 
-    .contactDetails
-    {
+    .contactDetails {
         padding-top: 5%;
         padding-bottom: 0px;
     }
-    .supportBtn{
-        text-align: center; 
+    .supportBtn {
+        text-align: center;
     }
 
-    .lastLine{
+    .lastLine {
         margin-top: 5%;
         display: none;
+    }
+
+    .textColorWhite {
+        font: normal normal normal 15px/25px Raleway;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .textOpacity{
+        opacity: 51%;
+        margin-top: 6%;
     }
 }

@@ -108,10 +108,13 @@ function Footer() {
         </Row>
         </Container>
       
-        <div className="container">
-          <div className="row " >
-            <div className="col-xs-3">asd</div>
-            <div className="col-xs-3">zxczx</div>
+        <div  className={`container ${styles.textColorWhite}`}>
+          <div className="row" >
+            <div className="col-6"><a href='#'> Privacy Policy</a></div>
+            <div className="col-6 text-end"><a href='#'> Terms of Use</a></div>
+          </div>
+          <div className= {`row ${styles.textOpacity}`}>
+            <div className="col-xs-12"><a href='#'>©2021 International institute of theravada</a></div>
           </div>
         </div>
 

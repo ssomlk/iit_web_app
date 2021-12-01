@@ -6,6 +6,8 @@ import Footer from "../components/footer/Footer";
 import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
 import OurFocusCardDeck from "../components/ourfocuscarddeck/OurFocusCardDeck";
 import AboutUsComponent from "../components/aboutUsComponent/aboutUsComponent";
+import { aboutUsList } from '../data/commonLayoutNavigationData';
+import NavigationCommonLayout from '../components/navigationcommonlayout/NavigationCommonLayout';
 
 
 export default function AboutUs() {
@@ -32,6 +34,7 @@ export default function AboutUs() {
         backgroundImg="url(/Ellipse-2.svg)"
       />
 
+      <NavigationCommonLayout navigationList={aboutUsList} />
       <AboutUsComponent />
       <OurFocusCardDeck />
 

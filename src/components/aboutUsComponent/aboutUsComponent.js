@@ -1,18 +1,11 @@
 import React from 'react';
 import styles from './aboutUsComponent.module.css';
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import { aboutUsList } from '../../data/commonLayoutNavigationData';
 import { missionData } from '../../data/aboutUsData';
-import NavigationCommonLayout from '../navigationcommonlayout/NavigationCommonLayout';
 
 function AboutUsComponent() {
 
     return (
-        // <div className={styles.mainContainer}>
         <div className={styles.aboutUsContainer}>
-            <div className={styles.pageNavMenu}>
-                <NavigationCommonLayout navigationList={aboutUsList} />
-            </div>
             <div className={styles.aboutUsHeader}>
                 <h1 className={styles.mainHeader}>What is IIT?</h1>
                 <p className={styles.aboutUsMainIntro}>
@@ -84,7 +77,6 @@ function AboutUsComponent() {
             <div className={styles.ourFocus}>
             </div>
         </div>
-        // </div>
     );
 }
 

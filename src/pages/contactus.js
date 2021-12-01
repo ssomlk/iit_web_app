@@ -5,6 +5,7 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
 import ContactUs from "../components/contactus/ContactUs";
+import Map from "../components/maps/Map";
 
 export default function AboutUs() {
   const { t, lang } = useTranslation();
@@ -32,7 +33,11 @@ export default function AboutUs() {
 
       <ContactUs/>
 
-      {/* <Footer/> */}
+      <div className="mapWrapper">
+        <Map locationDetails={[{lat:7.977506380440952, long: 79.98450023230482}]}/>
+      </div>
+
+      <Footer/>
     </div>
 
     

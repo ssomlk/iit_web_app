@@ -364,3 +364,11 @@ p {
   background-color: transparent;
   border: none;
 }
+
+.mapWrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 550px;
+  width: 100%;
+}

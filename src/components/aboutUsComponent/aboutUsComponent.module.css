@@ -1,0 +1,184 @@
+.aboutUsContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 549px auto auto auto;
+    grid-template-areas:
+        "heading heading"
+        "map mapInfo"
+        "missionHead missionHead"
+        "missiondetails missiondetails"
+        "focus focus";
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    justify-self: center;
+    max-width: 1506px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutUsHeader {
+    grid-area: heading;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.mainHeader {
+    font: normal normal bold 50px/59px Raleway;
+    letter-spacing: 0px;
+    color: #5d5d5d;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.aboutUsMainIntro {
+    max-width: 932px;
+    font: normal normal normal 20px/35px Raleway;
+    letter-spacing: 0px;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+.map {
+    grid-area: map;
+    height: 100%;
+    width: 75%;
+    border-radius: 21px;
+}
+
+.mapInformation {
+    grid-area: mapInfo;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "mapDetails"
+        "link";
+}
+
+.mapInformationDetails {
+    grid-area: mapDetails;
+    margin-bottom: 3%;
+}
+
+.mapInformationLink {
+    grid-area: link;
+    display: flex;
+    align-items: stretch;
+    background-color: #ffefd9;
+    border-radius: 21px;
+    max-width: 472px;
+    padding: 3%;
+}
+
+.mapIcon {
+    flex-grow: 1;
+    align-self: center;
+}
+.directionText {
+    flex-grow: 3;
+    align-self: center;
+}
+.linkArrow {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.subHeading1 {
+    font: normal normal bold 30px/35px Raleway;
+    letter-spacing: 0px;
+    color: #202020;
+    margin-bottom: 6%;
+}
+
+.subHeading2 {
+    font: normal normal bold 30px/35px Raleway;
+    letter-spacing: 0px;
+    color: #202020;
+    margin-bottom: 10%;
+}
+
+.mapTextInfo {
+    font: normal normal normal 20px/35px Raleway;
+    letter-spacing: 0px;
+    color: #616057;
+    margin-right: 40%;
+}
+
+.directionHeading {
+    text-align: center;
+    font: normal normal bold 31px/36px Raleway;
+    letter-spacing: 0px;
+    color: #ff7c19;
+}
+
+.directionSubHeading {
+    text-align: center;
+    font: normal normal bold 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #044884;
+}
+
+.missionHeading {
+    grid-area: missionHead;
+    justify-self: start;
+    margin-top: 10%;
+}
+
+.missionDetails {
+    grid-area: missiondetails;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "briefing moreInfo";
+    width: 100%;
+}
+
+.missionBriefing {
+    grid-area: briefing;
+}
+
+.brefingText {
+    text-align: left;
+    font: normal normal bold 42px/49px Raleway;
+    letter-spacing: 0px;
+    color: #4e4e4e;
+    max-width: 75%;
+}
+
+.missionInfo {
+    grid-area: moreInfo;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.missionDataContainer {
+    display: grid;
+    grid-template-columns: 0.8fr 4.7fr;
+    grid-template-areas: "missionImage missionDetails";
+    margin-bottom: 10%;
+}
+
+.missionImageContainer {
+    grid-area: missionImage;
+    max-width: 88px;
+}
+
+.missionImage {
+    width: 100%;
+    height: auto;
+}
+
+.missionText {
+    grid-area: missionDetails;
+    text-align: left;
+    font: normal normal normal 32px/48px Raleway;
+    letter-spacing: 0px;
+    color: #616057;
+}
+
+.ourFocus {
+    grid-area: focus;
+}

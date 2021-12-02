@@ -372,3 +372,43 @@ p {
   height: 550px;
   width: 100%;
 }
+
+/* PreLoader Css */
+
+.preloaderWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.preLoader-max-width {
+  max-width: 166px;
+}
+
+.loader {
+  margin-top: 32px;
+  height: 5px;
+  width: 240px;
+  background-color: lightgray;
+}
+
+.loading {
+  background: #966304;
+  width: 80px;
+  height: 5px;
+  animation: anim 1.8s infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(160px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}

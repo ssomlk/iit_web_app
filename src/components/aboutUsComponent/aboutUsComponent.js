@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './aboutUsComponent.module.css';
 import { missionData } from '../../data/aboutUsData';
+import { style } from 'dom-helpers';
 
 function AboutUsComponent() {
 
@@ -75,7 +76,18 @@ function AboutUsComponent() {
                     </div>
                 </div>
             </div>
-            <div className={styles.ourFocus}>
+            <div className={styles.ourFocusContainer}>
+                <div className={styles.ourFocusInnerContainer}>
+                    <div className={styles.ourFocusHeader}>Our Focus</div>
+                    <div className={styles.ourFocusSUbHeader}>
+                        <div>
+                            Academic Courses and Training Programs will be focused on
+                        </div>
+                    </div>
+                    <div className={styles.focusCardAres}>
+
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas:
         ". aboutUs ."
-        "focus focus focus";
+        "focusContainer focusContainer focusContainer";
     grid-template-columns: auto 78.4375% auto;
     grid-template-rows: auto auto;
     width: 100%;
@@ -186,8 +186,48 @@
     color: #616057;
 }
 
-.ourFocus {
-    grid-area: focus;
+.ourFocusContainer {
+    grid-area: focusContainer;
     display: grid;
+    grid-template-areas: ". focusDataArea .";
+    grid-template-columns: auto 78.4375% auto;
     background: linear-gradient(180deg, #d3eaef 50%, transparent 50%);
+    /* height: 800px; */
+}
+
+.ourFocusInnerContainer {
+    grid-area: focusDataArea;
+    display: grid;
+    grid-template-areas:
+        "focusMainHeader"
+        "focusSubHeader"
+        "focusCards";
+}
+
+.ourFocusHeader {
+    grid-area: focusMainHeader;
+    text-align: left;
+    font: normal normal bold 30px/35px Raleway;
+    letter-spacing: 0px;
+    color: #202020;
+    margin-top: 5%;
+}
+
+.ourFocusSUbHeader {
+    grid-area: focusSubHeader;
+    text-align: left;
+    font: normal normal bold 42px/49px Raleway;
+    letter-spacing: 0px;
+    color: #4e4e4e;
+    margin-top: 2%;
+}
+
+.ourFocusSUbHeader > div {
+    max-width: 50%;
+}
+
+.focusCardAres {
+    grid-area: focusCards;
+    margin-top: 4%;
+    height: 400px;
 }

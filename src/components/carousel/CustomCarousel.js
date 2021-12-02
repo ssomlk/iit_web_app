@@ -25,6 +25,10 @@ function CustomCarousel() {
     }
 
     useEffect(() => {
+        normalizeSlideHeights();
+    },[]);
+
+    useEffect(() => {
         $(window).on(
             'load resize orientationchange',
             normalizeSlideHeights

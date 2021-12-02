@@ -1,67 +1,172 @@
-.mainDiv{
-    background-color: #044884
+.mainDiv {
+    background-color: #044884;
+    padding: 1.6% 18% 12% 15%;
 }
 
-.instituteHeading{
-    color:white;
+.instituteHeading {
+    color: white;
+    /* color: var(--blue); */
     text-align: left;
-    font: normal normal bold 19px/19px Raleway;
-    letter-spacing: 0px;
+    font: normal normal bold 19px/19px var(--global-font-family);
+    letter-spacing: 1px;
     text-transform: uppercase;
     opacity: 1;
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
-.hrLine{
-        color: white;
-        height: 50px;
-        background-color: white;
-        border: 3px solid #FFFFFF;
-        opacity: 1;
+.footerIcons {
+    text-align: right;
 }
 
-.liMain{
+@media (max-width: 575px) {
+    .instituteHeading {
+        text-align: center;
+        letter-spacing: 2px;
+        padding-bottom: 2%;
+    }
+
+    .footerIcons {
+        text-align: center !important;
+        margin-bottom: 7%;
+    }
+}
+
+.hrLine {
+    color: white;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    opacity: 1;
+}
+
+@media (max-width: 575px) {
+    .hrLine {
+        display: none;
+    }
+}
+
+.removePaddingStyle {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.ulPaddingStyle {
+    padding-left: 32px;
+}
+
+.liMain {
     list-style-type: none;
-    opacity:100%;
-    text-align:left;
-    font: bold normal normal 14px/34px Raleway;
+    opacity: 100%;
+    text-align: left;
+    font: bold normal normal 14px/34px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%
+    width: 100%;
 }
 
-.liSub{
+.liSub {
     list-style-type: none;
-    opacity:55%;
-    text-align:left;
-    font: normal normal normal 14px/34px Raleway;
+    opacity: 55%;
+    text-align: left;
+    font: normal normal normal 14px/34px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%
+    width: 100%;
 }
 
-.supportBtn{
+@media (max-width: 575px) {
+    .ulPaddingStyle {
+        padding-left: 0px;
+    }
+    .liMain {
+        text-align: center;
+    }
+    .liSub {
+        display: none;
+    }
+}
+
+.supportBtn {
     border-radius: 30px;
 }
 
-.contactDetails{
-    opacity:55%;
-    font: normal normal normal 14px Raleway;
+.liContactUs {
+    list-style-type: none;
+    opacity: 100%;
+    text-align: left;
+    font: bold normal normal 14px/34px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
-.lastLine{
-    text-align:left;
-    font: normal normal normal 14px Raleway;
+.contactDetails {
+    opacity: 55%;
+    font: normal normal normal 14px var(--global-font-family);
     letter-spacing: 0px;
-    width:100%;
+    width: 100%;
+}
+
+.lastLine {
+    text-align: left;
+    font: normal normal normal 14px var(--global-font-family);
+    letter-spacing: 0px;
     background-color: #044884;
-    color:white;
-    padding-left: 30px;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-top: 70px;
 }
 
-.copyright{
-    opacity:55%;
-    font: normal normal normal 14px Raleway;
+.lastLineForMobile {
+    display: none;
+}
+
+.copyright {
+    opacity: 55%;
+    font: normal normal normal 14px var(--global-font-family);
+    text-align: right;
+    padding-right: 0px;
+    margin-right: 0px;
     /* letter-spacing: 0px; */
     /* width:100%; */
+}
+
+@media (max-width: 575px) {
+    .liContactUs {
+        display: none;
+    }
+
+    .contactDetails {
+        padding-top: 5%;
+        padding-bottom: 0px;
+    }
+    .supportBtn {
+        text-align: center;
+    }
+
+    .lastLine {
+        margin-top: 5%;
+        display: none;
+    }
+
+    .textColorWhite {
+        font: normal normal normal 15px/25px Raleway;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .textOpacity {
+        opacity: 51%;
+        margin-top: 6%;
+    }
+}
+
+@media (min-width: 576px) {
+    .textColorWhite {
+        display: none;
+    }
 }

@@ -5,6 +5,7 @@ module.exports = {
         domains:[]
     },
     env:{
+        
     },
     ...nextTranslate()
 }

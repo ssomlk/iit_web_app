@@ -1,0 +1,216 @@
+.contactDataWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 575px) {
+  .contactDataWrapper {
+    margin-top: 0px;
+    flex-direction: column-reverse;
+  }
+}
+
+.contactLeftContainer {
+}
+
+.paddingLeft30 {
+  padding-left: 30px;
+}
+
+.pr99 {
+  padding-right: 99px;
+}
+
+@media (max-width: 575px) {
+  .pr99 {
+    padding-right: 30px;
+  }
+}
+
+.nameContainer {
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 575px) {
+  .nameContainer {
+    font-size: 27px;
+  }
+}
+
+.lineHeight1 {
+  line-height: 1;
+}
+
+.pinImgMaxWidth {
+  max-width: 24px;
+}
+
+.contactImgMaxWidth {
+  max-width: 31px;
+}
+
+.directionsImgMaxWidth {
+  max-width: 24px;
+}
+
+.addressContainer,
+.commMethodContainer,
+.directionsContainer {
+  display: flex;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.mr18 {
+  margin-right: 18px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.addressNameContainer,
+.contactDetailsContainer,
+.directionDetailsContainer {
+  font-family: "Raleway";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.mr32 {
+  margin-right: 32px;
+}
+
+@media (max-width: 575px) {
+  .mr32 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+.mb26 {
+  margin-bottom: 26px;
+}
+
+@media (max-width: 575px) {
+  .mb26 {
+    margin-bottom: 20px;
+  }
+}
+
+.contactLabelsText {
+  font-family: "Raleway";
+  font-size: 19px;
+  font-weight: 500;
+  color: #302d2d;
+}
+
+@media (max-width: 575px) {
+  .contactLabelsText {
+    font-size: 14px;
+  }
+}
+
+.width356 {
+  width: 356px;
+}
+
+@media (max-width: 575px) {
+  .width356 {
+    width: 100%;
+  }
+}
+
+.minHeight213 {
+  min-height: 213px !important;
+}
+
+.submitButton {
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 34px;
+  background-color: #966304;
+  cursor: pointer;
+  color: white;
+  border-style: none;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 575px) {
+  .submitButton {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+.pd19 {
+  padding: 19px;
+}
+
+.height68 {
+  height: 68px;
+}
+
+@media (max-width: 575px) {
+  .height68 {
+    height: 50px;
+  }
+}
+
+.bgColorBrown {
+  background: #96630421 0% 0% no-repeat padding-box;
+}
+
+.contactInputText {
+  border: none;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+  .contactInputText {
+    font-size: 16px;
+  }
+}
+
+.flexContainer {
+  display: flex;
+}
+
+@media (max-width: 575px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  .contactUsForm {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.InvalidFeedback {
+  padding-top: 5px;
+  font-size: 14px;
+  color: red;
+}

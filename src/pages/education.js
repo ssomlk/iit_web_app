@@ -30,7 +30,7 @@ export default function Education() {
         title="Education" 
         description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
         photo="/black-hand-buddha-statue-with-yellow-light.png"
-        backgroundImg="url(/MaskGroup-2.svg)"
+        backgroundImg="url(/Ellipse-3.svg)"
       /> 
 
     <NavigationCommonLayout navigationList={eduList}/>

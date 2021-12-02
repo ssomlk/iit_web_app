@@ -7,6 +7,7 @@ import NavigationCommonLayout  from "../components/navigationcommonlayout/Naviga
 import { Container, Row, Col } from "react-bootstrap";
 import {  BsFillArrowRightCircleFill } from "react-icons/bs";
 import { instituteList } from "../data/commonLayoutNavigationData";
+import { FirstRow, SecondRow, ThirdRow, FourthRow } from "../data/academicStaffData";
 import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
 
 export default function Institute() {
@@ -15,93 +16,72 @@ export default function Institute() {
 
   return (
       <div>
-    <Header />
+    <div className='navbarCarouselWrapper institute'>
+        <Header />
+      </div>
     <MainLayoutSection 
       title="Institute" 
       description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
       photo="/one-buddha-gold-temple-thailand.png"
-      backgroundImg="url(/MaskGroup-1.svg)"
+      backgroundImg="url(/Ellipse-4.svg)"
     /> 
     <NavigationCommonLayout navigationList={instituteList}/> 
 
 <Container>
-<div style={{color: '#5D5D5D',font: 'normal normal bold 50px/59px Raleway',marginBottom:'20px', marginTop:'20px' }}>Academic Staff</div>
-<Row key='0'>
-    <Col key='1'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Werapitiye Dewānanda Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}>President of the IIT</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>BA & MA in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. BA (Hon) in Sanskrit at the University of Peradeniya, Vidyanidhi Panditha Vidyodaya Parivena, extensive experiences in propagating Buddhist teachings in both Australia and Hawaii.</div>
-    </Col>
+<div style={{color: '#5D5D5D',font: 'normal normal bold 50px/59px Raleway',marginBottom:'40px', marginTop:'30px' }}>Academic Staff</div>
+<Row key='R1'>
+{FirstRow.map((item, index) => (
+        <Col md={6} lg={6} key={index +"A"}>
+                <img src={item.image} className='inst-academic-image'/> 
 
-    <Col key='2'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Watagoda Maggavihari Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}>Vice-President of the IIT</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>BA & MA in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. Also undergone monastic training under the Thai Forest Tradition.</div>
-    </Col>
+          <div className='inst-academic-name'>{item.name}</div>
+    <div className='inst-academic-heading'>{item.heading}</div>
+    <div className='inst-academic-body'>{item.body}</div>
+        </Col>
+      ))}
 </Row>
 
-<Row style={{marginTop:'30px'}} key='3'>
-<Col key='4'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Matugama Dhammanisanti Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}></div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>an experienced Abhidhamma teacher currently conducting basic and advanced Abhidhamma courses for lay devotees in Colombo for over five years.</div>
-    </Col>
+<Row style={{marginTop:'30px'}} >
 
-    <Col key='5'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Ududigana Siddhatthālaṅkāra Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}>Secretary of the IIT and Head of the Vinaya Department</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}> BA in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. The first Sri Lankan to pass all the three stages in both Sāsnālaṅkāra (Sāmaṇejo) and Vinayavidu Traditional Buddhist Examinations in Myanmar. 
-</div>
-    </Col>
+{SecondRow.map((item, index) => (
+        <Col md={4} lg={4} key={index + "B"}>
+                <img src={item.image} className='inst-academic-image'/> 
 
-    <Col key='6'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Kiribathgoda Tilokānanda Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}></div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>Diploma in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. He has undergone monastic training under the Thai Forest Tradition.</div>
-    </Col>
+                  <div className='inst-academic-name'>{item.name}</div>
+    <div className='inst-academic-heading'>{item.heading}</div>
+    <div className='inst-academic-body'>{item.body}</div>
+           </Col>
+      ))}
 
 </Row>
 
-<Row style={{marginTop:'30px'}} key='7'>
-<Col key='8'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Labunoruwe Dhammavihari Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}></div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>Passed the Vinayācariya and Abhidhammācariya examinations held under the Srī Kaḷyāṇī Yogāśrama Saṃsthā, Rāmañña Mahānikāya, Sri Lanka. He is currently a Vinaya teacher at the Nā-Uyana Forest Monastery, Sri Lanka</div>
-    </Col>
+<Row style={{marginTop:'30px'}} >
 
-    <Col key='9'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Walawe Sumedhaloka Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}>Head of the Language Department</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>Diploma in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. He has also earned knowledge and experience under the monastic education system in Myanmar for four years and has gained training under the Thai Forest Tradition as well. He is a competent Abhidhamma- and Pāḷi-teacher capable teaching in both Sinhalese and English. 
-</div>
-    </Col>
-
-    <Col key='10'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Deniyaye Upasama Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}>Head of the Abhidhamma Department</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>He has studied the Abhidhamma with specialization in the Paṭṭhānappakaraṇa, the seventh and most profound book in the basket of Abhidhamma and had taught Abhidhamma in Burmese language in Myanmar and also in Sinhala at several Sri Lankan monastic education institutes. He is arguably the best academic in the field of Paṭṭhāna studies currently in Sri Lanka.</div>
-    </Col>
-
+{ThirdRow.map((item, index) => (
+        <Col md={4} lg={4} key={index + "C"}>
+                <img src={item.image} className='inst-academic-image'/> 
+                <div className='inst-academic-name'>         {item.name}</div>
+    <div className='inst-academic-heading'>{item.heading}</div>
+    <div className='inst-academic-body'>{item.body}</div>
+         </Col>
+      ))}
 </Row>
 
-<Row style={{marginTop:'30px'}} key='11'>
-<Col key='12'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Rev Kuliyāpitiye Saṅgharatana Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}></div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>Diploma in Buddha Dhamma, International Theravāda Buddhist Missionary University, Yangon. 
-</div>
-    </Col>
+<Row style={{marginTop:'30px'}} >
 
-    <Col key='13'>
-    <div style={{color: '#202020',textAlign: 'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px' }}>Ven Palmadulle Vijitānandābhivaṃsa Thera</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 24px/29px Raleway',letterSpacing: '0px',color: '#202020',opacity: '.61', marginTop:'10px', marginBottom:'10px'}}>Vice Secretary of the IIT and Head of the Pāḷi, Sanskrit and Prakrit Department</div>
-    <div style={{textAlign: 'left', font: 'normal normal 600 20px/35px Raleway',letterSpacing: '0px',color: '#616057',opacity: '1'}}>One of the most academically celebrated Sri Lankan Buddhist monks studied in Myanmar. Successfully completed the first stage of the well-celebrated Sakyasīha Dhammācariaya Examination (known as the Mandalay Abhivaṃsa Examination) becoming the second Sri Lankan to make this achievement. Only about six hundred monks have passed the first level of the Abhivaṃsa Examination, in Myanmar, throughout its history of more than a century. He has also passed one of the three subjects of the second stage of the Sakyasīha Dhammācariya (Abhivaṃsa) Examination. Venerable Vijitānanda has also successfully passed the Sāsanadhaja Dhammācariya Examination in Myanmar. He is currently a Dhamma teacher at the well-celebrated Yuwa Mā Pariyatti Center, Ein Sein, Yangon. 
-</div>
-    </Col>
+{FourthRow.map((item, index) => (
+        <Col md={6} lg={6} key={index + "D"}>
+                <img src={item.image} className='inst-academic-image'/> 
+
+               <div className='inst-academic-name'>{item.name}</div>
+    <div className='inst-academic-heading'>{item.heading}</div>
+    <div className='inst-academic-body'>{item.body}</div>
+          </Col>
+      ))}
 </Row>
 
 </Container>
-
+{/* 
 <Container>
 <div style={{ color: '#202020', textAlign:'left', font: 'normal normal bold 30px/35px Raleway', letterSpacing:'0px', marginBottom:'25px'}}>Administrational Structure</div>
 <Row key='14'>
@@ -147,7 +127,7 @@ export default function Institute() {
 </Col>
 </Row > 
 
-</Container>
+</Container> */}
 
       <Footer/>
       </div>

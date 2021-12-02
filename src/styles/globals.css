@@ -411,3 +411,40 @@ p {
   }
 }
 
+/* Institute styles */ 
+
+.inst-academic-name{
+  color: #202020;
+  text-align: left;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+}
+.inst-academic-heading{
+ text-align: left;
+font: normal normal 600 24px/29px Raleway;
+letter-spacing: 0px;
+color: #202020;
+opacity: .61;
+margin-top:10px; 
+    margin-bottom:10px;
+}
+
+.inst-academic-body{
+ text-align: left;
+  font: normal normal 600 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
+}
+
+.inst-academic-image{
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-self: center;
+  text-align: center;
+  /* filter: drop-shadow(0 0 4px #ff5722); */
+}
+
+/* End of Institute styles */

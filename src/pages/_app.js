@@ -28,7 +28,7 @@ const MyApp = ({ Component, pageProps }) => {
     setOpacity(1);
     setTimeout(() => {
       setIsPreLoading(false);
-    }, 7000);
+    }, 3500);
   },[]);
 
   return (

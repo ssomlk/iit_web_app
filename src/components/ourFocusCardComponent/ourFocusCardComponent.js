@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from './ourFocusCardComponent.module.css';
 
-function OurFocusCardComponent() {
+function OurFocusCardComponent(props) {
     return (
         <div className={styles.mainContainer}>
             <div className={styles.ourFocusCardContainer}>
                 <div className={styles.ourFocusImageContainer}>
-                    <img src="./learning.png" className={styles.ourFocusImage} />
+                    <img src={props.cardData.image} className={styles.ourFocusImage} />
                 </div>
                 <div className={styles.ourFocusHeader}>
-                    Learning
+                    {props.cardData.title}
                 </div>
                 <div className={styles.ourFocusDetails}>
-                    The original teachings of the Buddha: the Dhamma and Vinaya preserved under the Theravāda tradition enshrined in the Pāli Canon.
+                    {props.cardData.body}
                 </div>
             </div>
         </div>

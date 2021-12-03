@@ -85,7 +85,7 @@ function AboutUsComponent() {
                         </div>
                     </div>
                     <div className={styles.focusCardAres}>
-                        <OurFocusCardComponent />
+                        {/* <OurFocusCardComponent /> */}
                     </div>
                 </div>
             </div>

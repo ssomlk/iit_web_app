@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './aboutUsComponent.module.css';
 import { missionData } from '../../data/aboutUsData';
 import OurFocusCardComponent from '../ourFocusCardComponent/ourFocusCardComponent';
+import cardInfo from '../../data/ourFocusData.json'
 
 function AboutUsComponent() {
 
@@ -85,7 +86,8 @@ function AboutUsComponent() {
                         </div>
                     </div>
                     <div className={styles.focusCardAres}>
-                        {/* <OurFocusCardComponent /> */}
+
+                        <OurFocusCardComponent cardData={cardInfo[0]} />
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './aboutUsComponent.module.css';
 import { missionData } from '../../data/aboutUsData';
-import { style } from 'dom-helpers';
+import OurFocusCardComponent from '../ourFocusCardComponent/ourFocusCardComponent';
 
 function AboutUsComponent() {
 
@@ -85,7 +85,7 @@ function AboutUsComponent() {
                         </div>
                     </div>
                     <div className={styles.focusCardAres}>
-
+                        <OurFocusCardComponent />
                     </div>
                 </div>
             </div>

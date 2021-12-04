@@ -359,6 +359,8 @@ p {
   border: none;
 }
 
+/* mapBox Style */
+
 .mapWrapper {
   position: relative;
   top: 0;
@@ -378,7 +380,7 @@ p {
 }
 
 .preLoader-max-width {
-  max-width: 166px;
+  max-width: 320px;
 }
 
 .loader {

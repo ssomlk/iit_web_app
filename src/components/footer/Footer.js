@@ -94,7 +94,7 @@ function Footer() {
               <ul className={styles.ulPaddingStyle}>
                 <div className={styles.supportBtn} ><Button variant="warning" className={styles.supportBtn}>Support</Button></div>
                 <div  className={styles.liContactUs}>Contact Us </div>
-                <div className={styles.contactDetails}><a href="mailto:info@iit.lk"></a>info@iit.lk<br /><a href="tel:00941128978899">+94 112 897 8899</a></div><br />
+                <div className={styles.contactDetails}><a href="mailto:info@iit.lk">info@iit.lk</a><br /><a href="tel:00941128978899">+94 112 897 8899</a></div><br />
                 <div className={styles.contactDetails}> Hinetikalma Watta Road, Kaluwaragas Wewa, Sri Lanka.</div><br />
                 <div className={styles.contactDetails}> Get Directions</div>
               </ul>

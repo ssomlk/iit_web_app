@@ -1,6 +1,5 @@
 import { Row, Container, Col, Button } from 'react-bootstrap';
 import { BsFacebook, BsYoutube, BsWhatsapp, BsTelegram, BsGoogle } from 'react-icons/bs';
-import { isReturnStatement } from 'typescript';
 import styles from './CustomFooter.module.css';
 
 function Footer() {

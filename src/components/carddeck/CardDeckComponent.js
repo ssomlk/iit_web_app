@@ -24,6 +24,11 @@ const CardDeckComponent = () => {
 
   return (
     <Container className={styles.deckContainer}>
+      <div className={styles.deckHeader}>
+        <p className={styles.deckHeaderIntro}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum molestie magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc et tellus nec est consectetur feugiat tincidunt interdum nulla. Mauris a gravida metus, varius sagittis nunc. Curabitur viverra condimentum orci et porttitor.
+        </p>   
+      </div>
       <Row xs={1} sm={2} md={2} lg={4}>
         {cardInfo.map(renderCard)}
       </Row>

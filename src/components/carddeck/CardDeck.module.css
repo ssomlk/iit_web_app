@@ -1,57 +1,80 @@
 .cardComponent {
-    /* width: 15rem; */
-    border: 0px;
+  /* width: 15rem; */
+  border: 0px;
 }
 
 .cardBody {
-    border-radius: 29px;
-    /* min-width: auto; */
-    width: 100%;
-    text-align: left;
-    margin-bottom: 10px;
-    text-overflow: ellipsis;
-    padding: 1.8125rem 3.75rem 2.875rem 2.3125rem;
-    box-shadow: 0px 3px 14px #00000029;
-    opacity: 1;
-    height: 21.3125rem;
+  border-radius: 29px;
+  /* min-width: auto; */
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  text-overflow: ellipsis;
+  padding: 1.8125rem 3.75rem 2.875rem 2.3125rem;
+  box-shadow: 0px 3px 14px #00000029;
+  opacity: 1;
+  height: 21.3125rem;
 }
 
 .cardImage {
-    width: 99px;
-    height: 99px;
-    margin-bottom: 10px;
+  width: 99px;
+  height: 99px;
+  margin-bottom: 10px;
 }
 
 .cardTitle {
-    font-size: 1.6875rem;
-    font-family: Raleway;
-    font-weight: bold;
+  font-size: 1.6875rem;
+  font-family: Raleway;
+  font-weight: bold;
 }
 
 .cardText {
-    font-family: Raleway;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
+  font-family: Raleway;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .deckContainer {
-    margin-top: 100px;
+  margin-top: 90px;
+  margin-bottom: 144px;
+}
+
+.deckHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deckHeaderIntro {
+  margin-bottom: 90px;
+  width: 70%;
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 21px;
+  color: #707070;
+}
+
+@media (max-width: 575px) {
+  .deckHeaderIntro {
+    width: 100%;
+  }
 }
 
 .arrowContainer {
-    border: none;
-    border-radius: 100%;
-    position: absolute;
-    right: 15px;
-    height: 2.5rem;
-    width: 2.5rem;
-    background: rgba(0, 0, 0, 29%);
+  border: none;
+  border-radius: 100%;
+  position: absolute;
+  right: 15px;
+  height: 2.5rem;
+  width: 2.5rem;
+  background: rgba(0, 0, 0, 29%);
 }
 
 .cardArrow {
-    position: relative;
-    left: 25%;
-    top: 15%;
+  position: relative;
+  left: 25%;
+  top: 15%;
 }

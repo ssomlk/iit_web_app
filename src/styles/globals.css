@@ -11,7 +11,7 @@
   --global-color-4e4e4e: #4e4e4e;
 
   /* Font/text values */
-  --global-font-family: "raleway";
+  --global-font-family: 'raleway';
 }
 
 html,
@@ -32,7 +32,7 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: "Raleway";
+  font-family: 'Raleway';
 }
 
 h3,
@@ -215,7 +215,7 @@ p {
 }
 
 .sk-fading-circle .sk-circle:before {
-  content: "";
+  content: '';
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -409,322 +409,93 @@ p {
   }
 }
 
-/* Institute styles */ 
+/* Institute styles */
 
-.inst-admin-struct-header{
-color: #202020;
- text-align:left;
-  font: normal normal bold 30px/35px Raleway;
-   letter-spacing:0px;
-   margin-bottom:56px;
-
+.inst-img-max-width {
+  max-width: 121px;
+  border-radius: 100%;
+  border: 1px solid #966304;
 }
 
-.inst-academic-row4-child{
-  width:30%;
-}
-
-.inst-academic-row4-main{
-  display:flex;
-gap:162px;
-margin-bottom: 100px;
-}
-
-.inst-academic-row3-child{
-  width:40%;
-}
-
-.inst-academic-row3-main{
-  display:flex;
-gap:162px;
-margin-bottom: 100px;
-}
-
-.inst-academic-row2-child{
-  width:45%;
-}
-
-.inst-academic-row2-main{
-  display:flex;
-gap:162px;
-margin-bottom: 100px;
-}
-
-.inst-academic-row1-main{
-display:flex;
-gap:247px;
-margin-bottom: 100px;
-}
-
-.inst-academic-row1-child1{
-  width:40%;
-  margin-right:50px;
-  }
-
-  .inst-academic-row1-child2{
-   width:40%;
-  }
-
-.inst-academic-name{
+.inst-admin-struct-header {
   color: #202020;
   text-align: left;
   font: normal normal bold 30px/35px Raleway;
   letter-spacing: 0px;
-}
-.inst-academic-heading{
- text-align: left;
-font: normal normal 24px/29px Raleway;
-letter-spacing: 0px;
-color: #202020;
-opacity: .61;
-    margin-bottom:10px;
+  margin-bottom: 56px;
 }
 
-.inst-academic-body{
- text-align: left;
-  font: normal normal 20px/35px Raleway;
+.inst-academic-header {
+  color: #5d5d5d;
+  font: normal normal bold 50px/59px Raleway;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.inst-academic-container {
+  margin-bottom: 32px;
+}
+
+.inst-admin-struct-main-text {
+  color: #4e4e4e;
+  text-align: left;
+  font: normal normal bold 42px/49px Raleway;
   letter-spacing: 0px;
-  color: #616057;
-  opacity: 1;
-  position: relative;
-  /* text-align: justify; */
+  margin-bottom: 56px;
 }
 
-.inst-academic-image{
-  vertical-align: middle;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  /* justify-self: center;
-  text-align: center; */
-  /* filter: drop-shadow(0 0 4px #ff5722); */
-}
-
-.inst-academic-header{
-color: #5D5D5D;
-font: normal normal bold 50px/59px Raleway;
-margin-bottom:40px;
- margin-top:30px
- }
- 
- .inst-academic-container{
-margin-left:197px;
-
- }
-
- .inst-admin-struct-main-text{
-  color: #4E4E4E; 
-  text-align:left;
-   font: normal normal bold 42px/49px Raleway;
-    letter-spacing:0px;
- }
-
- .inst-admin-struct-sub-text{
+.inst-admin-struct-sub-text {
   color: #202020;
-  text-align:left;
+  text-align: left;
   font: normal normal 600 24px/36px Raleway;
-   letter-spacing:0px;
-   opacity: 1;
- }
+  letter-spacing: 0px;
+  opacity: 1;
+}
 
- .inst-admin-struct-col-header{
-color: #202020;
- text-align:left;
+.inst-admin-struct-col-header {
+  color: #202020;
+  text-align: left;
   font: normal normal bold 24px/36px Raleway;
-   letter-spacing:0px;
-   margin-bottom:15px;
- }
-
- .inst-admin-struct-col-body{
-color: #616057;
- text-align:left;
- font: normal normal normal 20px/35px Raleway;
-  letter-spacing:0px;
-   margin-bottom:15px;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
 }
 
-.inst-admin-struct-container{
-margin-bottom:20px;
+.inst-admin-struct-col-body {
+  color: #616057;
+  text-align: left;
+  font: normal normal normal 20px/35px Raleway;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-  .inst-admin-struct-2nd-col{
-    margin: 20px;
-  }
-
-  .inst-admin-struct-row {
-flex-direction: column;
-  }
-
-  .inst-admin-struct-col-header{
-    font: normal normal bold 20px/36px Raleway;
-     margin-bottom:15px;
-   }
-  
- .inst-admin-struct-col-body{
-   font: normal normal normal 14px/35px Raleway;
-     margin-bottom:15px;
-  }
-
-.inst-admin-struct-header{
-     margin:20px;
-  }
-  
-  .inst-admin-struct-sub-text{
-    font: normal normal  16px/36px Raleway;
-     margin-right: 10%;
-   margin-left: 20px;
-   margin-bottom: 30px;
-
-
-   }
-
-.inst-admin-struct-main-text{
-   font: normal normal bold 22px/39px Raleway;
-   margin-right: 10%;
-   margin-bottom: 30px;
-   margin-left: 20px;
- }
-
-.inst-admin-struct-header{
-    font: normal normal bold 20px/29px Raleway;
-     letter-spacing:0px;
-     margin-bottom:20px;
-  } 
-
-  .inst-academic-row1-main,
-  .inst-academic-row2-main,
-  .inst-academic-row3-main,
-  .inst-academic-row4-main{
-    flex-direction: column;
-    margin-bottom: 30px;
-    gap:30px;
-  }
-
-  .inst-academic-row1-main > div,
-  .inst-academic-row2-main > div,
-  .inst-academic-row3-main > div,
-  .inst-academic-row4-main > div{
-    width:100%;
-  }
-
-  .inst-academic-header{
-    font: normal normal bold 20px/29px Raleway;
-     }
-     .inst-academic-image{
-      width: 60px;
-      height: 60px;
-     }
-
-     .inst-academic-body{
-      font: normal normal 14px/34px Raleway;
-      position: relative;
-     }
-
-     .inst-academic-heading{
-      font: normal normal 20px/29px Raleway;
-      margin:0px;
-     }
-
-     .inst-academic-name{
-      font: normal normal bold 20px/35px Raleway;
-     }
-
-     .inst-academic-container{
-       margin: 20px;
-     }
+.inst-admin-struct-container {
+  margin-bottom: 20px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-  .inst-admin-struct-col-header{
-      font: normal normal bold 20px/36px Raleway;
-       margin-bottom:15px;
-     }
-    
-     .inst-admin-struct-col-body{
-     font: normal normal normal 20px/35px Raleway;
-       margin-bottom:15px;
-    }
-
-  .inst-admin-struct-header{
-       margin:20px;
-    }
-
-    .inst-admin-struct-sub-text{
-      font: normal normal  20px/36px Raleway;
-       margin-right: 10%;
-     margin-left: 20px;
-
-     }
-  .inst-admin-struct-main-text{
-     font: normal normal bold 28px/39px Raleway;
-     margin-right: 10%;
-     margin-bottom: 56px;
-     margin-left: 20px;
-   }
-
-  .inst-admin-struct-header{
-      font: normal normal bold 24px/29px Raleway;
-       letter-spacing:0px;
-       margin-bottom:40px;
-    }
-
-  .inst-academic-row1-main,
-  .inst-academic-row2-main,
-  .inst-academic-row3-main,
-  .inst-academic-row4-main{
-    margin-bottom: 30px;
-    gap:30px;
-  }
-
-  .inst-academic-row1-main > div,
-  .inst-academic-row2-main > div,
-  .inst-academic-row3-main > div,
-  .inst-academic-row4-main > div{
-    width:100%;
-  }
-
-  .inst-academic-header{
+@media (max-width: 575px) {
+  .inst-academic-header {
     font: normal normal bold 24px/29px Raleway;
-     }
-     .inst-academic-image{
-      width: 60px;
-      height: 60px;
-     }
+  }
+  .inst-admin-struct-header {
+    font: normal normal bold 22px/25px Raleway;
+    margin-bottom: 40px
+  }
 
-     .inst-academic-body{
-      font: normal normal 18px/34px Raleway;
-      position: relative;
-     }
+  .inst-admin-struct-main-text {
+    font: normal normal bold 30px/38px Raleway;
+    margin-bottom: 40px;
+  }
+  .inst-admin-struct-col-header {
+    font: normal normal bold 20px/35px Raleway;
+  }
+  .inst-admin-struct-row {
+    flex-direction: column;
+  }
 
-     .inst-academic-heading{
-      font: normal normal 20px/29px Raleway;
-     }
+  .inst-admin-struct-sub-text{
+    margin-bottom: 40px;
 
-     .inst-academic-name{
-      font: normal normal bold 20px/35px Raleway;
-     }
-
-     .inst-academic-container{
-       margin: 40px;
-     }
+  }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
-
 
 /* End of Institute styles */

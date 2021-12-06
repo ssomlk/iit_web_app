@@ -5,9 +5,11 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import Axios from 'axios';
 import { mainAxios } from '../../axios/axiosBackend';
+import { Modal } from 'react-bootstrap';
 import styles from './ContactUs.module.css';
 import AlertBox from '../alertbox/AlertBox';
 import CustomToast from '../toast/Toast';
+import CustomSpinner from '../spinner/Spinner';
 
 const schema = yup.object().shape({
     contactName: yup.string().required("Name is mandatory"),
@@ -34,14 +36,18 @@ function ContactUs() {
     const { register, handleSubmit, formState:{ errors }, trigger, resetField, clearErrors } = useForm({resolver: yupResolver(schema)});
 
     const [show, setShow] = useState(false);
+    const [showSpinner, setShowSpinner] = useState(false);
     const handleClose = () => setShow(false);
+    const handleSpinnerClose = () => setShowSpinner(false);
     const [varient, setVarient] = useState("primary");
     const [alertTitle, setAlertTitle] = useState("");
     const [alertDesc, setAlertDesc] = useState("");
 
     const onSubmit = async (data) => {
+        setShowSpinner(true);
         disableDomElement(submitButton);
 
+        //const token = "7343dyeyydt**";
         const token = recaptchaRef.current.getValue();
         recaptchaRef.current.reset();
 
@@ -55,12 +61,14 @@ function ContactUs() {
             .then((response) => {
                 resetContactUsPageFields();
                 enableDomElement(submitButton);
+                setShowSpinner(false);
                 setAlertBox('success', 'Success', 'Message sent to International Institute of Theravada successfully.');
                 setShow(true);
             })
             .catch((e) => {
                 console.log('error', e.response.data);
                 enableDomElement(submitButton);
+                setShowSpinner(false);
                 setAlertBox('danger', 'Failure',  e.response.data.errors.join(", "));
                 setShow(true);
             })
@@ -95,10 +103,12 @@ function ContactUs() {
     }
 
     return (
-        <div className={styles.contactDataWrapper}>        
+        <div className={styles.contactDataWrapper}>  
 
         <AlertBox show={show} handleClose={handleClose} setShow={setShow} varient={varient} alertTitle={alertTitle} alertDesc={alertDesc}/>
-        {/* <CustomToast show={show} autohide={false} setShow={setShow} delay={5000} variant={"success"} timeDuration="" alertTitle={alertTitle} alertDesc={alertDesc}/> */}
+        <Modal className="centerSpinnerModal" show={showSpinner} onHide={handleSpinnerClose}>     
+            <CustomSpinner showSpinner={showSpinner} handleSpinnerClose={handleSpinnerClose}/>
+        </Modal>
 
         <div className={`${styles.contactLeftContainer} ${styles.paddingLeft30} ${styles.pr99}`}>
             <div className={styles.nameContainer}>
@@ -205,7 +215,9 @@ function ContactUs() {
                     />
                 </div>
                 <div className={styles.mb26}>
-                    <button type="submit" className={styles.submitButton} ref={submitButton}>SUBMIT</button>
+                    <button type="submit" className={styles.submitButton} ref={submitButton}>
+                        SUBMIT
+                    </button>
                 </div>
             </form>
         </div>

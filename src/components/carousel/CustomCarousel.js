@@ -29,7 +29,11 @@ function CustomCarousel() {
             'load resize orientationchange',
             normalizeSlideHeights
         );
-    });
+        normalizeSlideHeights();
+        return () => {
+            $(window).off('load resize orientationchange');
+        }
+    },[]);
   
     return (
       <div className={styles.customCarouselWrapper}>

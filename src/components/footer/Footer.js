@@ -78,7 +78,7 @@ function Footer() {
             </Col>
             <Col className={styles.removePaddingStyle}>
               <ul className={styles.ulPaddingStyle}>
-                <li className={styles.liMain}> News & Events</li>
+                <li className={styles.liMain}> News &amp; Events</li>
                 <li className={styles.liSub}> <a href='#'> News</a></li>
                 <li className={styles.liSub}><a href='#'> Events</a></li>
                 <li className={styles.liSub}> <a href='#'>  Messages</a></li>
@@ -93,8 +93,8 @@ function Footer() {
               <ul className={styles.ulPaddingStyle}>
                 <div className={styles.supportBtn} ><Button variant="warning" className={styles.supportBtn}>Support</Button></div>
                 <div  className={styles.liContactUs}>Contact Us </div>
-                <div className={styles.contactDetails}>info@iit.lk<br />+94 112 897 8899</div><br />
-                <div className={styles.contactDetails}> Hinetikalma Watta Road, Kaluwaragas wewa, Sri Lanka.</div><br />
+                <div className={styles.contactDetails}><a href="mailto:info@iit.lk">info@iit.lk</a><br /><a href="tel:00941128978899">+94 112 897 8899</a></div><br />
+                <div className={styles.contactDetails}> Hinetikalma Watta Road, Kaluwaragas Wewa, Sri Lanka.</div><br />
                 <div className={styles.contactDetails}> Get Directions</div>
               </ul>
             </Col>
@@ -104,7 +104,7 @@ function Footer() {
           <Row className={styles.lastLine} >
           <Col className={styles.removePaddingStyle} xs={2} sm={3} md={2} lg={2} ><a href='#'> Privacy Policy</a></Col>
           <Col xs={2} sm={3} md={6} lg={5}><a href='#'> Terms of Use</a></Col>
-          <Col className={styles.copyright} xs={8} sm={6} md={4} lg={5}>©2021 International institute of theravada</Col>
+          <Col className={styles.copyright} xs={8} sm={6} md={4} lg={5}>©{GetCurrentYear()} International Institute of Theravada</Col>
         </Row>
         </Container>
       
@@ -114,7 +114,7 @@ function Footer() {
             <div className="col-6 text-end"><a href='#'> Terms of Use</a></div>
           </div>
           <div className= {`row ${styles.textOpacity}`}>
-            <div className="col-xs-12"><a href='#'>©2021 International institute of theravada</a></div>
+            <div className="col-xs-12"><a href='#'>©{GetCurrentYear()} International Institute of Theravada</a></div>
           </div>
         </div>
 
@@ -125,6 +125,10 @@ function Footer() {
      
 
     </footer>);
+}
+
+function GetCurrentYear(){
+  return new Date().getFullYear();
 }
 
 export default Footer;

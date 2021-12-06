@@ -1,5 +1,6 @@
 .mainContainer {
     position: relative;
+    display: inline-block;
     height: 630px;
     width: 456px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -39,6 +40,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    white-space: initial;
 }
 
 .ourFocusDetails {
@@ -50,4 +52,5 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    white-space: initial;
 }

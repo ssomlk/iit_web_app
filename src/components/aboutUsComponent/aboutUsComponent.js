@@ -85,10 +85,19 @@ function AboutUsComponent() {
                             Academic Courses and Training Programs will be focused on
                         </div>
                     </div>
-                    <div className={styles.focusCardAres}>
 
-                        <OurFocusCardComponent cardData={cardInfo[0]} />
+                </div>
+                <div className={styles.focusCardAres}>
+                    <div className={styles.sliderContainer}>
+                        <div id="slider" className={styles.slider}>
+                            {cardInfo.map((data, index) => {
+                                return (<OurFocusCardComponent key={index} cardData={data} />);
+                            })}
+                        </div>
                     </div>
+
+
+                    {/* <OurFocusCardComponent cardData={cardInfo[0]} /> */}
                 </div>
             </div>
         </div>

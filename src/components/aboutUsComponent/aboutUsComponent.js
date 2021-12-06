@@ -6,6 +6,17 @@ import cardInfo from '../../data/ourFocusData.json'
 
 function AboutUsComponent() {
 
+
+    const slideLeft = () => {
+        var slider = document.getElementById("focusCardArea");
+        slider.scrollLeft = slider.scrollLeft + 500;
+    };
+
+    const slideRight = () => {
+        var slider = document.getElementById("focusCardArea");
+        slider.scrollLeft = slider.scrollLeft - 500;
+    };
+
     return (
         <div className={styles.rootContainer}>
             <div className={styles.aboutUsContainer}>
@@ -81,23 +92,38 @@ function AboutUsComponent() {
                 <div className={styles.ourFocusInnerContainer}>
                     <div className={styles.ourFocusHeader}>Our Focus</div>
                     <div className={styles.ourFocusSUbHeader}>
-                        <div>
+                        <div className={styles.subHeaderText}>
                             Academic Courses and Training Programs will be focused on
+                        </div>
+                        <div className={styles.sliderButtonContainer}>
+                            <div className={styles.sliderButton} onClick={slideLeft}>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className={`bi bi-chevron-left ${styles.buttonLeftImage}`} viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </div>
+                            <div className={styles.sliderButton} onClick={slideRight}>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className={`bi bi-chevron-right ${styles.buttonRightImage}`} viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <div className={styles.focusCardAres}>
+                <div id="focusCardArea" className={styles.focusCardArea}>
                     <div className={styles.sliderContainer}>
-                        <div id="slider" className={styles.slider}>
+                        <div className={styles.slider}>
+
                             {cardInfo.map((data, index) => {
-                                return (<OurFocusCardComponent key={index} cardData={data} />);
+                                return (
+                                    <div className={styles.card}>
+                                        <OurFocusCardComponent key={index} cardData={data} />
+                                    </div>
+                                );
                             })}
+
                         </div>
                     </div>
-
-
-                    {/* <OurFocusCardComponent cardData={cardInfo[0]} /> */}
                 </div>
             </div>
         </div>

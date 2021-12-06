@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 
 const progress = new ProgressBar({
   size: 4,
-  color: '#FE595E',
+  color: '#966304',
   className: '',
   delay: 100,
 });
@@ -28,7 +28,7 @@ const MyApp = ({ Component, pageProps }) => {
     setOpacity(1);
     setTimeout(() => {
       setIsPreLoading(false);
-    }, 3500);
+    }, 4000);
   },[]);
 
   return (
@@ -36,7 +36,7 @@ const MyApp = ({ Component, pageProps }) => {
         (<div className="preloaderWrapper">
             <img
                 className="d-block w-100 preLoader-max-width"
-                src="/IIT-2.png"
+                src="/IIT-2.svg"
                 alt="International Institue of Theravada"
             />
             <div className="loader">

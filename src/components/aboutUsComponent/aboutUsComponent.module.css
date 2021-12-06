@@ -216,7 +216,7 @@
     margin-top: 5%;
 }
 
-.ourFocusSUbHeader {
+.ourFocusSubHeader {
     grid-area: focusSubHeader;
     display: flex;
     text-align: left;
@@ -226,11 +226,11 @@
     margin-top: 2%;
 }
 
-.ourFocusSUbHeader > .subHeaderText {
+.ourFocusSubHeader > .subHeaderText {
     max-width: 50%;
 }
 
-.ourFocusSUbHeader > .sliderButtonContainer {
+.ourFocusSubHeader > .sliderButtonContainer {
     margin-left: auto;
     display: flex;
     flex-wrap: nowrap;

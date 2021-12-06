@@ -36,8 +36,6 @@ export default function AboutUs() {
 
       <NavigationCommonLayout navigationList={aboutUsList} />
       <AboutUsComponent />
-      {/* <OurFocusCardDeck /> */}
-
       <Footer />
     </div>
 

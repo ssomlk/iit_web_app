@@ -91,19 +91,19 @@ function AboutUsComponent() {
             <div className={styles.ourFocusContainer}>
                 <div className={styles.ourFocusInnerContainer}>
                     <div className={styles.ourFocusHeader}>Our Focus</div>
-                    <div className={styles.ourFocusSUbHeader}>
+                    <div className={styles.ourFocusSubHeader}>
                         <div className={styles.subHeaderText}>
                             Academic Courses and Training Programs will be focused on
                         </div>
                         <div className={styles.sliderButtonContainer}>
                             <div className={styles.sliderButton} onClick={slideLeft}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className={`bi bi-chevron-left ${styles.buttonLeftImage}`} viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                    <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
                                 </svg>
                             </div>
                             <div className={styles.sliderButton} onClick={slideRight}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className={`bi bi-chevron-right ${styles.buttonRightImage}`} viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                    <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                                 </svg>
                             </div>
                         </div>
@@ -116,8 +116,8 @@ function AboutUsComponent() {
 
                             {cardInfo.map((data, index) => {
                                 return (
-                                    <div className={styles.card}>
-                                        <OurFocusCardComponent key={index} cardData={data} />
+                                    <div key={index} className={styles.card}>
+                                        <OurFocusCardComponent cardData={data} />
                                     </div>
                                 );
                             })}

@@ -186,7 +186,7 @@ export default function Institute() {
           </Col>
 
           <Col className="inst-admin-struct-2nd-col">
-            <Row key="17">
+            <Row key="17" className="inst-admin-struct-row">
               <Col>
                 <div className="inst-admin-struct-col-header">
                   General Assembly

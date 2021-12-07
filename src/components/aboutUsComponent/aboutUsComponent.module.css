@@ -511,3 +511,10 @@
         margin-right: auto;
     }
 }
+
+
+@media (max-width: 420px) {
+    .missionImageContainer {
+        max-width: 28px;
+    }
+}

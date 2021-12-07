@@ -517,4 +517,12 @@
     .missionImageContainer {
         max-width: 28px;
     }
+
+    .directionHeading {
+        font: normal normal bold 20px/30px Raleway;
+    }
+
+    .directionSubHeading {
+        font: normal normal bold 18px/22px Raleway;
+    }
 }

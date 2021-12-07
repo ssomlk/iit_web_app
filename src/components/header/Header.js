@@ -38,7 +38,7 @@ function Header() {
                         <Nav.Link onClick={() => router.push('#news')}>News & Events</Nav.Link>
                         <Nav.Link onClick={() => router.push('#publications')}>Publications</Nav.Link>
                         <Nav.Link onClick={() => router.push('/contactus')}>Contact Us</Nav.Link>
-                        <Nav.Link onClick={() => router.push('#support')}>
+                        <Nav.Link onClick={() => router.push('/howtosupport')}>
                             <span className={styles.supportButton} >
                                 How To Support
                             </span>

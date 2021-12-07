@@ -5,7 +5,7 @@
 .instAcademicAuthorImg {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-right: 20px;
 }
 

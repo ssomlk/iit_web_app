@@ -1,20 +1,33 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './aboutUsComponent.module.css';
 import { missionData } from '../../data/aboutUsData';
 import OurFocusCardComponent from '../ourFocusCardComponent/ourFocusCardComponent';
 import cardInfo from '../../data/ourFocusData.json'
+import Slider from '../slider/slider';
 
 function AboutUsComponent() {
 
+    // Create an array for card components to view in 
+    // card slider.
+    const cards = cardInfo.map((data, index) => {
+        return (
+            <OurFocusCardComponent key={index} cardData={data} />
+        );
+    });
+
+    // Reference to the Slider component
+    const sliderRef = useRef();
 
     const slideLeft = () => {
-        var slider = document.getElementById("carSlider");
-        slider.scrollLeft = slider.scrollLeft + 500;
+        if (sliderRef.current) {
+            sliderRef.current.slideLeft();
+        }
     };
 
     const slideRight = () => {
-        var slider = document.getElementById("carSlider");
-        slider.scrollLeft = slider.scrollLeft - 500;
+        if (sliderRef.current) {
+            sliderRef.current.slideRight();
+        }
     };
 
     return (
@@ -111,17 +124,7 @@ function AboutUsComponent() {
 
                 </div>
                 <div className={styles.focusCards}>
-                    <div id="carSlider" className={styles.sliderContainer}>
-                        <div className={styles.slider}>
-                            {cardInfo.map((data, index) => {
-                                return (
-                                    <div key={index} className={styles.card}>
-                                        <OurFocusCardComponent cardData={data} />
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    </div>
+                    <Slider cardInfo={cards} ref={sliderRef} />
                 </div>
             </div>
         </div>

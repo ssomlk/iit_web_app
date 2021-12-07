@@ -1,0 +1,21 @@
+.sliderContainer {
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.sliderContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin-right: 2%;
+    display: inline-block;
+}

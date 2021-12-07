@@ -11,7 +11,7 @@
   --global-color-4e4e4e: #4e4e4e;
 
   /* Font/text values */
-  --global-font-family: "raleway";
+  --global-font-family: 'raleway';
 }
 
 html,
@@ -32,7 +32,7 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: "Raleway";
+  font-family: 'Raleway';
 }
 
 h3,
@@ -221,7 +221,7 @@ p {
 }
 
 .sk-fading-circle .sk-circle:before {
-  content: "";
+  content: '';
   display: block;
   margin: 0 auto;
   width: 15%;

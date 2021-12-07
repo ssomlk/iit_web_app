@@ -37,8 +37,8 @@ export default function Home() {
       <CardDeckComponent />
       {/* <NewsAndEventsComponent /> */}
       <NewsAndEventsComponent2 deviceType={'desktop'} />
-      {/* <Testimonials /> */}
-      {/* <GeneralFAQ /> */}
+      <Testimonials />
+      <GeneralFAQ />
       <Footer />
     </div>
   );

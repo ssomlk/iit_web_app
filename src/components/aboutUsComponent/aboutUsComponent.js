@@ -8,12 +8,12 @@ function AboutUsComponent() {
 
 
     const slideLeft = () => {
-        var slider = document.getElementById("focusCardArea");
+        var slider = document.getElementById("carSlider");
         slider.scrollLeft = slider.scrollLeft + 500;
     };
 
     const slideRight = () => {
-        var slider = document.getElementById("focusCardArea");
+        var slider = document.getElementById("carSlider");
         slider.scrollLeft = slider.scrollLeft - 500;
     };
 
@@ -51,7 +51,7 @@ function AboutUsComponent() {
                     </div>
                     <div className={styles.mapInformationLink}>
                         <div className={styles.mapIcon}>
-                            <img src="/GetDirections.svg" />
+                            <img src="/GetDirections.svg" className={styles.mapIconImage} />
                         </div>
                         <div className={styles.directionText}>
                             <div className={styles.directionHeading}>GetDirections</div>
@@ -60,7 +60,7 @@ function AboutUsComponent() {
                         <div className={styles.linkArrow}>
                             <a href="https://www.google.com/maps/place/International+Institute+of+Therav%C4%81da/@7.964815,79.98393,13z/data=!4m5!3m4!1s0x0:0x55e0440823643e03!8m2!3d7.9662346!4d79.9838372?hl=en-GB"
                                 target="_blank">
-                                <img src="/Arrow01.svg" />
+                                <img src="/Arrow01.svg" className={styles.arrowImage} />
                             </a>
                         </div>
                     </div>
@@ -110,8 +110,9 @@ function AboutUsComponent() {
                     </div>
 
                 </div>
-                <div id="focusCardArea" className={styles.focusCardArea}>
-                    <div className={styles.sliderContainer}>
+                <div className={styles.focusCards}>
+                    <div id="carSlider" className={styles.sliderContainer}>
+                        <div className={styles.slider}>
                             {cardInfo.map((data, index) => {
                                 return (
                                     <div key={index} className={styles.card}>
@@ -119,6 +120,7 @@ function AboutUsComponent() {
                                     </div>
                                 );
                             })}
+                        </div>
                     </div>
                 </div>
             </div>

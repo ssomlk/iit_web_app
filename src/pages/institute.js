@@ -37,7 +37,7 @@ export default function Institute() {
               extensive experiences in propagating Buddhist teachings in both
               Australia and Hawaii."
               name="Ven Werapitiye Dewānanda Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title="President of the IIT"
             />
           </Col>
@@ -48,7 +48,7 @@ export default function Institute() {
               Missionary University, Yangon. Also undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Watagoda Maggavihari Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title="Vice-President of the IIT"
             />
           </Col>
@@ -73,7 +73,7 @@ export default function Institute() {
               the three stages in both Sāsnālaṅkāra (Sāmaṇejo) and Vinayavidu
               Traditional Buddhist Examinations in Myanmar."
               name="Ven Ududigana Siddhatthālaṅkāra Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title="Secretary of the IIT and Head of the Vinaya Department"
             />
           </Col>
@@ -84,7 +84,7 @@ export default function Institute() {
               Missionary University, Yangon. He has undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Kiribathgoda Tilokānanda Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title=""
             />
           </Col>
@@ -98,7 +98,7 @@ export default function Institute() {
               Lanka. He is currently a Vinaya teacher at the Nā-Uyana Forest
               Monastery, Sri Lanka."
               name="Ven Labunoruwe Dhammavihari Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title=""
             />
           </Col>
@@ -112,7 +112,7 @@ export default function Institute() {
               well. He is a competent Abhidhamma- and Pāḷi-teacher capable
               teaching in both Sinhalese and English."
               name="Ven Walawe Sumedhaloka Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title="Head of the Language Department"
             />
           </Col>
@@ -126,7 +126,7 @@ export default function Institute() {
               education institutes. He is arguably the best academic in the
               field of Paṭṭhāna studies currently in Sri Lanka."
               name="Ven Deniyaye Upasama Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title="Head of the Abhidhamma Department"
             />
           </Col>
@@ -138,7 +138,7 @@ export default function Institute() {
               body="Diploma in Buddha Dhamma, International Theravāda Buddhist
               Missionary University, Yangon."
               name="Ven Kuliyāpitiye Saṅgharatana Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title=""
             />
           </Col>
@@ -158,7 +158,7 @@ export default function Institute() {
               in Myanmar. He is currently a Dhamma teacher at the
               well-celebrated Yuwa Mā Pariyatti Center, Ein Sein, Yangon."
               name="Ven Palmadulle Vijitānandābhivaṃsa Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage=""
               title="Vice Secretary of the IIT and Head of the Pāḷi, Sanskrit and
               Prakrit Department"
             />

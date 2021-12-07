@@ -287,6 +287,7 @@
     align-content: center;
     padding: 11px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .buttonLeftImage {
@@ -511,7 +512,6 @@
         margin-right: auto;
     }
 }
-
 
 @media (max-width: 420px) {
     .missionImageContainer {

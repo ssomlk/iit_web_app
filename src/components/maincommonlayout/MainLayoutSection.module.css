@@ -165,21 +165,6 @@
   }
 }
 
-/* @media (max-width: 575px) {
-  .headerBackground {
-    height: 280px;
-    background-position: 65% 100%;
-  }
-  .bannerTextOne {
-    font: normal normal bold 20px/15px Raleway;
-    text-align: center;
-  }
-  .bannerTextTwo {
-    font: normal normal bold 18px/25px Raleway;
-    text-align: center;
-  }
-} */
-
 @media (max-width: 575px) {
   .headerBackground {
     min-height: 330px;

@@ -362,4 +362,103 @@
 }
 
 @media (max-width: 768px) {
+    .aboutUsContainer {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 549px auto auto auto;
+        grid-template-areas:
+            "heading"
+            "mapInfo"
+            "map"
+            "missionHead"
+            "missiondetails";
+        grid-gap: 8px;
+    }
+
+    .subHeading1 {
+        text-align: center;
+    }
+
+    .mapTextInfo {
+        text-align: center;
+        margin: 0;
+    }
+
+    .mapInformationLink {
+        justify-self: center;
+        max-width: none;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .directionHeading {
+        font: normal normal bold 31px/36px Raleway;
+    }
+
+    .directionSubHeading {
+        font: normal normal bold 20px/24px Raleway;
+    }
+
+    .linkArrow {
+        max-width: 45px;
+    }
+
+    .mapIcon {
+        max-width: 105px;
+    }
+
+    .missionDetails {
+        grid-area: missiondetails;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            "briefing"
+            "moreInfo";
+        width: 100%;
+    }
+
+    .brefingText {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .mainHeader {
+        font: normal normal bold 24px/29px Raleway;
+    }
+
+    .aboutUsMainIntro {
+        max-width: none;
+        width: 100%;
+        font: normal normal normal 20px/24px Raleway;
+    }
+
+    .subHeading1 {
+        font: normal normal bold 22px/29px Raleway;
+    }
+
+    .mapTextInfo {
+        font: normal normal normal 20px/24px Raleway;
+        margin-bottom: 3%;
+    }
+
+    .directionHeading {
+        font: normal normal bold 22px/36px Raleway;
+    }
+
+    .directionSubHeading {
+        font: normal normal bold 20px/24px Raleway;
+    }
+
+    .subHeading2 {
+        font: normal normal bold 22px/29px Raleway;
+    }
+
+    .brefingText {
+        font: normal normal bold 20px/24px Raleway;
+        margin-bottom: 8%;
+    }
+
+    .missionText {
+        font: normal normal normal 20px/24px Raleway;
+    }
 }

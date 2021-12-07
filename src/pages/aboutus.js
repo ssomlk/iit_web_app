@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import MainLayoutSection from "../components/maincommonlayout/MainCommonLayoutSection";
-import OurFocusCardDeck from "../components/ourfocuscarddeck/OurFocusCardDeck";
 import AboutUsComponent from "../components/aboutUsComponent/aboutUsComponent";
 import { aboutUsList } from '../data/commonLayoutNavigationData';
 import NavigationCommonLayout from '../components/navigationcommonlayout/NavigationCommonLayout';
@@ -36,8 +35,6 @@ export default function AboutUs() {
 
       <NavigationCommonLayout navigationList={aboutUsList} />
       <AboutUsComponent />
-      <OurFocusCardDeck />
-
       <Footer />
     </div>
 

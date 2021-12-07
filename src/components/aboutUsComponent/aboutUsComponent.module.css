@@ -202,7 +202,6 @@
 }
 
 .ourFocusContainer {
-    /* max-width: 1920px;  */
     grid-area: focusContainer;
     display: grid;
     grid-template-areas:
@@ -320,6 +319,14 @@
     .missionText {
         font: normal normal normal 28px/44px Raleway;
     }
+
+    .ourFocusSubHeader {
+        font: normal normal bold 40px/47px Raleway;
+    }
+
+    .ourFocusSubHeader > .subHeaderText {
+        max-width: 65%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -358,6 +365,14 @@
 
     .directionSubHeading {
         font: normal normal bold 17/21px Raleway;
+    }
+
+    .ourFocusSubHeader {
+        font: normal normal bold 38px/45px Raleway;
+    }
+
+    .ourFocusSubHeader > .subHeaderText {
+        max-width: 70%;
     }
 }
 
@@ -419,9 +434,25 @@
     .brefingText {
         max-width: 100%;
     }
+
+    .ourFocusSubHeader {
+        font: normal normal bold 30px/35px Raleway;
+    }
+
+    .ourFocusSubHeader > .subHeaderText {
+        max-width: 75%;
+    }
 }
 
 @media (max-width: 575px) {
+    .rootContainer {
+        grid-template-columns: 5% 90% 5%;
+    }
+
+    .ourFocusContainer {
+        grid-template-columns: 5% 90% 5%;
+    }
+
     .mainHeader {
         font: normal normal bold 24px/29px Raleway;
     }
@@ -460,5 +491,23 @@
 
     .missionText {
         font: normal normal normal 20px/24px Raleway;
+    }
+
+    .ourFocusHeader {
+        font: normal normal bold 22px/29px Raleway;
+    }
+
+    .ourFocusSubHeader {
+        flex-wrap: wrap;
+        font: normal normal bold 20px/24px Raleway;
+    }
+
+    .ourFocusSubHeader > .subHeaderText {
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .ourFocusSubHeader > .sliderButtonContainer {
+        margin-right: auto;
     }
 }

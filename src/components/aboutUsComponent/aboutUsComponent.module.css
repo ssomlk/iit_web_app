@@ -255,11 +255,6 @@
     align-items: center;
 }
 
-.slider {
-    width: 90%;
-    height: 100%;
-}
-
 .card {
     margin-right: 2%;
     display: inline-block;

@@ -112,8 +112,6 @@ function AboutUsComponent() {
                 </div>
                 <div id="focusCardArea" className={styles.focusCardArea}>
                     <div className={styles.sliderContainer}>
-                        <div className={styles.slider}>
-
                             {cardInfo.map((data, index) => {
                                 return (
                                     <div key={index} className={styles.card}>
@@ -121,8 +119,6 @@ function AboutUsComponent() {
                                     </div>
                                 );
                             })}
-
-                        </div>
                     </div>
                 </div>
             </div>

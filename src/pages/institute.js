@@ -48,7 +48,7 @@ export default function Institute() {
               Missionary University, Yangon. Also undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Watagoda Maggavihari Thera"
-              profileImage=""
+              profileImage="/MaggavihariThero.webp"
               title="Vice-President of the IIT"
             />
           </Col>
@@ -61,7 +61,7 @@ export default function Institute() {
               advanced Abhidhamma courses for lay devotees in Colombo for over
               five years."
               name="Ven Matugama Dhammanisanti Thera"
-              profileImage="/dhammanisanthi_thero.jpg"
+              profileImage="/DhammanisanthiThero.webp"
               title=""
             />
           </Col>

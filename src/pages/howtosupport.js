@@ -69,7 +69,7 @@ export default function HowToSupport() {
           <Card>
             <Card.Img
               variant="top"
-              src="construction.JPG"
+              src="construction.webp"
               style={{ height: '100', width: '160' }}
             />
             <Card.Body>
@@ -92,7 +92,7 @@ export default function HowToSupport() {
           <Card>
             <Card.Img
               variant="top"
-              src="healthcare.jpg"
+              src="healthcare.webp"
               style={{ height: '100', width: '160' }}
             />
             <Card.Body>
@@ -109,7 +109,7 @@ export default function HowToSupport() {
             </Card.Footer> */}
           </Card>
           <Card>
-            <Card.Img variant="top" src="Administration.JPG" />
+            <Card.Img variant="top" src="Administration.webp" />
             <Card.Body>
               <Card.Title className="how-to-support-main-aspects">
                 Other Requisities

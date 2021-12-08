@@ -143,10 +143,10 @@ export default function HowToSupport() {
           <div className="how-to-support-how-to-donate-header">
             How to Donate
           </div>
-          <p className="how-to-support-donate-sub-header"> 
-            Devotees who wish to join this meritorious act can donate using the below Account details.
-            </p>
-
+          <p className="how-to-support-donate-sub-header">
+            Devotees who wish to join this meritorious act can donate using the
+            below Account details.
+          </p>
 
           <ul class="how-to-support-account-info">
             <li>Account Name: Kshemabhoomi Sansadaya </li>
@@ -157,9 +157,6 @@ export default function HowToSupport() {
             <li>Branch Code: 191</li>
             <li>SWIFT Code: BSAMLKLX</li>
           </ul>
-
-     
-
         </Container>
       </div>
 

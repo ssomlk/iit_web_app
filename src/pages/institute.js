@@ -138,7 +138,7 @@ export default function Institute() {
               body="Diploma in Buddha Dhamma, International Theravāda Buddhist
               Missionary University, Yangon."
               name="Ven Kuliyāpitiye Saṅgharatana Thera"
-              profileImage=""
+              profileImage="/SangarathanaThero.webp"
               title=""
             />
           </Col>

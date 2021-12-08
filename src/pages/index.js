@@ -41,17 +41,3 @@ export default function Home() {
     </div>
   );
 }
-
-// export async function getServerSideProps(context) {
-//   const userAgent = context.req.headers['user-agent'];
-//   const parser = new UAParser();
-//   parser.setUA(userAgent);
-//   const result = parser.getResult();
-//   const deviceType = (result.device && result.device.type) || 'desktop';
-//   console.log('>>>>>>>>>>>>>>>>', result);
-//   return {
-//     props: {
-//       deviceType,
-//     },
-//   };
-// }

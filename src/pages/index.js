@@ -9,7 +9,6 @@ import NewsAndEventsComponent from '../components/newsandevents/NewsAndEventsCom
 import Footer from '../components/footer/Footer';
 import GeneralFAQ from '../components/generalfaq/GeneralFAQ';
 import Testimonials from '../components/testimonials/Testimonials';
-import NewsAndEventsComponent2 from '../components/newsandevents/NewsAndEventsComponent2';
 
 export default function Home() {
   const { t, lang } = useTranslation();
@@ -35,22 +34,10 @@ export default function Home() {
       </div>
 
       <CardDeckComponent />
-      {/* <NewsAndEventsComponent /> */}
-      <NewsAndEventsComponent2 deviceType={'desktop'} />
+      <NewsAndEventsComponent />
       <Testimonials />
       <GeneralFAQ />
       <Footer />
     </div>
   );
-}
-
-export async function getServerSideProps(context) {
-  // const products = await fetch('https://fakestoreapi.com/products')
-  // .then(res=>res.json());
-
-  return {
-    props: {
-      //products
-    },
-  };
 }

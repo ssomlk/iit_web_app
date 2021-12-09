@@ -1,7 +1,12 @@
 .mainDiv {
   background-color: #faf4ed;
   padding-top: 78px;
-  padding-bottom: 100px;
+  padding-bottom: 110px;
+}
+
+.newEventsHeaderContainer {
+  align-items: center;
+  margin-bottom: 38px;
 }
 
 .mainText {
@@ -11,6 +16,24 @@
   color: #616057;
   margin-bottom: 0px;
   justify-content: flex-end;
+  width: 50%;
+}
+
+.pagination {
+  padding: 40px;
+}
+
+.paginationButton > a {
+  border-radius: 100% !important;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: #00000030;
 }
 
 .custSubTitle {
@@ -33,26 +56,6 @@
   font-size: 17px;
   font-family: 'Raleway';
   line-height: 20px;
-}
-
-.newEventsHeaderContainer {
-  margin-bottom: 38px;
-}
-
-.pagination {
-  padding: 40px;
-}
-
-.paginationButton > a {
-  border-radius: 100% !important;
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #ffffff;
-  background-color: #00000030;
 }
 
 .cardComponent {
@@ -116,4 +119,14 @@
   padding-bottom: 2px;
   margin-bottom: 10px;
   width: 75px;
+}
+
+.shsslkCardListCarousel ul li {
+  padding: 5px;
+}
+
+@media (max-width: 575px) {
+  .shsslkCardListCarousel ul li {
+    padding: 0px;
+  }
 }

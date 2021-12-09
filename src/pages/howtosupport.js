@@ -69,7 +69,7 @@ export default function HowToSupport() {
           <Card>
             <Card.Img
               variant="top"
-              src="construction.JPG"
+              src="construction.webp"
               style={{ height: '100', width: '160' }}
             />
             <Card.Body>
@@ -92,7 +92,7 @@ export default function HowToSupport() {
           <Card>
             <Card.Img
               variant="top"
-              src="healthcare.jpg"
+              src="healthcare.webp"
               style={{ height: '100', width: '160' }}
             />
             <Card.Body>
@@ -109,7 +109,7 @@ export default function HowToSupport() {
             </Card.Footer> */}
           </Card>
           <Card>
-            <Card.Img variant="top" src="Administration.JPG" />
+            <Card.Img variant="top" src="Administration.webp" />
             <Card.Body>
               <Card.Title className="how-to-support-main-aspects">
                 Other Requisities
@@ -143,10 +143,10 @@ export default function HowToSupport() {
           <div className="how-to-support-how-to-donate-header">
             How to Donate
           </div>
-          <p className="how-to-support-donate-sub-header"> 
-            Devotees who wish to join this meritorious act can donate using the below Account details.
-            </p>
-
+          <p className="how-to-support-donate-sub-header">
+            Devotees who wish to join this meritorious act can donate using the
+            below Account details.
+          </p>
 
           <ul class="how-to-support-account-info">
             <li>Account Name: Kshemabhoomi Sansadaya </li>
@@ -157,9 +157,6 @@ export default function HowToSupport() {
             <li>Branch Code: 191</li>
             <li>SWIFT Code: BSAMLKLX</li>
           </ul>
-
-     
-
         </Container>
       </div>
 

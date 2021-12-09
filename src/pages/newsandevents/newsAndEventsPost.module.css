@@ -1,0 +1,102 @@
+.newsAndEventsPostTitle {
+  text-align: center;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  opacity: 1;
+}
+
+.newsAndEventsPostSubTitle {
+  text-align: right;
+  font: normal normal 600 24px/29px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  opacity: 0.61;
+}
+
+.newsAndEventsPostPara {
+  text-align: left;
+  font: normal normal normal 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
+  width: 100%;
+}
+
+.typeEvent {
+  background-color: #ff9100;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  width: 75px;
+}
+
+.typeNews {
+  background-color: #1952c5;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  width: 75px;
+}
+
+.newsAndEventsPostRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsAndEventsPostRowImg {
+  width: 50%;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.newsAndEventsPostRowText{
+  flex-direction: row;
+}
+
+
+@media (max-width: 575px) {
+  .newsAndEventsPostTitle {
+    text-align: center;
+    font: normal normal bold 20px/25px Raleway;
+  }
+
+  .newsAndEventsPostSubTitle {
+    text-align: center;
+    font: normal normal 600 14px/19px Raleway;
+  }
+
+  .newsAndEventsPostRowImg {
+    width: 100%;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .newsAndEventsPostRow {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsAndEventsPostPara {
+    text-align: left;
+    font: normal normal normal 18px/25px Raleway;
+    letter-spacing: 0px;
+    color: #616057;
+    opacity: 1;
+    width: 100%;
+  }
+  
+  
+}

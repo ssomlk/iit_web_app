@@ -1,7 +1,18 @@
+.relativeClass {
+  position: relative;
+}
+
 .mainDiv {
   background-color: #faf4ed;
-  padding-top: 78px;
-  padding-bottom: 110px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 575px) {
+  .mainDiv {
+    padding-top: 50px;
+    padding-bottom: 125px;
+  }
 }
 
 .newEventsHeaderContainer {
@@ -16,7 +27,12 @@
   color: #616057;
   margin-bottom: 0px;
   justify-content: flex-end;
-  width: 50%;
+}
+
+@media (max-width: 575px) {
+  .mainText {
+    text-align: center;
+  }
 }
 
 .pagination {
@@ -122,7 +138,7 @@
 }
 
 .shsslkCardListCarousel ul li {
-  padding: 5px;
+  padding: 10px;
 }
 
 @media (max-width: 575px) {

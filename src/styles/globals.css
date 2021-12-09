@@ -530,7 +530,7 @@ p {
   margin-bottom: 40px;
 }
 
-.how-to-support-donate-sub-header{
+.how-to-support-donate-sub-header {
   color: #5d5d5d;
   font: normal normal bold 30px/39px Raleway;
   margin-bottom: 40px;
@@ -540,19 +540,18 @@ p {
   text-align: center;
 }
 
-.how-to-support-quote{
+.how-to-support-quote {
   font: normal normal normal 41px/49px Raleway;
   letter-spacing: 0px;
   opacity: 0.73;
   color: #5d5d5d;
-
 }
 
-.how-to-support-account-info{
+.how-to-support-account-info {
   font: normal normal normal 26px/38px Raleway;
-letter-spacing: 0px;
-color: #4f4437;
-opacity: 1;
+  letter-spacing: 0px;
+  color: #4f4437;
+  opacity: 1;
 }
 
 /* End of How to Support styles */

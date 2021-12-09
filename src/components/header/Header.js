@@ -35,7 +35,7 @@ function Header() {
                         <Nav.Link onClick={() => router.push('/institute')}>Institute</Nav.Link>
                         <Nav.Link onClick={() => router.push('/education')}>Education</Nav.Link>
                         <Nav.Link onClick={() => router.push('#meditation')}>Meditation</Nav.Link>
-                        <Nav.Link onClick={() => router.push('#news')}>News & Events</Nav.Link>
+                        <Nav.Link onClick={() => router.push('/newsandevents')}>News & Events</Nav.Link>
                         <Nav.Link onClick={() => router.push('#publications')}>Publications</Nav.Link>
                         <Nav.Link onClick={() => router.push('/contactus')}>Contact Us</Nav.Link>
                         <Nav.Link onClick={() => router.push('/howtosupport')}>

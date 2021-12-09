@@ -45,7 +45,7 @@ const NewsAndEventsComponent2 = () => {
         </Card.Subtitle>
         <Card.Title className={styles.custTitle}>{card.title}</Card.Title>
         <Card.Text className={styles.custDescription}>
-          {card.description}
+          {`${card.description.slice(0, 200)}...`}
         </Card.Text>
         <Card.Link href="#">Read more...</Card.Link>
       </Card>

@@ -10,122 +10,51 @@ import { Chrono } from 'react-chrono';
 import newsAndEvents from '../data/newsAndEventsData.json';
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
-import { items, newsItems } from '../data/aboutUsData';
+import { eventItems } from '../data/aboutUsData';
 
 export default function NewsAndEvents() {
   const { t, lang } = useTranslation();
   const router = useRouter();
 
   const [arrayNews, setArrayNews] = useState([]);
+  const [arrayEvents, setArrayEvents] = useState([]);
 
-  // const [arrayEvents, setArrayEvents] = useState([]);
 
-  //  console.log(items);
-  // let newsArray =[];
+  useEffect(() => {
+    let newsArray = [];
+    let eventsArray = [];
 
-  // useEffect(() => {
-  //    newsAndEvents
-  //     .map((element, index) => {
-  //       if (element.type.indexOf('News') > -1) {
-  //         // const item = {};
-  //         // item.title = element.date;
-  //         // item.cardTitle = element.title;
-  //         // item.cardDetailedText = element.description;
-  //         // item.dateStr = element.dateStr;
-  //         // item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
-  //         // item.media = {
-  //         //   type: 'IMAGE',
-  //         //   source: {
-  //         //     url: element.image,
-  //         //   },
-  //         // };
-  //         newsArray.push(element);
-  //       }
-  //     })
-  //     .filter((a) => a != null);
+    newsAndEvents
+      .map((element, index) => {
+        if (element.type.indexOf('News') > -1) {
+          newsArray.push(element);
+        } else {
 
-  //   // console.log('>>>>>>>>>>> ', newsArray);
+          let item = {};
+          item.title = element.date;
+          item.cardTitle = element.title;
+          item.cardDetailedText = element.description;
+          item.dateStr = element.dateStr;
+          item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
+          item.media = {
+            type: 'IMAGE',
+            source: {
+              url: element.image,
+            },
+          };
+          eventsArray.push(item);
+        }
+      })
+      .sort(function (a, b) {
+          return new Date(b.dateStr) - new Date(a.dateStr);
+        });
 
-  //   setArrayNews(newsItems);
+    setArrayNews(newsArray);
+    setArrayEvents(eventsArray);
 
-  //   // console.log(item);
-  //   // setArrayEvents((el) => {
-  //   //   let arr =[];
-  //   //   if(el.length > 0){
-  //   //     arr = [...el, item];
-  //   //   }
-  //   //   else {
-  //   //       arr = [item];
-  //   //   }
-  //   //   // console.log(arr);
-  //   //   return arr;
-  //   // });
-  //   // setArrayEvents([
-  //   //   {
-  //   //     title: 'May 1940',
-  //   //     cardTitle: 'Dunkirk',
-  //   //     url: 'http://www.history.com',
-  //   //     cardSubtitle:
-  //   //       'Men of the British Expeditionary Force (BEF) wade out to..',
-  //   //     cardDetailedText:
-  //   //       'Men of the British Expeditionary Force (BEF) wade out to..',
-  //   //     media: {
-  //   //       type: 'IMAGE',
-  //   //       source: {
-  //   //         url: 'http://someurl/image.jpg',
-  //   //       },
-  //   //     },
-  //   //   },
-  //   // ]);
-  //   // setArrayNews((el) => {
-  //   //   // console.log(el);
-  //   //   // let arr =[];
-  //   //   // if(el.length > 0){
-  //   //   //   arr = [...el, element];
-  //   //   // }
-  //   //   // else {
-  //   //   //     arr = [element];
-  //   //   // }
-  //   //   // return arr;
-  //   // });
-  // }, []);
+  }, []);
 
-  console.log('^^^^^^^^^^^^^ ', newsItems);
-
-  // console.log('****', arrayEvents);
-  // console.log("****", arrayEvents);
-
-  // const items = [
-  //   {
-  //     title: 'May 1940',
-  //     cardTitle: 'Dunkirk',
-  //     url: 'http://www.history.com',
-  //     cardSubtitle:
-  //       'Men of the British Expeditionary Force (BEF) wade out to..',
-  //     cardDetailedText:
-  //       'Men of the British Expeditionary Force (BEF) wade out to..',
-  //     media: {
-  //       type: 'IMAGE',
-  //       source: {
-  //         url: 'http://someurl/image.jpg',
-  //       },
-  //     },
-  //   },
-  // ];
-
-  // console.log(arrayNews);
-
-  // console.log("*************", arrayEvents);
-  // console.log("*************", arrayNews);
-
-  // function setArrayNews(){
-
-  //console.log(arrayNews);
-
-  // var newArr = arrayEvents.sort(function (a, b) {
-  //   return new Date(b.dateStr) - new Date(a.dateStr);
-  // });
-  // }
+ 
 
   return (
     <div>
@@ -145,7 +74,7 @@ export default function NewsAndEvents() {
         <div className="newsandevents-heading">Events Timeline</div>
 
         <Chrono
-          items={items}
+          items={eventItems}
           theme={{
             primary: '#532F00',
             secondary: '#FFD607',
@@ -157,47 +86,41 @@ export default function NewsAndEvents() {
 
         <div className="newsandevents-heading">News</div>
 
-<div id="test"></div>
+        {arrayNews.map((element, index) => {
+          return (
+            <Row style={{marginBottom:'25px'}} key={index}>
+              <Col>
+                <div className="newsandevents-news-item">
+                  <div className="newsandevents-news-item-card-body">
+                    <strong className="newsandevents-news-item-category">
+                      {element.category}
+                    </strong>
+                    <div className="newsandevents-news-item-card-title">
+                      {element.title}
+                    </div>
+                    <div className="newsandevents-news-item-card-date">
+                      {element.date}
+                    </div>
 
-     
+                    <p className="newsandevents-news-item-card-description mb-auto">
+                      {element.description}
+                    </p>
+                    <a href="#">Continue reading</a>
+                  </div>
 
-        {/* {newsItems.forEach((element) => {
-          console.log('.............', element);
-      
-
-          // <Row>
-          //   <Col>
-          //     <div className="newsandevents-news-item">
-          //       <div className="newsandevents-news-item-card-body">
-          //         <strong className="newsandevents-news-item-category">
-          //           {element.category}
-          //         </strong>
-          //         <div className="newsandevents-news-item-card-title">
-          //           {element.title}
-          //         </div>
-          //         <div className="newsandevents-news-item-card-date">
-          //           {element.date}
-          //         </div>
-
-          //         <p className="newsandevents-news-item-card-description mb-auto">
-          //           {element.description}
-          //         </p>
-          //         <a href="#">Continue reading</a>
-          //       </div>
-
-          //       <img
-          //         class="card-img-right flex-auto d-none d-md-block"
-          //         data-src="holder.js/200x250?theme=thumb"
-          //         alt="Thumbnail [200x250]"
-          //         style={{ width: '200px', height: '250px' }}
-          //         src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17d9fc72576%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17d9fc72576%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-          //         data-holder-rendered="true"
-          //       />
-          //     </div>
-          //   </Col>
-          // </Row>;
+                  <img
+                    className="card-img-right flex-auto d-none d-md-block"
+                    data-src="holder.js/200x250?theme=thumb"
+                    alt="Thumbnail [200x250]"
+                    style={{ width: 'auto', height: 'auto' }}
+                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17d9fc72576%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17d9fc72576%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                    data-holder-rendered="true"
+                  />
+                </div>
+              </Col>
+            </Row>
+          );
         })}
-        */}
 
         {/* <div id="test"></div> */}
 

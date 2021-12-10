@@ -19,42 +19,37 @@ export default function NewsAndEvents() {
   const [arrayNews, setArrayNews] = useState([]);
   const [arrayEvents, setArrayEvents] = useState([]);
 
-
   useEffect(() => {
     let newsArray = [];
     let eventsArray = [];
 
-    newsAndEvents
-      .map((element, index) => {
-        if (element.type.indexOf('News') > -1) {
-          newsArray.push(element);
-        } else {
+    newsAndEvents.map((element, index) => {
+      if (element.type.indexOf('News') > -1) {
+        newsArray.push(element);
+      } else {
+        let item = {};
+        item.title = element.date;
+        item.cardTitle = element.title;
+        item.cardDetailedText = element.description;
+        item.dateStr = element.dateStr;
+        item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
+        item.media = {
+          type: 'IMAGE',
+          source: {
+            url: element.image,
+          },
+        };
+        eventsArray.push(item);
+      }
+    });
 
-          let item = {};
-          item.title = element.date;
-          item.cardTitle = element.title;
-          item.cardDetailedText = element.description;
-          item.dateStr = element.dateStr;
-          item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
-          item.media = {
-            type: 'IMAGE',
-            source: {
-              url: element.image,
-            },
-          };
-          eventsArray.push(item);
-        }
-      })
-      .sort(function (a, b) {
-          return new Date(b.dateStr) - new Date(a.dateStr);
-        });
+    eventsArray.sort(function (a, b) {
+      return new Date(b.dateStr) - new Date(a.dateStr);
+    })
 
     setArrayNews(newsArray);
     setArrayEvents(eventsArray);
-
   }, []);
-
- 
 
   return (
     <div>
@@ -87,8 +82,9 @@ export default function NewsAndEvents() {
         <div className="newsandevents-heading">News</div>
 
         {arrayNews.map((element, index) => {
+          let href = '/newsandevents/' + Number(index + 1);
           return (
-            <Row style={{marginBottom:'25px'}} key={index}>
+            <Row style={{ marginBottom: '25px' }} key={index}>
               <Col>
                 <div className="newsandevents-news-item">
                   <div className="newsandevents-news-item-card-body">
@@ -105,7 +101,7 @@ export default function NewsAndEvents() {
                     <p className="newsandevents-news-item-card-description mb-auto">
                       {element.description}
                     </p>
-                    <a href="#">Continue reading</a>
+                    <a href={href}>Continue reading</a>
                   </div>
 
                   <img

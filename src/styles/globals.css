@@ -84,6 +84,14 @@ p {
   max-width: 53px;
 }
 
+.course-icon-max-width-99 {
+  max-width: 99px;
+}
+
+.course-item-icon-max-width-49 {
+  max-width: 49px;
+}
+
 .width-50-per {
   display: flex;
   width: 50%;
@@ -558,7 +566,7 @@ p {
 
 /* News And Events styles */
 
-.timeline-main-wrapper{
+.timeline-main-wrapper {
   margin-bottom: 20px;
 }
 
@@ -569,7 +577,6 @@ p {
   color: #5d5d5d;
   opacity: 1;
   margin-bottom: 40px;
-
 }
 
 .timeline-item-title {
@@ -598,7 +605,7 @@ div.card-description > p {
   text-align: justify;
 }
 
-.card-media-wrapper{
+.card-media-wrapper {
   width: 100%;
 }
 
@@ -611,7 +618,6 @@ div.card-description > p {
     letter-spacing: 1px;
     text-align: justify;
     font-size: 15px !important;
-
   }
   .css-wdjp2-MediaDetailsWrapper {
     width: 100% !important;
@@ -620,11 +626,11 @@ div.card-description > p {
   .timeline-item-title {
     font-size: 1.3rem !important;
   }
-  .newsandevents-heading{
+  .newsandevents-heading {
     text-align: left;
     font: normal normal bold 20px/29px Raleway;
     letter-spacing: 0px;
-    color: #5D5D5D;
+    color: #5d5d5d;
     opacity: 1;
     margin-bottom: 20px;
   }

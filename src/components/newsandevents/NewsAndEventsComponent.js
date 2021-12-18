@@ -5,7 +5,7 @@ import styles from './NewsAndEvents.module.css';
 import Carousel from 'react-multi-carousel';
 import { CustomButtonGroup } from '../customarrow/CustomArrows';
 
-const NewsAndEventsComponent2 = () => {
+const NewsAndEventsComponent = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -74,4 +74,5 @@ const NewsAndEventsComponent2 = () => {
     </div>
   );
 };
-export default NewsAndEventsComponent2;
+
+export default NewsAndEventsComponent;

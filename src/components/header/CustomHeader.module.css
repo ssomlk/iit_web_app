@@ -1,13 +1,17 @@
 .navBarContainer {
   grid-template-columns: repeat(1, 100%);
-  grid-template-areas: "a";
+  grid-template-areas: 'a';
   padding-left: 10.25%;
   padding-right: 9.8%;
 }
 
+.custBrand {
+  cursor: pointer;
+}
+
 .headerContainer {
   display: grid;
-  grid-template-areas: "a b";
+  grid-template-areas: 'a b';
   grid-template-columns: 42% 58%;
   text-transform: uppercase;
   font-weight: 700;

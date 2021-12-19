@@ -1,4 +1,4 @@
-.mainDiv {
+.eduMainDiv {
   padding-bottom: 90px;
 }
 
@@ -47,8 +47,9 @@
   padding-right: 30px;
 }
 
-.shsslkCardListCarousel {
-  /* margin-bottom: 75px; */
+.shsslkCardListCarousel ul li {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .courseName {
@@ -91,7 +92,7 @@
 
 .courseDetailListItem {
   display: flex;
-  margin-bottom: 36px;
+  margin-bottom: 25px;
 }
 
 .courseIcon {
@@ -105,9 +106,27 @@
   font-size: 20px;
   line-height: 29px;
   color: #040403;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
+.courseListContainer ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.courseListContainer ul li::before {
+  content: '';
+  background: #ffffff 0% 0% no-repeat padding-box;
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 100%;
+  border: 1px solid #707070;
+  margin-left: -1em;
+  margin-right: 8px;
+}
+
+.courseListContainer ul li,
 .detailDesc {
   font-family: 'Raleway';
   font-weight: 500;
@@ -115,4 +134,8 @@
   line-height: 26px;
   color: #040403;
   margin-bottom: 0;
+}
+
+.courseListContainer ul li {
+  margin-bottom: 10px;
 }

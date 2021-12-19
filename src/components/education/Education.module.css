@@ -1,0 +1,118 @@
+.mainDiv {
+  padding-bottom: 90px;
+}
+
+.coursesHeading {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #5d5d5d;
+  margin-bottom: 49px;
+  letter-spacing: 0px;
+}
+
+.relativeClass {
+  position: relative;
+}
+
+.eductionHeaderContainer {
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.mainText {
+  text-align: left;
+  font: normal normal 700 32px/32px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  margin-bottom: 0px;
+  justify-content: flex-end;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (max-width: 575px) {
+  .mainText {
+    text-align: center;
+  }
+}
+
+.cardBody {
+  width: 32%;
+  border-radius: 29px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.shsslkCardListCarousel {
+  /* margin-bottom: 75px; */
+}
+
+.courseName {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.smallText {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.courseHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.courseDescription {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #040403;
+  margin-bottom: 30px;
+}
+
+.courseDetailList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.courseDetailListItem {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.courseIcon {
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.detailTitle {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #040403;
+  margin-bottom: 0;
+}
+
+.detailDesc {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #040403;
+  margin-bottom: 0;
+}

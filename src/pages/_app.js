@@ -4,6 +4,7 @@ import ProgressBar from '@badrap/bar-of-progress';
 
 import { store } from '../app/store';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-multi-carousel/lib/styles.css';
 import '../styles/globals.css';
 import SSRProvider from 'react-bootstrap/SSRProvider';
 import { useEffect, useState } from 'react';

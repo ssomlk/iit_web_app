@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row, Card, Pagination } from 'react-bootstrap';
+import { Container, Row, Card } from 'react-bootstrap';
 import newsAndEvents from '../../data/newsAndEventsData.json';
 import styles from './NewsAndEvents.module.css';
 import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import { CustomButtonGroup } from '../customarrow/CustomArrows';
 
-const NewsAndEventsComponent2 = () => {
+const NewsAndEventsComponent = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -45,7 +45,7 @@ const NewsAndEventsComponent2 = () => {
         </Card.Subtitle>
         <Card.Title className={styles.custTitle}>{card.title}</Card.Title>
         <Card.Text className={styles.custDescription}>
-          {card.description}
+          {`${card.description.slice(0, 200)}...`}
         </Card.Text>
         <Card.Link href="#">Read more...</Card.Link>
       </Card>
@@ -54,23 +54,19 @@ const NewsAndEventsComponent2 = () => {
 
   return (
     <div className={styles.mainDiv}>
-      <Container>
+      <Container className={styles.relativeClass}>
         <Row className={styles.newEventsHeaderContainer}>
-          <p className={styles.mainText}>News and Events</p>
-          <Pagination className={styles.mainText}>
-            <Pagination.Prev className={styles.paginationButton} />
-            <Pagination.Next className={styles.paginationButton} />
-          </Pagination>
+          <span className={styles.mainText}>News and Events</span>
         </Row>
         <Carousel
           className={styles.shsslkCardListCarousel}
           ssr
-          deviceType="desktop"
           itemClass="image-item"
           responsive={responsive}
           infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={8000}
+          arrows={false}
+          customButtonGroup={<CustomButtonGroup />}
+          renderButtonGroupOutside={true}
         >
           {newsAndEvents.map(renderCard)}
         </Carousel>
@@ -78,4 +74,5 @@ const NewsAndEventsComponent2 = () => {
     </div>
   );
 };
-export default NewsAndEventsComponent2;
+
+export default NewsAndEventsComponent;

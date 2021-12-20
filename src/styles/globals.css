@@ -84,6 +84,14 @@ p {
   max-width: 53px;
 }
 
+.course-icon-max-width-99 {
+  max-width: 99px;
+}
+
+.course-item-icon-max-width-49 {
+  max-width: 49px;
+}
+
 .width-50-per {
   display: flex;
   width: 50%;

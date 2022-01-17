@@ -75,7 +75,7 @@ export default function NewsAndEvents() {
         <Header />
         <MainLayoutSection
           title="News and Events"
-          description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
+          description="Be informed of our wholesome activities. Join, Rejoice, and Accumulate Great Merits."
           photo="/one-buddha-gold-temple-thailand.png"
           backgroundImg="url(/Ellipse-4.svg)"
         />
@@ -83,11 +83,7 @@ export default function NewsAndEvents() {
       <Container>
         {/* <NavigationCommonLayout navigationList={instituteList} /> */}
 
-        <div
-         className="newsandevents-heading"
-        >
-          Events Timeline
-        </div>
+        <div className="newsandevents-heading">Events Timeline</div>
         <Chrono
           items={newArr}
           theme={{
@@ -99,11 +95,7 @@ export default function NewsAndEvents() {
           }}
         />
 
-        <div
-        className="newsandevents-heading"
-        >
-          News
-        </div>
+        <div className="newsandevents-heading">News</div>
       </Container>
       <Footer />
     </div>

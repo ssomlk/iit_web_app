@@ -23,27 +23,25 @@
 }
 
 .intAcademicAuthorBody {
-    text-align: left;
-    font: normal normal 400 20px/35px Raleway;
-    letter-spacing: 0px;
-    color: #616057;
-    opacity: 1;
+  text-align: left;
+  font: normal normal 400 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
 }
 
-.intAcademicAuthorTitle{
-    text-align: left;
-    font: normal normal 600 24px/29px Raleway;
-    letter-spacing: 0px;
-    color: #202020;
-    opacity: .61;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  
+.intAcademicAuthorTitle {
+  text-align: left;
+  font: normal normal 600 24px/29px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  opacity: 0.61;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-
-.instAcademicProfileSubSontainer{
-  margin-bottom: 120px;;
+.instAcademicProfileSubSontainer {
+  margin-bottom: 100px;
 }
 
 @media (max-width: 575px) {
@@ -51,7 +49,7 @@
     font: normal normal bold 20px/25px Raleway;
   }
 
-  .instAcademicProfileSubSontainer{
-    margin-bottom: 50px;;
+  .instAcademicProfileSubSontainer {
+    margin-bottom: 50px;
   }
 }

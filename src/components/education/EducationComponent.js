@@ -54,6 +54,16 @@ function EducationComponent() {
 
   return (
     <div className={styles.eduMainDiv}>
+      <Container>
+        <div className={styles.eduIntroduction}>
+          <p>
+            Comprehensive studies of Buddhist scriptures pave the foundation for
+            the prolongation of the Buddha Sāsana (dispensation). IIT capacitate
+            monks capable in attaining their own liberation, guiding others
+            towards it and prolonging the dispensation with highest erudition.
+          </p>
+        </div>
+      </Container>
       <Container className={styles.relativeClass}>
         <Row className={styles.eductionHeaderContainer}>
           <span className={styles.mainText}>Courses Conducted</span>
@@ -312,9 +322,7 @@ function EducationComponent() {
               that focus upon extensive and comprehensive studies on scriptures
               especially following ancient methods of interpretation preserved
               in Myanmar. There are few such courses based on the subjects
-              studied. For instance, course for studying the entire Vinaya
-              Piṭaka, course for studying the entire Abhidhamma Piṭaka and so
-              forth.
+              studied.
             </div>
             <div className={styles.courseDetailListContainer}>
               <ul className={styles.courseDetailList}>
@@ -355,7 +363,7 @@ function EducationComponent() {
                     </ul>
                   </div>
                 </li>
-                <li className={styles.courseDetailListItem}>
+                {/* <li className={styles.courseDetailListItem}>
                   <img
                     className={`d-block w-100 course-item-icon-max-width-49 ${styles.courseIcon}`}
                     src="/Practice.svg"
@@ -368,7 +376,7 @@ function EducationComponent() {
                       History of the Sāsana, English and few more
                     </p>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </Card>

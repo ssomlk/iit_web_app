@@ -1,172 +1,172 @@
 .mainDiv {
-    background-color: #044884;
-    padding: 1.6% 15% 1.6% 15%;
+  background-color: #044884;
+  padding: 1.6% 15% 1.6% 15%;
 }
 
 .instituteHeading {
-    color: white;
-    /* color: var(--blue); */
-    text-align: left;
-    font: normal normal bold 19px/19px var(--global-font-family);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    opacity: 1;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+  color: white;
+  /* color: var(--blue); */
+  text-align: left;
+  font: normal normal bold 19px/19px var(--global-font-family);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .footerIcons {
-    text-align: right;
+  text-align: right;
 }
 
 @media (max-width: 575px) {
-    .instituteHeading {
-        text-align: center;
-        letter-spacing: 2px;
-        padding-bottom: 2%;
-    }
+  .instituteHeading {
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 2%;
+  }
 
-    .footerIcons {
-        text-align: center !important;
-        margin-bottom: 7%;
-    }
+  .footerIcons {
+    text-align: center !important;
+    margin-bottom: 7%;
+  }
 }
 
 .hrLine {
-    color: white;
-    height: 50px;
-    background-color: white;
-    border: 2px solid #ffffff;
-    opacity: 1;
+  color: white;
+  height: 50px;
+  background-color: white;
+  border: 2px solid #ffffff;
+  opacity: 1;
 }
 
 @media (max-width: 575px) {
-    .hrLine {
-        display: none;
-    }
+  .hrLine {
+    display: none;
+  }
 }
 
 .removePaddingStyle {
-    padding-right: 0px;
-    padding-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .ulPaddingStyle {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 .liMain {
-    list-style-type: none;
-    opacity: 100%;
-    text-align: left;
-    font: bold normal normal 14px/34px var(--global-font-family);
-    letter-spacing: 0px;
-    width: 100%;
+  list-style-type: none;
+  opacity: 100%;
+  text-align: left;
+  font: bold normal normal 14px/34px var(--global-font-family);
+  letter-spacing: 0px;
+  width: 100%;
 }
 
 .liSub {
-    list-style-type: none;
-    opacity: 55%;
-    text-align: left;
-    font: normal normal normal 14px/34px var(--global-font-family);
-    letter-spacing: 0px;
-    width: 100%;
+  list-style-type: none;
+  opacity: 55%;
+  text-align: left;
+  font: normal normal normal 14px/34px var(--global-font-family);
+  letter-spacing: 0px;
+  width: 100%;
 }
 
 @media (max-width: 575px) {
-    .ulPaddingStyle {
-        padding-left: 0px;
-    }
-    .liMain {
-        text-align: center;
-    }
-    .liSub {
-        display: none;
-    }
+  .ulPaddingStyle {
+    padding-left: 0px;
+  }
+  .liMain {
+    text-align: center;
+  }
+  .liSub {
+    display: none;
+  }
 }
 
 .supportBtn {
-    border-radius: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
 }
 
 .liContactUs {
-    list-style-type: none;
-    opacity: 100%;
-    text-align: left;
-    font: bold normal normal 14px/34px var(--global-font-family);
-    letter-spacing: 0px;
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 10px;
+  list-style-type: none;
+  opacity: 100%;
+  text-align: left;
+  font: bold normal normal 14px/34px var(--global-font-family);
+  letter-spacing: 0px;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .contactDetails {
-    opacity: 55%;
-    font: normal normal normal 14px var(--global-font-family);
-    letter-spacing: 0px;
-    width: 100%;
+  opacity: 55%;
+  font: normal normal normal 14px var(--global-font-family);
+  letter-spacing: 0px;
+  width: 100%;
 }
 
 .lastLine {
-    text-align: left;
-    font: normal normal normal 14px var(--global-font-family);
-    letter-spacing: 0px;
-    background-color: #044884;
+  text-align: left;
+  font: normal normal normal 14px var(--global-font-family);
+  letter-spacing: 0px;
+  background-color: #044884;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-top: 70px;
+}
+
+.lastLineForMobile {
+  display: none;
+}
+
+.copyright {
+  opacity: 55%;
+  font: normal normal normal 14px var(--global-font-family);
+  text-align: right;
+  padding-right: 0px;
+  margin-right: 0px;
+  /* letter-spacing: 0px; */
+  /* width:100%; */
+}
+
+@media (max-width: 575px) {
+  .liContactUs {
+    display: none;
+  }
+
+  .contactDetails {
+    padding-top: 5%;
+    padding-bottom: 0px;
+  }
+  .supportBtn {
+    text-align: center;
+  }
+
+  .lastLine {
+    margin-top: 5%;
+    display: none;
+  }
+
+  .textColorWhite {
+    font: normal normal normal 15px/25px Raleway;
     color: white;
     padding-left: 0px;
     padding-right: 0px;
     margin-right: 0px;
-    margin-top: 70px;
-}
+  }
 
-.lastLineForMobile {
-    display: none;
-}
-
-.copyright {
-    opacity: 55%;
-    font: normal normal normal 14px var(--global-font-family);
-    text-align: right;
-    padding-right: 0px;
-    margin-right: 0px;
-    /* letter-spacing: 0px; */
-    /* width:100%; */
-}
-
-@media (max-width: 575px) {
-    .liContactUs {
-        display: none;
-    }
-
-    .contactDetails {
-        padding-top: 5%;
-        padding-bottom: 0px;
-    }
-    .supportBtn {
-        text-align: center;
-    }
-
-    .lastLine {
-        margin-top: 5%;
-        display: none;
-    }
-
-    .textColorWhite {
-        font: normal normal normal 15px/25px Raleway;
-        color: white;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-
-    .textOpacity {
-        opacity: 51%;
-        margin-top: 6%;
-    }
+  .textOpacity {
+    opacity: 51%;
+    margin-top: 6%;
+  }
 }
 
 @media (min-width: 576px) {
-    .textColorWhite {
-        display: none;
-    }
+  .textColorWhite {
+    display: none;
+  }
 }

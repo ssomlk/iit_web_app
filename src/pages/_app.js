@@ -10,7 +10,7 @@ import SSRProvider from 'react-bootstrap/SSRProvider';
 import { useEffect, useState } from 'react';
 
 const progress = new ProgressBar({
-  size: 4,
+  size: 3,
   color: '#966304',
   className: '',
   delay: 100,

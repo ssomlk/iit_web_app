@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Container } from 'react-bootstrap';
 import styles from './MeditationComponent.module.css';
-import OurFocusCardComponent from '../ourFocusCardComponent/ourFocusCardComponent';
+import VideoCardComponent from '../videoCardComponent/videoCardComponent';
 import cardInfo from '../../data/ourFocusData.json';
 import Slider from '../slider/slider';
 
@@ -9,7 +9,7 @@ function MeditationComponent() {
   // Create an array for card components to view in
   // card slider.
   const cards = cardInfo.map((data, index) => {
-    return <OurFocusCardComponent key={index} cardData={data} />;
+    return <VideoCardComponent key={index} cardData={data} />;
   });
 
   // Reference to the Slider component

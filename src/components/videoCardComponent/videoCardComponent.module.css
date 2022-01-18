@@ -1,0 +1,127 @@
+.mainContainer {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 418px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 44px;
+  margin: 5px;
+}
+
+.ourFocusCardContainer {
+  /* display: grid;
+  grid-template-areas:
+    'focusCardImage'
+    'focusCardHeader'
+    'focusCardDetails';
+  grid-template-columns: 100%;
+  grid-template-rows: 43% 12% auto; */
+  height: 100%;
+  /* background: url('/prolonging.png') no-repeat center center; */
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 44px;
+}
+
+.colorOverlay {
+  height: 100%;
+  border-radius: 44px;
+  background-color: #00000033;
+}
+
+.ourFocusImageContainer {
+  grid-area: focusCardImage;
+  max-width: 392px;
+  justify-self: center;
+  align-self: center;
+}
+
+.ourFocusImage {
+  width: 100%;
+  height: auto;
+}
+
+.ourFocusHeader {
+  grid-area: focusCardHeader;
+  text-align: left;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: initial;
+}
+
+.ourFocusDetails {
+  grid-area: focusCardDetails;
+  text-align: left;
+  font: normal normal normal 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: initial;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    height: 554px;
+    width: 400px;
+  }
+
+  .ourFocusImageContainer {
+    max-width: 344px;
+  }
+
+  .ourFocusHeader {
+    font: normal normal bold 28px/33px Raleway;
+  }
+
+  .ourFocusDetails {
+    font: normal normal normal 18px/33px Raleway;
+  }
+}
+
+@media (max-width: 575px) {
+  .mainContainer {
+    height: 540px;
+    width: 390px;
+  }
+
+  .ourFocusImageContainer {
+    max-width: 335px;
+  }
+
+  .ourFocusHeader {
+    font: normal normal bold 26px/26px Raleway;
+  }
+
+  .ourFocusDetails {
+    font: normal normal normal 16px/24px Raleway;
+  }
+}
+
+@media (max-width: 420px) {
+  .mainContainer {
+    height: 432px;
+    width: 310px;
+  }
+
+  .ourFocusImageContainer {
+    max-width: 268px;
+  }
+
+  .ourFocusHeader {
+    font: normal normal bold 18px/24px Raleway;
+  }
+
+  .ourFocusDetails {
+    font: normal normal normal 15px/22px Raleway;
+  }
+}

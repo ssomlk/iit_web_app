@@ -139,3 +139,20 @@
 .courseListContainer ul li {
   margin-bottom: 10px;
 }
+
+.eduIntroduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 21px;
+  color: #707070;
+}
+
+.eduIntroduction p {
+  width: 70%;
+  margin-top: 50px;
+}

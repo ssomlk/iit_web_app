@@ -45,9 +45,9 @@ function Header() {
             <Nav.Link onClick={() => router.push('/newsandevents')}>
               News & Events
             </Nav.Link>
-            <Nav.Link onClick={() => router.push('#publications')}>
+            {/* <Nav.Link onClick={() => router.push('#publications')}>
               Publications
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link onClick={() => router.push('/contactus')}>
               Contact Us
             </Nav.Link>

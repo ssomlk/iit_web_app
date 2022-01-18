@@ -20,13 +20,22 @@ export default function Institute() {
       </div>
       <MainLayoutSection
         title="Institute"
-        description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
+        description="IIT as an institution has both monastic features and, at the same time, features of a well-organized academic institute autonomously governed by its own peculiar constitution."
         photo="/one-buddha-gold-temple-thailand.png"
         backgroundImg="url(/Ellipse-4.svg)"
       />
       <NavigationCommonLayout navigationList={instituteList} />
 
       <Container>
+        <div className="inst-academic-header">Academy</div>
+        <div className="inst-academic-academy-text">
+          In our Academy, we impart Theravada teachings in their purest form in
+          Buddhist monks and train them in authentic Theravada meditation
+          techniques. Foremost objective of our Academy is to capacitate our
+          students who have profound apprehension on fundamentals of the
+          doctrine and meditation practice as preserved by the tradition of
+          Theravada.
+        </div>
         <div className="inst-academic-header">Academic Staff</div>
         <Row key="0" className="inst-academic-row">
           <Col key="1">
@@ -79,19 +88,26 @@ export default function Institute() {
           </Col>
 
           <Col key="6">
-            <AcademicProfile
+            {/* <AcademicProfile
               body="Diploma in Buddha Dhamma at the International Theravāda Buddhist
               Missionary University, Yangon. He has undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Kiribathgoda Tilokānanda Thera"
               profileImage=""
               title=""
+            /> */}
+            <AcademicProfile
+              body="Diploma in Buddha Dhamma, International Theravāda Buddhist
+              Missionary University, Yangon."
+              name="Ven Kuliyāpitiye Saṅgharatana Thera"
+              profileImage="/SangarathanaThero.webp"
+              title=""
             />
           </Col>
         </Row>
 
         <Row key="7" className="inst-academic-row">
-          <Col key="8">
+          {/* <Col key="8">
             <AcademicProfile
               body="Passed the Vinayācariya and Abhidhammācariya examinations held
               under the Srī Kaḷyāṇī Yogāśrama Saṃsthā, Rāmañña Mahānikāya, Sri
@@ -101,9 +117,9 @@ export default function Institute() {
               profileImage=""
               title=""
             />
-          </Col>
+          </Col> */}
 
-          <Col key="9">
+          <Col key="8">
             <AcademicProfile
               body="Diploma in Buddha Dhamma at the International Theravāda Buddhist
               Missionary University, Yangon. He has also earned knowledge and
@@ -117,7 +133,7 @@ export default function Institute() {
             />
           </Col>
 
-          <Col key="10">
+          <Col key="9">
             <AcademicProfile
               body="He has studied the Abhidhamma with specialization in the
               Paṭṭhānappakaraṇa, the seventh and most profound book in the
@@ -130,10 +146,22 @@ export default function Institute() {
               title="Head of the Abhidhamma Department"
             />
           </Col>
+
+          <Col key="10">
+            <AcademicProfile
+              body="Passed the Vinayācariya and Abhidhammācariya examinations held
+              under the Srī Kaḷyāṇī Yogāśrama Saṃsthā, Rāmañña Mahānikāya, Sri
+              Lanka. He is currently a Vinaya teacher at the Nā-Uyana Forest
+              Monastery, Sri Lanka."
+              name="Ven Labunoruwe Dhammavihari Thera"
+              profileImage=""
+              title=""
+            />
+          </Col>
         </Row>
 
         <Row key="11" className="inst-academic-row">
-          <Col key="12">
+          {/* <Col key="12">
             <AcademicProfile
               body="Diploma in Buddha Dhamma, International Theravāda Buddhist
               Missionary University, Yangon."
@@ -141,9 +169,9 @@ export default function Institute() {
               profileImage="/SangarathanaThero.webp"
               title=""
             />
-          </Col>
+          </Col> */}
 
-          <Col key="13">
+          <Col key="12">
             <AcademicProfile
               body="One of the most academically celebrated Sri Lankan Buddhist monks
               studied in Myanmar. Successfully completed the first stage of the
@@ -164,6 +192,16 @@ export default function Institute() {
             />
           </Col>
         </Row>
+
+        <div className="inst-academic-header">Monastery</div>
+        <div className="inst-academic-academy-text">
+          IIT, being a monk-training center, has a monastery. In it, students
+          can lead their lives well according to the disciplinary code advocated
+          under the Theravada Vinaya. Monks in IIT fully abstain from using or
+          handling money as admonished by the Buddha and strive to achieve their
+          aspired sublime goals as per doctrine they have studied in the
+          Academy.
+        </div>
       </Container>
 
       <Container className="inst-admin-struct-container">

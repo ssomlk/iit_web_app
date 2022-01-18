@@ -28,7 +28,7 @@ export default function Education() {
 
       <MainLayoutSection
         title="Education"
-        description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks and nuns, based on Theravada teachings."
+        description="Comprehensive studies of Buddhist scriptures pave the foundation for the prolongation of the Buddha Sāsana (dispensation)."
         photo="/Bo-leaf.png"
         backgroundImg="url(/Ellipse-5.svg)"
       />

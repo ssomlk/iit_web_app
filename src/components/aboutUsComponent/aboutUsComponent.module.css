@@ -1,506 +1,506 @@
 .rootContainer {
-    display: grid;
-    grid-template-areas:
-        ". aboutUs ."
-        "focusContainer focusContainer focusContainer";
-    grid-template-columns: 10.78125% 78.4375% 10.78125%;
-    grid-template-rows: auto auto;
-    width: 100%;
+  display: grid;
+  grid-template-areas:
+    '. aboutUs .'
+    'focusContainer focusContainer focusContainer';
+  grid-template-columns: 10.78125% 78.4375% 10.78125%;
+  grid-template-rows: auto auto;
+  width: 100%;
 }
 
 .aboutUsContainer {
-    grid-area: aboutUs;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto 549px auto auto;
-    grid-template-areas:
-        "heading heading"
-        "map mapInfo"
-        "missionHead missionHead"
-        "missiondetails missiondetails";
-    grid-gap: 10px;
-    align-items: center;
-    justify-items: center;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-    justify-self: center;
+  grid-area: aboutUs;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto 549px auto auto;
+  grid-template-areas:
+    'heading heading'
+    'map mapInfo'
+    'missionHead missionHead'
+    'missiondetails missiondetails';
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-self: center;
 }
 
 .aboutUsHeader {
-    grid-area: heading;
-    margin-top: 4%;
-    margin-bottom: 5%;
+  grid-area: heading;
+  margin-top: 4%;
+  margin-bottom: 5%;
 }
 
 .mainHeader {
-    font: normal normal bold 50px/59px Raleway;
-    letter-spacing: 0px;
-    color: #5d5d5d;
-    text-align: center;
-    margin-bottom: 3%;
+  font: normal normal bold 50px/59px Raleway;
+  letter-spacing: 0px;
+  color: #5d5d5d;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 .aboutUsMainIntro {
-    max-width: 932px;
-    font: normal normal normal 20px/35px Raleway;
-    letter-spacing: 0px;
-    color: #5d5d5d;
-    text-align: center;
+  max-width: 932px;
+  font: normal normal normal 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #5d5d5d;
+  text-align: center;
 }
 
 .map {
-    grid-area: map;
-    height: 100%;
-    width: 75%;
-    border-radius: 21px;
+  grid-area: map;
+  height: 100%;
+  width: 75%;
+  border-radius: 21px;
 }
 
 .mapInformation {
-    grid-area: mapInfo;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-        "mapDetails"
-        "link";
+  grid-area: mapInfo;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    'mapDetails'
+    'link';
 }
 
 .mapInformationDetails {
-    grid-area: mapDetails;
-    margin-bottom: 3%;
+  grid-area: mapDetails;
+  margin-bottom: 3%;
 }
 
 .mapInformationLink {
-    grid-area: link;
-    display: flex;
-    align-items: stretch;
-    background-color: #ffefd9;
-    border-radius: 21px;
-    max-width: 472px;
-    padding: 3%;
+  grid-area: link;
+  display: flex;
+  align-items: stretch;
+  background-color: #ffefd9;
+  border-radius: 21px;
+  max-width: 472px;
+  padding: 3%;
 }
 
 .mapIcon {
-    flex-grow: 1;
-    align-self: center;
-    max-width: 105px;
+  flex-grow: 1;
+  align-self: center;
+  max-width: 105px;
 }
 
 .mapIconImage {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .directionText {
-    flex-grow: 3;
-    align-self: center;
-    text-align: center;
+  flex-grow: 3;
+  align-self: center;
+  text-align: center;
 }
 
 .linkArrow {
-    flex-grow: 1;
-    align-self: center;
-    text-align: center;
-    max-width: 45px;
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+  max-width: 45px;
 }
 
 .arrowImage {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .subHeading1 {
-    font: normal normal bold 30px/35px Raleway;
-    letter-spacing: 0px;
-    color: #202020;
-    margin-bottom: 6%;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  margin-bottom: 6%;
 }
 
 .subHeading2 {
-    font: normal normal bold 30px/35px Raleway;
-    letter-spacing: 0px;
-    color: #202020;
-    margin-bottom: 10%;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  margin-bottom: 10%;
 }
 
 .mapTextInfo {
-    font: normal normal normal 20px/35px Raleway;
-    letter-spacing: 0px;
-    color: #616057;
-    margin-right: 40%;
+  font: normal normal normal 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  margin-right: 40%;
 }
 
 .directionHeading {
-    text-align: center;
-    font: normal normal bold 31px/36px Raleway;
-    letter-spacing: 0px;
-    color: #ff7c19;
+  text-align: center;
+  font: normal normal bold 31px/36px Raleway;
+  letter-spacing: 0px;
+  color: #ff7c19;
 }
 
 .directionSubHeading {
-    text-align: center;
-    font: normal normal bold 20px/24px Raleway;
-    letter-spacing: 0px;
-    color: #044884;
+  text-align: center;
+  font: normal normal bold 20px/24px Raleway;
+  letter-spacing: 0px;
+  color: #044884;
 }
 
 .missionHeading {
-    grid-area: missionHead;
-    justify-self: start;
-    margin-top: 10%;
+  grid-area: missionHead;
+  justify-self: start;
+  margin-top: 10%;
 }
 
 .missionDetails {
-    grid-area: missiondetails;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-areas: "briefing moreInfo";
-    width: 100%;
+  grid-area: missiondetails;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: 'briefing moreInfo';
+  width: 100%;
 }
 
 .missionBriefing {
-    grid-area: briefing;
+  grid-area: briefing;
 }
 
 .brefingText {
-    text-align: left;
-    font: normal normal bold 42px/49px Raleway;
-    letter-spacing: 0px;
-    color: #4e4e4e;
-    max-width: 75%;
+  text-align: left;
+  font: normal normal bold 42px/49px Raleway;
+  letter-spacing: 0px;
+  color: #4e4e4e;
+  max-width: 75%;
 }
 
 .missionInfo {
-    grid-area: moreInfo;
-    display: grid;
-    grid-template-columns: 100%;
+  grid-area: moreInfo;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 .missionDataContainer {
-    display: grid;
-    grid-template-columns: 0.8fr 4.7fr;
-    grid-template-areas: "missionImage missionDetails";
-    margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: 0.8fr 4.7fr;
+  grid-template-areas: 'missionImage missionDetails';
+  margin-bottom: 10%;
 }
 
 .missionImageContainer {
-    grid-area: missionImage;
-    max-width: 88px;
+  grid-area: missionImage;
+  max-width: 88px;
 }
 
 .missionImage {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .missionText {
-    grid-area: missionDetails;
-    text-align: left;
-    font: normal normal normal 32px/48px Raleway;
-    letter-spacing: 0px;
-    color: #616057;
+  grid-area: missionDetails;
+  text-align: left;
+  font: normal normal normal 32px/48px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
 }
 
 .ourFocusContainer {
-    grid-area: focusContainer;
-    display: grid;
-    grid-template-areas:
-        ". focusDataArea ."
-        ". focusCardArea focusCardArea";
-    grid-template-columns: 10.78125% 78.4375% 10.78125%;
-    grid-template-rows: auto auto;
-    background: linear-gradient(180deg, #d3eaef 50%, transparent 50%);
-    padding-bottom: 20%;
+  grid-area: focusContainer;
+  display: grid;
+  grid-template-areas:
+    '. focusDataArea .'
+    '. focusCardArea focusCardArea';
+  grid-template-columns: 10.78125% 78.4375% 10.78125%;
+  grid-template-rows: auto auto;
+  background: linear-gradient(180deg, #d3eaef 50%, transparent 50%);
+  padding-bottom: 100px;
 }
 
 .ourFocusInnerContainer {
-    grid-area: focusDataArea;
-    display: grid;
-    grid-template-areas:
-        "focusMainHeader"
-        "focusSubHeader";
+  grid-area: focusDataArea;
+  display: grid;
+  grid-template-areas:
+    'focusMainHeader'
+    'focusSubHeader';
 }
 
 .ourFocusHeader {
-    grid-area: focusMainHeader;
-    text-align: left;
-    font: normal normal bold 30px/35px Raleway;
-    letter-spacing: 0px;
-    color: #202020;
-    margin-top: 5%;
+  grid-area: focusMainHeader;
+  text-align: left;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  margin-top: 5%;
 }
 
 .ourFocusSubHeader {
-    grid-area: focusSubHeader;
-    display: flex;
-    text-align: left;
-    font: normal normal bold 42px/49px Raleway;
-    letter-spacing: 0px;
-    color: #4e4e4e;
-    margin-top: 2%;
+  grid-area: focusSubHeader;
+  display: flex;
+  text-align: left;
+  font: normal normal bold 42px/49px Raleway;
+  letter-spacing: 0px;
+  color: #4e4e4e;
+  margin-top: 2%;
 }
 
 .ourFocusSubHeader > .subHeaderText {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .ourFocusSubHeader > .sliderButtonContainer {
-    margin-left: auto;
-    display: flex;
-    flex-wrap: nowrap;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .focusCards {
-    grid-area: focusCardArea;
-    margin-top: 4%;
+  grid-area: focusCardArea;
+  margin-top: 4%;
 }
 
 .sliderButton {
-    display: flex;
-    background: #000000 0% 0% no-repeat padding-box;
-    opacity: 0.29;
-    width: 44px;
-    max-height: 44px;
-    border-radius: 100%;
-    align-content: center;
-    padding: 11px;
-    margin: 5px;
-    cursor: pointer;
+  display: flex;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.29;
+  width: 44px;
+  max-height: 44px;
+  border-radius: 100%;
+  align-content: center;
+  padding: 11px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .buttonLeftImage {
-    width: 100%;
-    height: auto;
-    fill: white;
-    opacity: 1;
+  width: 100%;
+  height: auto;
+  fill: white;
+  opacity: 1;
 }
 
 .buttonRightImage {
-    width: 100%;
-    height: auto;
-    fill: white;
-    opacity: 1;
+  width: 100%;
+  height: auto;
+  fill: white;
+  opacity: 1;
 }
 
 @media (max-width: 1366px) {
-    .mapTextInfo {
-        margin-right: 30%;
-    }
-    .missionImageContainer {
-        max-width: 68px;
-    }
+  .mapTextInfo {
+    margin-right: 30%;
+  }
+  .missionImageContainer {
+    max-width: 68px;
+  }
 
-    .brefingText {
-        font: normal normal bold 38px/45px Raleway;
-        max-width: 90%;
-    }
+  .brefingText {
+    font: normal normal bold 38px/45px Raleway;
+    max-width: 90%;
+  }
 
-    .missionText {
-        font: normal normal normal 28px/44px Raleway;
-    }
+  .missionText {
+    font: normal normal normal 28px/44px Raleway;
+  }
 
-    .ourFocusSubHeader {
-        font: normal normal bold 40px/47px Raleway;
-    }
+  .ourFocusSubHeader {
+    font: normal normal bold 40px/47px Raleway;
+  }
 
-    .ourFocusSubHeader > .subHeaderText {
-        max-width: 65%;
-    }
+  .ourFocusSubHeader > .subHeaderText {
+    max-width: 65%;
+  }
 }
 
 @media (max-width: 1024px) {
-    .map {
-        width: 90%;
-    }
+  .map {
+    width: 90%;
+  }
 
-    .mapTextInfo {
-        margin-right: 15%;
-    }
+  .mapTextInfo {
+    margin-right: 15%;
+  }
 
-    .linkArrow {
-        max-width: 40px;
-    }
+  .linkArrow {
+    max-width: 40px;
+  }
 
-    .mapIcon {
-        max-width: 100px;
-    }
+  .mapIcon {
+    max-width: 100px;
+  }
 
-    .missionImageContainer {
-        max-width: 48px;
-    }
+  .missionImageContainer {
+    max-width: 48px;
+  }
 
-    .brefingText {
-        font: normal normal bold 34px/41px Raleway;
-        max-width: 90%;
-    }
+  .brefingText {
+    font: normal normal bold 34px/41px Raleway;
+    max-width: 90%;
+  }
 
-    .missionText {
-        font: normal normal normal 24px/40px Raleway;
-    }
+  .missionText {
+    font: normal normal normal 24px/40px Raleway;
+  }
 
-    .directionHeading {
-        font: normal normal bold 28px/33px Raleway;
-    }
+  .directionHeading {
+    font: normal normal bold 28px/33px Raleway;
+  }
 
-    .directionSubHeading {
-        font: normal normal bold 17/21px Raleway;
-    }
+  .directionSubHeading {
+    font: normal normal bold 17/21px Raleway;
+  }
 
-    .ourFocusSubHeader {
-        font: normal normal bold 38px/45px Raleway;
-    }
+  .ourFocusSubHeader {
+    font: normal normal bold 38px/45px Raleway;
+  }
 
-    .ourFocusSubHeader > .subHeaderText {
-        max-width: 70%;
-    }
+  .ourFocusSubHeader > .subHeaderText {
+    max-width: 70%;
+  }
 }
 
 @media (max-width: 768px) {
-    .aboutUsContainer {
-        grid-template-columns: 100%;
-        grid-template-rows: auto auto 549px auto auto auto;
-        grid-template-areas:
-            "heading"
-            "mapInfo"
-            "map"
-            "missionHead"
-            "missiondetails";
-        grid-gap: 8px;
-    }
+  .aboutUsContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto 549px auto auto auto;
+    grid-template-areas:
+      'heading'
+      'mapInfo'
+      'map'
+      'missionHead'
+      'missiondetails';
+    grid-gap: 8px;
+  }
 
-    .subHeading1 {
-        text-align: center;
-    }
+  .subHeading1 {
+    text-align: center;
+  }
 
-    .mapTextInfo {
-        text-align: center;
-        margin: 0;
-    }
+  .mapTextInfo {
+    text-align: center;
+    margin: 0;
+  }
 
-    .mapInformationLink {
-        justify-self: center;
-        max-width: none;
-        width: 100%;
-        margin-bottom: 5%;
-    }
+  .mapInformationLink {
+    justify-self: center;
+    max-width: none;
+    width: 100%;
+    margin-bottom: 5%;
+  }
 
-    .directionHeading {
-        font: normal normal bold 31px/36px Raleway;
-    }
+  .directionHeading {
+    font: normal normal bold 31px/36px Raleway;
+  }
 
-    .directionSubHeading {
-        font: normal normal bold 20px/24px Raleway;
-    }
+  .directionSubHeading {
+    font: normal normal bold 20px/24px Raleway;
+  }
 
-    .linkArrow {
-        max-width: 45px;
-    }
+  .linkArrow {
+    max-width: 45px;
+  }
 
-    .mapIcon {
-        max-width: 105px;
-    }
+  .mapIcon {
+    max-width: 105px;
+  }
 
-    .missionDetails {
-        grid-area: missiondetails;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas:
-            "briefing"
-            "moreInfo";
-        width: 100%;
-    }
+  .missionDetails {
+    grid-area: missiondetails;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      'briefing'
+      'moreInfo';
+    width: 100%;
+  }
 
-    .brefingText {
-        max-width: 100%;
-    }
+  .brefingText {
+    max-width: 100%;
+  }
 
-    .ourFocusSubHeader {
-        font: normal normal bold 30px/35px Raleway;
-    }
+  .ourFocusSubHeader {
+    font: normal normal bold 30px/35px Raleway;
+  }
 
-    .ourFocusSubHeader > .subHeaderText {
-        max-width: 75%;
-    }
+  .ourFocusSubHeader > .subHeaderText {
+    max-width: 75%;
+  }
 }
 
 @media (max-width: 575px) {
-    .rootContainer {
-        grid-template-columns: 5% 90% 5%;
-    }
+  .rootContainer {
+    grid-template-columns: 5% 90% 5%;
+  }
 
-    .ourFocusContainer {
-        grid-template-columns: 5% 90% 5%;
-    }
+  .ourFocusContainer {
+    grid-template-columns: 5% 90% 5%;
+  }
 
-    .mainHeader {
-        font: normal normal bold 24px/29px Raleway;
-    }
+  .mainHeader {
+    font: normal normal bold 24px/29px Raleway;
+  }
 
-    .aboutUsMainIntro {
-        max-width: none;
-        width: 100%;
-        font: normal normal normal 20px/24px Raleway;
-    }
+  .aboutUsMainIntro {
+    max-width: none;
+    width: 100%;
+    font: normal normal normal 20px/24px Raleway;
+  }
 
-    .subHeading1 {
-        font: normal normal bold 22px/29px Raleway;
-    }
+  .subHeading1 {
+    font: normal normal bold 22px/29px Raleway;
+  }
 
-    .mapTextInfo {
-        font: normal normal normal 20px/24px Raleway;
-        margin-bottom: 3%;
-    }
+  .mapTextInfo {
+    font: normal normal normal 20px/24px Raleway;
+    margin-bottom: 3%;
+  }
 
-    .directionHeading {
-        font: normal normal bold 22px/36px Raleway;
-    }
+  .directionHeading {
+    font: normal normal bold 22px/36px Raleway;
+  }
 
-    .directionSubHeading {
-        font: normal normal bold 20px/24px Raleway;
-    }
+  .directionSubHeading {
+    font: normal normal bold 20px/24px Raleway;
+  }
 
-    .subHeading2 {
-        font: normal normal bold 22px/29px Raleway;
-    }
+  .subHeading2 {
+    font: normal normal bold 22px/29px Raleway;
+  }
 
-    .brefingText {
-        font: normal normal bold 20px/24px Raleway;
-        margin-bottom: 8%;
-    }
+  .brefingText {
+    font: normal normal bold 20px/24px Raleway;
+    margin-bottom: 8%;
+  }
 
-    .missionText {
-        font: normal normal normal 20px/24px Raleway;
-    }
+  .missionText {
+    font: normal normal normal 20px/24px Raleway;
+  }
 
-    .ourFocusHeader {
-        font: normal normal bold 22px/29px Raleway;
-    }
+  .ourFocusHeader {
+    font: normal normal bold 22px/29px Raleway;
+  }
 
-    .ourFocusSubHeader {
-        flex-wrap: wrap;
-        font: normal normal bold 20px/24px Raleway;
-    }
+  .ourFocusSubHeader {
+    flex-wrap: wrap;
+    font: normal normal bold 20px/24px Raleway;
+  }
 
-    .ourFocusSubHeader > .subHeaderText {
-        max-width: 100%;
-        margin-bottom: 5%;
-    }
+  .ourFocusSubHeader > .subHeaderText {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
 
-    .ourFocusSubHeader > .sliderButtonContainer {
-        margin-right: auto;
-    }
+  .ourFocusSubHeader > .sliderButtonContainer {
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 420px) {
-    .missionImageContainer {
-        max-width: 28px;
-    }
+  .missionImageContainer {
+    max-width: 28px;
+  }
 
-    .directionHeading {
-        font: normal normal bold 20px/30px Raleway;
-    }
+  .directionHeading {
+    font: normal normal bold 20px/30px Raleway;
+  }
 
-    .directionSubHeading {
-        font: normal normal bold 18px/22px Raleway;
-    }
+  .directionSubHeading {
+    font: normal normal bold 18px/22px Raleway;
+  }
 }

@@ -394,26 +394,37 @@ p {
 .loader {
   margin-top: 32px;
   height: 5px;
-  width: 240px;
   background-color: lightgray;
+  width: 240px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
 }
 
-.loading {
-  background: #966304;
-  width: 80px;
-  height: 5px;
-  animation: anim 1.8s infinite;
+.loader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85px;
+  height: 100%;
+  background-color: #966304;
+  border-radius: 20px;
+  overflow: hidden;
+  animation: anim 2s infinite;
 }
 
 @keyframes anim {
   0% {
-    transform: translate(0px);
+    left: -35px;
   }
+
   50% {
-    transform: translate(160px);
+    left: calc(100% - 40px);
   }
+
   100% {
-    transform: translate(0px);
+    left: -35px;
   }
 }
 

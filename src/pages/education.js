@@ -29,8 +29,8 @@ export default function Education() {
       <MainLayoutSection
         title="Education"
         description="Comprehensive studies of Buddhist scriptures pave the foundation for the prolongation of the Buddha Sāsana (dispensation)."
-        photo="/Bo-leaf.png"
-        backgroundImg="url(/Ellipse-5.svg)"
+        photo="/EducationSangha.png"
+        backgroundImg="url(/Ellipse-6.svg)"
       />
 
       <EducationComponent />

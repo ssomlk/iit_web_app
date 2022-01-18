@@ -2,26 +2,31 @@
     {
         "title":"Learning",
         "body":"Imparting knowledge in students on the Dhamma and Vinaya preserved under the Theravāda tradition enshrined in the Pāli Doctrine – Canon and Commentaries.",
-        "image":"learning.png"
+        "image":"learning.png",
+        "link":"/prolonging.png"
     },
     {
         "title":"Discipline",
         "body":"Training according to the disciplinary rules as per the Vinaya Pitaka.",
-        "image":"discipline.png"
+        "image":"discipline.png",
+        "link":"/discipline.png"
     },
     {
         "title":"Training in meditation",
         "body":"Samatha and Vipassanā meditation practices.",
-        "image":"trainning-meditation.png"
+        "image":"trainning-meditation.png",
+        "link":"/trainning-meditation.png"
     },
     {
         "title":"Propagation",
         "body":"Disseminating the Theravāda teachings to a global audience.",
-        "image":"propagation.png"
+        "image":"propagation.png",
+        "link":"/propagation.png"
     },
     {
         "title":"Prolonging the dispensation (sāsana)",
         "body":"Building the capacity of trainee-clergy (monks and nuns), so that once trained, they would be able to ordain and train novices to preserve the Bhikkhu lineage in an efficient manner..",
-        "image":"prolonging.png"
+        "image":"prolonging.png",
+        "link":"/prolonging.png"
     }
 ]

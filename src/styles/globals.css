@@ -518,6 +518,87 @@ p {
 
 /* How to Support styles */
 
+.how-to-support-main-body-bank-info-section2-col2 {
+  flex-direction: row;
+  display: flex;
+}
+
+.how-to-support-main-body-bank-info-section2-subtitle-val {
+  text-align: left;
+  font: normal normal normal 20px/26px Raleway;
+  letter-spacing: 0px;
+  color: #040403;
+  opacity: 1;
+  
+}
+
+.how-to-support-main-body-bank-info-section2-subtitle {
+  text-align: left;
+  font: normal normal 600 20px/26px Raleway;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 10px;
+
+}
+.how-to-support-main-body-bank-info-section2 {
+  background: #faf4ed 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 26px 26px;
+  opacity: 1;
+  padding-left: 40px;
+  padding-top: 23px;
+  padding-right: 20px;
+}
+
+.how-to-support-main-body-bank-info-section1-body {
+  text-align: left;
+  font: normal normal medium 20px/26px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.how-to-support-main-body-bank-info-section1-title {
+  text-align: left;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  
+}
+
+.how-to-support-main-body-bank-info-section1 {
+  background: #7a5c2c 0% 0% no-repeat padding-box;
+  border-radius: 26px 26px 0px 0px;
+  opacity: 1;
+  padding: 40px;
+}
+
+.how-to-support-main-body-bank-info {
+  /* display: flex;
+  flex-direction: row; */
+  width: 35%;
+/* display: contents; */
+
+}
+.how-to-support-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.how-to-support-main-body {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+}
+
+.how-to-support-main-body-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 20px;
+}
+
 .how-to-support-focus {
   background-color: #faf4ed;
   padding-top: 78px;
@@ -527,15 +608,16 @@ p {
 
 .how-to-support-main-aspects {
   text-align: left;
-  font: normal normal bold 30px/35px Raleway;
+  font: normal normal 600 24px/29px Raleway;
   letter-spacing: 0px;
   color: #202020;
   opacity: 1;
+  margin-bottom: 19px;
 }
 
 .how-to-support-main-aspects-text {
   text-align: left;
-  font: normal normal normal 20px/35px Raleway;
+  font: normal normal normal 20px/28px Raleway;
   letter-spacing: 0px;
   color: #616057;
   opacity: 1;
@@ -544,7 +626,7 @@ p {
 .how-to-support-how-to-donate-header {
   color: black;
   font: normal normal bold 50px/59px Raleway;
-  margin-bottom: 40px;
+  margin-bottom: 61px;
 }
 
 .how-to-support-donate-sub-header {
@@ -554,7 +636,11 @@ p {
 }
 
 .how-to-support-quote-container {
-  text-align: center;
+  text-align: left;
+  font: normal normal normal 32px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
 }
 
 .how-to-support-quote {
@@ -587,7 +673,6 @@ p {
   opacity: 1;
   margin-bottom: 40px;
   margin-top: 40px;
-
 }
 
 .timeline-item-title {
@@ -604,10 +689,10 @@ p {
   margin-left: 20px !important;
 }
 
-p.card-sub-title{
+p.card-sub-title {
   font-size: 20px !important;
   margin-left: 30px;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 p.card-title {
@@ -652,7 +737,7 @@ div.card-description > p {
 
 .newsandevents-news-item-card-date {
   --bs-text-opacity: 1;
-    color: #6c757d!important;
+  color: #6c757d !important;
 }
 
 .newsandevents-news-item-card-description {
@@ -660,12 +745,11 @@ div.card-description > p {
 }
 
 @media (max-width: 575px) {
-  p.card-sub-title{
+  p.card-sub-title {
     font-size: 18px !important;
     margin-left: 30px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 10px;
-
   }
   p.card-title {
     font-size: 18px !important;
@@ -685,25 +769,23 @@ div.card-description > p {
     font-size: 1.2rem !important;
   }
 
-  
   .newsandevents-news-item-card-body {
     align-items: flex-start;
     width: 100%;
     flex: 1 1 auto;
     padding: 1rem 1rem;
   }
-  
+
   .newsandevents-news-item-card-title {
     font-size: 20px !important;
   }
-  
+
   .newsandevents-news-item-card-date {
     --bs-text-opacity: 1;
-      color: #6c757d!important;
+    color: #6c757d !important;
     margin-bottom: 10px;
-
   }
-  
+
   .newsandevents-news-item-card-description {
     font-size: 18px !important;
   }
@@ -716,11 +798,7 @@ div.card-description > p {
     opacity: 1;
     margin-bottom: 40px;
     margin-top: 40px;
-  
   }
-  
-
 }
-
 
 /* End of News and Events styles */

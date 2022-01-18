@@ -456,11 +456,33 @@ p {
 }
 
 .inst-admin-struct-main-text {
-  color: #4e4e4e;
   text-align: left;
   font: normal normal bold 42px/49px Raleway;
   letter-spacing: 0px;
-  margin-bottom: 56px;
+  color: #4e4e4e;
+  opacity: 1;
+}
+
+.inst-admin-struct-general {
+  text-align: center;
+  font: normal normal bold 34px/36px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  opacity: 1;
+  padding-top: 79px;
+}
+
+.inst-admin-struct-general-subtext {
+  text-align: center;
+  font: normal normal 600 24px/43px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
+  padding-top: 26px;
+
+  /* padding-right: 583px;
+padding-left: 300px;
+ */
 }
 
 .inst-admin-struct-sub-text {
@@ -469,6 +491,7 @@ p {
   font: normal normal 600 24px/36px Raleway;
   letter-spacing: 0px;
   opacity: 1;
+  padding-top: 33px;
 }
 
 .inst-admin-struct-col-header {
@@ -513,6 +536,15 @@ p {
     font: normal normal bold 30px/38px Raleway;
     margin-bottom: 40px;
   }
+
+  .inst-admin-struct-sub-text {
+    text-align: left;
+    font: normal normal 600 24px/36px Raleway;
+    letter-spacing: 0px;
+    color: #202020;
+    opacity: 1;
+  }
+
   .inst-admin-struct-col-header {
     font: normal normal bold 20px/35px Raleway;
   }
@@ -540,7 +572,6 @@ p {
   letter-spacing: 0px;
   color: #040403;
   opacity: 1;
-  
 }
 
 .how-to-support-main-body-bank-info-section2-subtitle {
@@ -550,7 +581,6 @@ p {
   color: #000000;
   opacity: 1;
   padding: 10px;
-
 }
 .how-to-support-main-body-bank-info-section2 {
   background: #faf4ed 0% 0% no-repeat padding-box;
@@ -575,7 +605,6 @@ p {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  
 }
 
 .how-to-support-main-body-bank-info-section1 {
@@ -589,10 +618,9 @@ p {
   /* display: flex;
   flex-direction: row; */
   width: 35%;
-/* display: contents; */
-
+  /* display: contents; */
 }
-.how-to-support-content{
+.how-to-support-content {
   display: flex;
   flex-direction: row;
 }

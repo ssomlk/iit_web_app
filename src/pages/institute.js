@@ -27,7 +27,7 @@ export default function Institute() {
       <NavigationCommonLayout navigationList={instituteList} />
 
       <Container>
-        <div className="inst-academic-header">Academy</div>
+        {/* <div className="inst-academic-header">Academy</div>
         <div className="inst-academic-academy-text">
           In our Academy, we impart Theravada teachings in their purest form in
           Buddhist monks and train them in authentic Theravada meditation
@@ -35,7 +35,7 @@ export default function Institute() {
           students who have profound apprehension on fundamentals of the
           doctrine and meditation practice as preserved by the tradition of
           Theravada.
-        </div>
+        </div> */}
         <div className="inst-academic-header">Academic Staff</div>
         <Row key="0" className="inst-academic-row">
           <Col key="1">
@@ -46,7 +46,7 @@ export default function Institute() {
               extensive experiences in propagating Buddhist teachings in both
               Australia and Hawaii."
               name="Ven Werapitiye Dewānanda Thera"
-              profileImage=""
+              profileImage="/profilepic/DewanandaThero.webp"
               title="President of the IIT"
             />
           </Col>
@@ -57,7 +57,7 @@ export default function Institute() {
               Missionary University, Yangon. Also undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Watagoda Maggavihari Thera"
-              profileImage="/profilepic/MaggavihariThero.jpg"
+              profileImage="/profilepic/MaggavihariThero.webp"
               title="Vice-President of the IIT"
             />
           </Col>
@@ -70,7 +70,7 @@ export default function Institute() {
               advanced Abhidhamma courses for lay devotees in Colombo for over
               five years."
               name="Ven Matugama Dhammanisanti Thera"
-              profileImage="/profilepic/DhammanisantiThero.jpg"
+              profileImage="/profilepic/DhammanisanthiThero.webp"
               title=""
             />
           </Col>
@@ -100,7 +100,7 @@ export default function Institute() {
               body="Diploma in Buddha Dhamma, International Theravāda Buddhist
               Missionary University, Yangon."
               name="Ven Kuliyāpitiye Saṅgharatana Thera"
-              profileImage="/profilepic/SangarathanaThero.jpg"
+              profileImage="/profilepic/SangarathanaThero.webp"
               title=""
             />
           </Col>
@@ -128,7 +128,7 @@ export default function Institute() {
               well. He is a competent Abhidhamma- and Pāḷi-teacher capable
               teaching in both Sinhalese and English."
               name="Ven Walawe Sumedhaloka Thera"
-              profileImage=""
+              profileImage="/profilepic/SumedhalokaThero.webp"
               title="Head of the Language Department"
             />
           </Col>
@@ -142,7 +142,7 @@ export default function Institute() {
               education institutes. He is arguably the best academic in the
               field of Paṭṭhāna studies currently in Sri Lanka."
               name="Ven Deniyaye Upasama Thera"
-              profileImage=""
+              profileImage="/profilepic/UpasamaThero.webp"
               title="Head of the Abhidhamma Department"
             />
           </Col>
@@ -193,7 +193,7 @@ export default function Institute() {
           </Col>
         </Row>
 
-        <div className="inst-academic-header">Monastery</div>
+        {/* <div className="inst-academic-header">Monastery</div>
         <div className="inst-academic-academy-text">
           IIT, being a monk-training center, has a monastery. In it, students
           can lead their lives well according to the disciplinary code advocated
@@ -201,22 +201,35 @@ export default function Institute() {
           handling money as admonished by the Buddha and strive to achieve their
           aspired sublime goals as per doctrine they have studied in the
           Academy.
-        </div>
+        </div> */}
       </Container>
 
       <Container className="inst-admin-struct-container">
         <div className="inst-admin-struct-header">
           Administrational Structure
         </div>
+
+        <div className="inst-admin-struct-main-text">
+          IIT is an independent academic institution that would retain autonomy
+          with regard to, all aspects of decision-making.
+        </div>
+
+        <div className="inst-admin-struct-sub-text">
+        Are you looking for guidance for your mediation? IIT is willing to render a helping hand in your noble quest.
+        </div>
+
+        <div className="inst-admin-struct-general">
+        General Assembly
+        </div>
+
+        <div className="inst-admin-struct-general-subtext">
+        Executive Board consisting of senior monks who are responsible in governing the IIT. It is divided into two sub-councils, i.e., Study Council and Monastic Council
+        </div>
+
+        {/* 
         <Row className="inst-admin-struct-row">
           <Col key="15">
-            <div className="inst-admin-struct-main-text">
-              IIT as an institution has both monastic features and, at the same
-              time, features of a well organized academic institute. IIT is
-              governed by its General Assembly of which powers are exersiced by
-              three independent bodies, i.e., Executive Board, Senet and Vinaya
-              Council.
-            </div>
+        
             <div className="inst-admin-struct-sub-text">
               IIT is an independent academic institution that would retain
               autonomy with regard to, all aspects of decision-making.
@@ -294,7 +307,7 @@ export default function Institute() {
               </Col>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
 
       <Footer />

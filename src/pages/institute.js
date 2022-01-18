@@ -21,7 +21,7 @@ export default function Institute() {
       <MainLayoutSection
         title="Institute"
         description="IIT as an institution has both monastic features and, at the same time, features of a well-organized academic institute autonomously governed by its own peculiar constitution."
-        photo="/one-buddha-gold-temple-thailand.png"
+        photo="/Institute.png"
         backgroundImg="url(/Ellipse-4.svg)"
       />
       <NavigationCommonLayout navigationList={instituteList} />
@@ -57,7 +57,7 @@ export default function Institute() {
               Missionary University, Yangon. Also undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Watagoda Maggavihari Thera"
-              profileImage="/MaggavihariThero.webp"
+              profileImage="/profilepic/MaggavihariThero.jpg"
               title="Vice-President of the IIT"
             />
           </Col>
@@ -70,7 +70,7 @@ export default function Institute() {
               advanced Abhidhamma courses for lay devotees in Colombo for over
               five years."
               name="Ven Matugama Dhammanisanti Thera"
-              profileImage="/DhammanisanthiThero.webp"
+              profileImage="/profilepic/DhammanisantiThero.jpg"
               title=""
             />
           </Col>
@@ -100,7 +100,7 @@ export default function Institute() {
               body="Diploma in Buddha Dhamma, International Theravāda Buddhist
               Missionary University, Yangon."
               name="Ven Kuliyāpitiye Saṅgharatana Thera"
-              profileImage="/SangarathanaThero.webp"
+              profileImage="/profilepic/SangarathanaThero.jpg"
               title=""
             />
           </Col>

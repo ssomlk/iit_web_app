@@ -111,7 +111,7 @@ function AboutUsComponent() {
               Academic Courses and Training Programs will be focused on
             </div>
             <div className={styles.sliderButtonContainer}>
-              <div className={styles.sliderButton} onClick={slideLeft}>
+              <div className={styles.sliderButton} onClick={slideRight}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -126,7 +126,7 @@ function AboutUsComponent() {
                   />
                 </svg>
               </div>
-              <div className={styles.sliderButton} onClick={slideRight}>
+              <div className={styles.sliderButton} onClick={slideLeft}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

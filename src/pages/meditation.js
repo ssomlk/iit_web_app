@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import MainLayoutSection from '../components/maincommonlayout/MainCommonLayoutSection';
+import MeditationComponent from '../components/meditation/MeditationComponent';
 
 export default function Meditation() {
   const { t, lang } = useTranslation();
@@ -32,6 +33,8 @@ export default function Meditation() {
         backgroundImg="url(/Ellipse-7.svg)"
         info="Are you looking for guidance for your mediation? IIT is willing to render a helping hand in your noble quest."
       />
+
+      <MeditationComponent />
 
       <Footer />
     </div>

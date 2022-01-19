@@ -11,45 +11,75 @@ import newsAndEvents from '../data/newsAndEventsData.json';
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import { eventItems } from '../data/aboutUsData';
+import NewsAndEventsComponent2 from '../components/newsandevents/NewsAndEventsComponent2';
 
 export default function NewsAndEvents() {
   const { t, lang } = useTranslation();
   const router = useRouter();
 
+  var array = [];
+  newsAndEvents.map((element, index) => {
+    if (element.type.indexOf('Event') > -1) {
+      var item = {};
+      item.title = element.date;
+      item.cardTitle = element.title;
+      item.cardDetailedText = element.description;
+      item.dateStr = element.dateStr;
+      item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
+      item.media = {
+        type: 'IMAGE',
+        source: {
+          url: element.image,
+        },
+      };
+      array.push(item);
+    }
+  });
+
   const [arrayNews, setArrayNews] = useState([]);
   const [arrayEvents, setArrayEvents] = useState([]);
 
-  useEffect(() => {
-    let newsArray = [];
-    let eventsArray = [];
+  var newArr = array.sort(function (a, b) {
+    return new Date(b.dateStr) - new Date(a.dateStr);
+  });
 
-    newsAndEvents.map((element, index) => {
-      if (element.type.indexOf('News') > -1) {
-        newsArray.push(element);
-      } else {
-        let item = {};
-        item.title = element.date;
-        item.cardTitle = element.title;
-        item.cardDetailedText = element.description;
-        item.dateStr = element.dateStr;
-        item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
-        item.media = {
+    const items = [
+      {
+        title: 'May 1940',
+        cardTitle: 'Dunkirk',
+        url: 'http://www.history.com',
+        cardSubtitle:
+          'Men of the British Expeditionary Force (BEF) wade out to..',
+        cardDetailedText:
+          'Men of the British Expeditionary Force (BEF) wade out to..',
+        media: {
           type: 'IMAGE',
           source: {
-            url: element.image,
+            url: 'http://someurl/image.jpg',
           },
-        };
-        eventsArray.push(item);
-      }
+        },
+      },
+      {
+        title: 'May 1940',
+        cardTitle: 'Dunkirk',
+        url: 'http://www.history.com',
+        cardSubtitle:
+          'Men of the British Expeditionary Force (BEF) wade out to..',
+        cardDetailedText:
+          'Men of the British Expeditionary Force (BEF) wade out to..',
+        media: {
+          type: 'IMAGE',
+          source: {
+            url: 'http://someurl/image.jpg',
+          },
+        },
+      },
+    ];
+
+    arrayEvents.sort(function (a, b) {
+      return new Date(b.dateStr) - new Date(a.dateStr);
     });
 
-    eventsArray.sort(function (a, b) {
-      return new Date(b.dateStr) - new Date(a.dateStr);
-    })
-
-    setArrayNews(newsArray);
-    setArrayEvents(eventsArray);
-  }, []);
 
   return (
     <div>
@@ -59,27 +89,38 @@ export default function NewsAndEvents() {
         <MainLayoutSection
           title="News and Events"
           description="Be informed of our wholesome activities. Join, Rejoice, and Accumulate Great Merits."
-          photo="/one-buddha-gold-temple-thailand.png"
-          backgroundImg="url(/Ellipse-4.svg)"
+          photo="/Group 1071.png"
+          backgroundImg="url(/MaskGroup3.svg)"
         />
       </div>
+
       <Container>
         {/* <NavigationCommonLayout navigationList={instituteList} /> */}
 
-        <div className="newsandevents-heading">Events Timeline</div>
-        <Chrono
-          items={eventItems}
-          theme={{
-            primary: '#532F00',
-            secondary: '#FFD607',
-            cardBgColor: '#FFFFFF',
-            cardForeColor: 'black',
-            titleColor: '#532F00',
-          }}
-        />
-
-        <div className="newsandevents-heading">News</div>
+        <div className="newsandevents-heading">News and Events</div>
+        <NewsAndEventsComponent2 />
       </Container>
+      <div>
+        <div className="news-and-events-chrono-container">
+          <Container>
+            <p className="news-and-events-chrono-title">Timeline</p>
+
+            <Chrono
+            items={newArr}
+            theme={{
+              primary: '#532F00',
+              secondary: '#FFD607',
+              cardBgColor: "rgba(255, 237, 165, .24)",
+              cardForeColor: 'black',
+              titleColor: '#532F00',
+            }}
+          />
+
+          </Container>
+          
+        </div>
+      </div>
+
       <Footer />
     </div>
   );

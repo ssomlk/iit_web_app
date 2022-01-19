@@ -1,6 +1,7 @@
 export const aboutUsList= [
-        "History of Theravada",
+        "What is IIT?",
         "Establishment",
+        "Our Vision & Mission",
         "Our Focus"
 ];
 

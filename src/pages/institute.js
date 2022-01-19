@@ -27,7 +27,7 @@ export default function Institute() {
       <NavigationCommonLayout navigationList={instituteList} />
 
       <Container>
-        {/* <div className="inst-academic-header">Academy</div>
+        <div className="inst-academic-header">Academy</div>
         <div className="inst-academic-academy-text">
           In our Academy, we impart Theravada teachings in their purest form in
           Buddhist monks and train them in authentic Theravada meditation
@@ -35,7 +35,7 @@ export default function Institute() {
           students who have profound apprehension on fundamentals of the
           doctrine and meditation practice as preserved by the tradition of
           Theravada.
-        </div> */}
+        </div>
         <div className="inst-academic-header">Academic Staff</div>
         <Row key="0" className="inst-academic-row">
           <Col key="1">
@@ -193,7 +193,7 @@ export default function Institute() {
           </Col>
         </Row>
 
-        {/* <div className="inst-academic-header">Monastery</div>
+        <div className="inst-academic-header">Monastery</div>
         <div className="inst-academic-academy-text">
           IIT, being a monk-training center, has a monastery. In it, students
           can lead their lives well according to the disciplinary code advocated
@@ -201,7 +201,7 @@ export default function Institute() {
           handling money as admonished by the Buddha and strive to achieve their
           aspired sublime goals as per doctrine they have studied in the
           Academy.
-        </div> */}
+        </div>
       </Container>
 
       <Container className="inst-admin-struct-container">
@@ -215,7 +215,7 @@ export default function Institute() {
         </div>
 
         <div className="inst-admin-struct-sub-text">
-        Are you looking for guidance for your mediation? IIT is willing to render a helping hand in your noble quest.
+        IIT is governed by its General Assembly of which powers are exercised by three independent bodies, i.e., Executive Board, Senet and Vinaya Council.
         </div>
 
         <div className="inst-admin-struct-general">

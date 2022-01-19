@@ -82,7 +82,7 @@ export default function Institute() {
               the three stages in both Sāsnālaṅkāra (Sāmaṇejo) and Vinayavidu
               Traditional Buddhist Examinations in Myanmar."
               name="Ven Ududigana Siddhatthālaṅkāra Thera"
-              profileImage=""
+              profileImage="/profilepic/SiddaththaThero.webp"
               title="Secretary of the IIT and Head of the Vinaya Department"
             />
           </Col>
@@ -154,7 +154,7 @@ export default function Institute() {
               Lanka. He is currently a Vinaya teacher at the Nā-Uyana Forest
               Monastery, Sri Lanka."
               name="Ven Labunoruwe Dhammavihari Thera"
-              profileImage=""
+              profileImage="/profilepic/DhammavihariThero.webp"
               title=""
             />
           </Col>
@@ -186,7 +186,7 @@ export default function Institute() {
               in Myanmar. He is currently a Dhamma teacher at the
               well-celebrated Yuwa Mā Pariyatti Center, Ein Sein, Yangon."
               name="Ven Palmadulle Vijitānandābhivaṃsa Thera"
-              profileImage=""
+              profileImage="/profilepic/VijithanandaThero.webp"
               title="Vice Secretary of the IIT and Head of the Pāḷi, Sanskrit and
               Prakrit Department"
             />

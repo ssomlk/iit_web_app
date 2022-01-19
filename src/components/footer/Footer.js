@@ -24,25 +24,25 @@ function Footer() {
             <div
               className={`col-sm-12 col-md-6 col-lg-5 text-end  text-md-right p-0 ${styles.footerIcons}`}
             >
-              <a href="#">
+              <a href="https://www.facebook.com/InstituteOfTheravada/" target="_blank">
                 <BsFacebook color="white" size={25} />
               </a>
               &nbsp;&nbsp;&nbsp;
-              <a href="#">
+              <a href="https://www.youtube.com/channel/UCFhy_YsPcufmBl4AqkvaUXA" target="_blank">
                 <BsYoutube color="white" size={25} />
               </a>
               &nbsp;&nbsp;&nbsp;
-              <a href="#">
+              <a href="https://wa.me/94760370189" target="_blank">
                 <BsWhatsapp color="white" size={25} />
               </a>
               &nbsp;&nbsp;&nbsp;
-              <a href="#">
+              <a href="https://t.me/IITtechnicalassistant" target="_blank">
                 <BsTelegram color="white" size={25} />
               </a>
-              &nbsp;&nbsp;&nbsp;
-              <a href="#">
+              {/* &nbsp;&nbsp;&nbsp;
+              <a href="#" target="_blank">
                 <BsGoogle color="white" size={25} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -54,36 +54,45 @@ function Footer() {
             <Col className={styles.removePaddingStyle}>
               <ul className={styles.removePaddingStyle}>
                 <li className={styles.liMain}> About Us</li>
-                <li className={styles.liSub}>
+                {/* <li className={styles.liSub}>
                   {' '}
                   <a href="#"> History of Theravada Buddhism</a>
+                </li> */}
+                <li className={styles.liSub}>
+                  <a href="#">What is IIT?</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">History of IIT</a>
+                  <a href="#">Establishment</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Review Board</a>
+                  <a href="#">Our Vision &amp; Mission</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Editorial Process</a>
+                  <a href="#">Our Focus</a>
                 </li>
-                <li className={styles.liSub}>
-                  <a href="#">Our Policies</a>
-                </li>
-                <li className={styles.liSub}>
+                {/* <li className={styles.liSub}>
                   <a href="#">Spirituality</a>
-                </li>
+                </li> */}
               </ul>
             </Col>
             <Col className={styles.removePaddingStyle}>
               <ul className={styles.ulPaddingStyle}>
-                <li className={styles.liMain}> Monsastery</li>
-                <li className={styles.liSub}>
+                <li className={styles.liMain}>Institute</li>
+                {/* <li className={styles.liSub}>
                   {' '}
-                  <a href="#"> Facilities</a>
+                  <a href="#"> Academy</a>
+                </li> */}
+                <li className={styles.liSub}>
+                  <a href="#">Academy</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Practise Schedule</a>
+                  <a href="#">Academic Staff</a>
+                </li>
+                <li className={styles.liSub}>
+                  <a href="#">Monastery</a>
+                </li>
+                <li className={styles.liSub}>
+                  <a href="#">Administration</a>
                 </li>
               </ul>
             </Col>
@@ -92,14 +101,27 @@ function Footer() {
                 <li className={styles.liMain}> Education</li>
                 <li className={styles.liSub}>
                   {' '}
-                  <a href="#"> Teachers Details</a>
+                  <a href="#"> Courses Conducted</a>
                 </li>
-                <li className={styles.liSub}>
+                {/* <li className={styles.liSub}>
                   <a href="#"> Online Courses</a>
                 </li>
                 <li className={styles.liSub}>
                   {' '}
                   <a href="#"> Programms Trainings</a>
+                </li> */}
+              </ul>
+            </Col>
+            <Col className={styles.removePaddingStyle}>
+              <ul className={styles.ulPaddingStyle}>
+                <li className={styles.liMain}> Meditation</li>
+                <li className={styles.liSub}>
+                  {' '}
+                  <a href="#"> Samatha Mediation</a>
+                </li>
+                <li className={styles.liSub}>
+                  {' '}
+                  <a href="#"> Vipassanā Meditation</a>
                 </li>
               </ul>
             </Col>
@@ -108,20 +130,15 @@ function Footer() {
                 <li className={styles.liMain}> News &amp; Events</li>
                 <li className={styles.liSub}>
                   {' '}
-                  <a href="#"> News</a>
+                  <a href="#"> News and Events</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#"> Events</a>
+                  <a href="#"> Timeline</a>
                 </li>
-                <li className={styles.liSub}>
+                {/* <li className={styles.liSub}>
                   {' '}
                   <a href="#"> Messages</a>
-                </li>
-              </ul>
-            </Col>
-            <Col className={styles.removePaddingStyle}>
-              <ul className={styles.ulPaddingStyle}>
-                <li className={styles.liMain}> Meditation</li>
+                </li> */}
               </ul>
             </Col>
             <Col className={styles.removePaddingStyle}>
@@ -140,7 +157,7 @@ function Footer() {
                 <br />
                 <div className={styles.contactDetails}> Get Directions</div>
                 <div className={styles.supportBtn}>
-                  <Button variant="warning" className={styles.supportBtn}>
+                  <Button variant="warning" className={styles.supportBtn}  href="/howtosupport">
                     How to Support
                   </Button>
                 </div>

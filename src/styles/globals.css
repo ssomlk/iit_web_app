@@ -456,11 +456,33 @@ p {
 }
 
 .inst-admin-struct-main-text {
-  color: #4e4e4e;
   text-align: left;
   font: normal normal bold 42px/49px Raleway;
   letter-spacing: 0px;
-  margin-bottom: 56px;
+  color: #4e4e4e;
+  opacity: 1;
+}
+
+.inst-admin-struct-general {
+  text-align: center;
+  font: normal normal bold 34px/36px Raleway;
+  letter-spacing: 0px;
+  color: #202020;
+  opacity: 1;
+  padding-top: 79px;
+}
+
+.inst-admin-struct-general-subtext {
+  text-align: center;
+  font: normal normal 600 24px/43px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
+  padding-top: 26px;
+
+  /* padding-right: 583px;
+padding-left: 300px;
+ */
 }
 
 .inst-admin-struct-sub-text {
@@ -469,6 +491,7 @@ p {
   font: normal normal 600 24px/36px Raleway;
   letter-spacing: 0px;
   opacity: 1;
+  padding-top: 33px;
 }
 
 .inst-admin-struct-col-header {
@@ -513,6 +536,15 @@ p {
     font: normal normal bold 30px/38px Raleway;
     margin-bottom: 40px;
   }
+
+  .inst-admin-struct-sub-text {
+    text-align: left;
+    font: normal normal 600 24px/36px Raleway;
+    letter-spacing: 0px;
+    color: #202020;
+    opacity: 1;
+  }
+
   .inst-admin-struct-col-header {
     font: normal normal bold 20px/35px Raleway;
   }
@@ -529,6 +561,83 @@ p {
 
 /* How to Support styles */
 
+.how-to-support-main-body-bank-info-section2-col2 {
+  flex-direction: row;
+  display: flex;
+}
+
+.how-to-support-main-body-bank-info-section2-subtitle-val {
+  text-align: left;
+  font: normal normal normal 20px/26px Raleway;
+  letter-spacing: 0px;
+  color: #040403;
+  opacity: 1;
+}
+
+.how-to-support-main-body-bank-info-section2-subtitle {
+  text-align: left;
+  font: normal normal 600 20px/26px Raleway;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 10px;
+}
+.how-to-support-main-body-bank-info-section2 {
+  background: #faf4ed 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 26px 26px;
+  opacity: 1;
+  padding-left: 40px;
+  padding-top: 23px;
+  padding-right: 20px;
+}
+
+.how-to-support-main-body-bank-info-section1-body {
+  text-align: left;
+  font: normal normal medium 20px/26px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.how-to-support-main-body-bank-info-section1-title {
+  text-align: left;
+  font: normal normal bold 30px/35px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.how-to-support-main-body-bank-info-section1 {
+  background: #7a5c2c 0% 0% no-repeat padding-box;
+  border-radius: 26px 26px 0px 0px;
+  opacity: 1;
+  padding: 40px;
+}
+
+.how-to-support-main-body-bank-info {
+  /* display: flex;
+  flex-direction: row; */
+  width: 35%;
+  /* display: contents; */
+}
+.how-to-support-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.how-to-support-main-body {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+}
+
+.how-to-support-main-body-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 20px;
+}
+
 .how-to-support-focus {
   background-color: #faf4ed;
   padding-top: 78px;
@@ -538,15 +647,16 @@ p {
 
 .how-to-support-main-aspects {
   text-align: left;
-  font: normal normal bold 30px/35px Raleway;
+  font: normal normal 600 24px/29px Raleway;
   letter-spacing: 0px;
   color: #202020;
   opacity: 1;
+  margin-bottom: 19px;
 }
 
 .how-to-support-main-aspects-text {
   text-align: left;
-  font: normal normal normal 20px/35px Raleway;
+  font: normal normal normal 20px/28px Raleway;
   letter-spacing: 0px;
   color: #616057;
   opacity: 1;
@@ -555,7 +665,7 @@ p {
 .how-to-support-how-to-donate-header {
   color: black;
   font: normal normal bold 50px/59px Raleway;
-  margin-bottom: 40px;
+  margin-bottom: 61px;
 }
 
 .how-to-support-donate-sub-header {
@@ -565,7 +675,11 @@ p {
 }
 
 .how-to-support-quote-container {
-  text-align: center;
+  text-align: left;
+  font: normal normal normal 32px/35px Raleway;
+  letter-spacing: 0px;
+  color: #616057;
+  opacity: 1;
 }
 
 .how-to-support-quote {
@@ -597,6 +711,7 @@ p {
   color: #5d5d5d;
   opacity: 1;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .timeline-item-title {
@@ -613,10 +728,17 @@ p {
   margin-left: 20px !important;
 }
 
+p.card-sub-title {
+  font-size: 20px !important;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
 p.card-title {
   font-size: 30px !important;
   font-weight: 600;
   letter-spacing: 0px;
+  margin-left: 20px;
 }
 
 div.card-description > p {
@@ -629,10 +751,49 @@ div.card-description > p {
   width: 100%;
 }
 
+.newsandevents-news-item {
+  display: flex;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.newsandevents-news-item-card-body {
+  align-items: flex-start;
+  width: 100%;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.newsandevents-news-item-category {
+  color: #65471f;
+}
+
+.newsandevents-news-item-card-title {
+  font-size: 30px !important;
+  font-weight: 600;
+}
+
+.newsandevents-news-item-card-date {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+
+.newsandevents-news-item-card-description {
+  font-size: 20px !important;
+}
+
 @media (max-width: 575px) {
+  p.card-sub-title {
+    font-size: 18px !important;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
   p.card-title {
     font-size: 18px !important;
     text-align: left;
+    margin-left: 10px;
   }
   div.card-description > p {
     letter-spacing: 1px;
@@ -644,15 +805,38 @@ div.card-description > p {
     margin-left: 10px !important;
   }
   .timeline-item-title {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
+
+  .newsandevents-news-item-card-body {
+    align-items: flex-start;
+    width: 100%;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+  }
+
+  .newsandevents-news-item-card-title {
+    font-size: 20px !important;
+  }
+
+  .newsandevents-news-item-card-date {
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+    margin-bottom: 10px;
+  }
+
+  .newsandevents-news-item-card-description {
+    font-size: 18px !important;
+  }
+
   .newsandevents-heading {
     text-align: left;
     font: normal normal bold 20px/29px Raleway;
     letter-spacing: 0px;
     color: #5d5d5d;
     opacity: 1;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 }
 

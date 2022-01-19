@@ -8,69 +8,52 @@ import { Container, Row, Col } from 'react-bootstrap';
 import MainLayoutSection from '../components/maincommonlayout/MainCommonLayoutSection';
 import { Chrono } from 'react-chrono';
 import newsAndEvents from '../data/newsAndEventsData.json';
+import React, { useState, useEffect } from 'react';
+import $ from 'jquery';
+import { eventItems } from '../data/aboutUsData';
 
 export default function NewsAndEvents() {
   const { t, lang } = useTranslation();
   const router = useRouter();
 
-  var array = [];
-  newsAndEvents.map((element, index) => {
-    if (element.type.indexOf('Event') > -1) {
-      var item = {};
-      item.title = element.date;
-      item.cardTitle = element.title;
-      item.cardDetailedText = element.description;
-      item.dateStr = element.dateStr;
-      item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
-      item.media = {
-        type: 'IMAGE',
-        source: {
-          url: element.image,
-        },
-      };
-      array.push(item);
-    }
-  });
+  const [arrayNews, setArrayNews] = useState([]);
+  const [arrayEvents, setArrayEvents] = useState([]);
 
-  var newArr = array.sort(function (a, b) {
-    return new Date(b.dateStr) - new Date(a.dateStr);
-  });
+  useEffect(() => {
+    let newsArray = [];
+    let eventsArray = [];
 
-  const items = [
-    {
-      title: 'May 1940',
-      cardTitle: 'Dunkirk',
-      url: 'http://www.history.com',
-      cardSubtitle:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
-      cardDetailedText:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
-      media: {
-        type: 'IMAGE',
-        source: {
-          url: 'http://someurl/image.jpg',
-        },
-      },
-    },
-    {
-      title: 'May 1940',
-      cardTitle: 'Dunkirk',
-      url: 'http://www.history.com',
-      cardSubtitle:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
-      cardDetailedText:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
-      media: {
-        type: 'IMAGE',
-        source: {
-          url: 'http://someurl/image.jpg',
-        },
-      },
-    },
-  ];
+    newsAndEvents.map((element, index) => {
+      if (element.type.indexOf('News') > -1) {
+        newsArray.push(element);
+      } else {
+        let item = {};
+        item.title = element.date;
+        item.cardTitle = element.title;
+        item.cardDetailedText = element.description;
+        item.dateStr = element.dateStr;
+        item.url = 'http://www.history.com'; // '/newsandevents/' + index +1;
+        item.media = {
+          type: 'IMAGE',
+          source: {
+            url: element.image,
+          },
+        };
+        eventsArray.push(item);
+      }
+    });
+
+    eventsArray.sort(function (a, b) {
+      return new Date(b.dateStr) - new Date(a.dateStr);
+    })
+
+    setArrayNews(newsArray);
+    setArrayEvents(eventsArray);
+  }, []);
 
   return (
     <div>
+      <title>News and Events</title>
       <div className="navbarCarouselWrapper institute">
         <Header />
         <MainLayoutSection
@@ -85,7 +68,7 @@ export default function NewsAndEvents() {
 
         <div className="newsandevents-heading">Events Timeline</div>
         <Chrono
-          items={newArr}
+          items={eventItems}
           theme={{
             primary: '#532F00',
             secondary: '#FFD607',

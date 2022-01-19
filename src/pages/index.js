@@ -36,7 +36,7 @@ export default function Home() {
       <CardDeckComponent />
       <NewsAndEventsComponent />
       <Testimonials />
-      <GeneralFAQ />
+      {/* <GeneralFAQ /> */}
       <Footer />
     </div>
   );

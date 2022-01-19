@@ -9,7 +9,7 @@ function  NavigationCommonLayout({navigationList}){
     <Container  className={styles.mainWrapper}>
     <Row className={styles.navRow}>
       {navigationList.map((item, index) => (
-        <Col key={{index}}> <BsFillArrowRightCircleFill size={22}  ></BsFillArrowRightCircleFill > &nbsp;{item}</Col>
+        <Col key={{index}}> <BsFillArrowRightCircleFill size={22}  ></BsFillArrowRightCircleFill > &nbsp;<a href={ "#" + item.id }>{item.title}</a></Col>
       ))}
     </Row>
     </Container>

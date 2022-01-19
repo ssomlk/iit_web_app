@@ -14,7 +14,16 @@ export default function Institute() {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="skeleton">
+      <Head>
+        <title>Institute</title>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="international institute of theravada"
+        />
+      </Head>
       <div className="navbarCarouselWrapper institute">
         <Header />
       </div>
@@ -27,7 +36,7 @@ export default function Institute() {
       <NavigationCommonLayout navigationList={instituteList} />
 
       <Container>
-        <div className="inst-academic-header">Academy</div>
+        <div className="inst-academic-header" id="academy">Academy</div>
         <div className="inst-academic-academy-text">
           In our Academy, we impart Theravada teachings in their purest form in
           Buddhist monks and train them in authentic Theravada meditation
@@ -36,7 +45,7 @@ export default function Institute() {
           doctrine and meditation practice as preserved by the tradition of
           Theravada.
         </div>
-        <div className="inst-academic-header">Academic Staff</div>
+        <div className="inst-academic-header" id="academic-staff">Academic Staff</div>
         <Row key="0" className="inst-academic-row">
           <Col key="1">
             <AcademicProfile
@@ -193,7 +202,7 @@ export default function Institute() {
           </Col>
         </Row>
 
-        <div className="inst-academic-header">Monastery</div>
+        <div className="inst-academic-header" id="monastery">Monastery</div>
         <div className="inst-academic-academy-text">
           IIT, being a monk-training center, has a monastery. In it, students
           can lead their lives well according to the disciplinary code advocated
@@ -204,7 +213,7 @@ export default function Institute() {
         </div>
       </Container>
 
-      <Container className="inst-admin-struct-container">
+      <Container className="inst-admin-struct-container" id="administration">
         <div className="inst-admin-struct-header">
           Administrational Structure
         </div>

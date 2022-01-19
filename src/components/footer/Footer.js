@@ -59,16 +59,16 @@ function Footer() {
                   <a href="#"> History of Theravada Buddhism</a>
                 </li> */}
                 <li className={styles.liSub}>
-                  <a href="#">What is IIT?</a>
+                  <a href="/aboutus#what-is-iit">What is IIT?</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Establishment</a>
+                  <a href="/aboutus#establishment">Establishment</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Our Vision &amp; Mission</a>
+                  <a href="/aboutus#our-vision-and-mission">Our Vision &amp; Mission</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Our Focus</a>
+                  <a href="/aboutus#our-focus">Our Focus</a>
                 </li>
                 {/* <li className={styles.liSub}>
                   <a href="#">Spirituality</a>
@@ -83,16 +83,16 @@ function Footer() {
                   <a href="#"> Academy</a>
                 </li> */}
                 <li className={styles.liSub}>
-                  <a href="#">Academy</a>
+                  <a href="/institute#academy">Academy</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Academic Staff</a>
+                  <a href="/institute#academic-staff">Academic Staff</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Monastery</a>
+                  <a href="/institute#monastery">Monastery</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="#">Administration</a>
+                  <a href="/institute#administration">Administration</a>
                 </li>
               </ul>
             </Col>

@@ -57,41 +57,58 @@ export default function HowToSupport() {
       {/* <NavigationCommonLayout navigationList={instituteList} /> */}
 
       <Container>
-        <div className="how-to-support-how-to-donate-header">Main Aspects</div>
         <div className="how-to-support-content">
+          <div className="how-to-support-main-body">
+            <div className="how-to-support-how-to-donate-header">
+              Main Aspects
+            </div>
+            <div className="how-to-support-aspect-container">
+              <div className="how-to-support-main-body-col">
+                <div className="how-to-support-main-aspects">Construction</div>
+                <div className="how-to-support-main-aspects-text">
+                  Currently constructions are underway in a 100-acre land
+                  donated by a devotee for a lecture hall and ten chambers
+                  (Kuti) in order to commence the five-year teacher training
+                  program. Constructions for the main complex will provide
+                  lodging facilities for 300 monks, lecture theatres and a
+                  library is expected to begin in the near future.
+                </div>
+              </div>
 
-        <div className="how-to-support-main-body">
-          <div className="how-to-support-main-body-col">
-            <div className="how-to-support-main-aspects">Construction</div>
-            <div className="how-to-support-main-aspects-text">
-              Currently constructions are underway in a 100-acre land donated by
-              a devotee for a lecture hall and ten chambers (Kuti) in order to
-              commence the five-year teacher training program. Constructions for
-              the main complex will provide lodging facilities for 300 monks,
-              lecture theatres and a library is expected to begin in the near
-              future.
+              <div className="how-to-support-main-body-col">
+                <div className="how-to-support-main-aspects">Healthcare</div>
+                <div className="how-to-support-main-aspects-text">
+                  Contributions can be made for the medical expenses and other
+                  healthcare related needs of the monks residing in the
+                  Institute.
+                </div>
+                <br></br>
+                <br></br>
+                <div className="how-to-support-main-aspects">
+                  Other Requisities
+                </div>
+                <div className="how-to-support-main-aspects-text">
+                  Administration and other expenses required by the Institiute
+                  can be fullfilled.
+                </div>
+              </div>
+            </div>
+            <div className="how-to-support-quote">
+              <hr className="how-to-support-hr-quote"></hr>
+              <div className="how-to-support-quote-container">
+                <blockquote className="blockquote mb-0 ">
+                  <p className="how-to-support-quote">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer posuere erat a ante.{' '}
+                  </p>
+                  <footer className="how-to-support-source-name">
+                    Someone famous in source title
+                  </footer>
+                </blockquote>
+              </div>
             </div>
           </div>
-
-          <div className="how-to-support-main-body-col">
-            <div className="how-to-support-main-aspects">Healthcare</div>
-            <div className="how-to-support-main-aspects-text">
-              Contributions can be made for the medical expenses and other
-              healthcare related needs of the monks residing in the Institute.
-            </div>
-            <br></br>
-            <br></br>
-            <div className="how-to-support-main-aspects">Other Requisities</div>
-            <div className="how-to-support-main-aspects-text">
-              Administration and other expenses required by the Institiute can
-              be fullfilled.
-            </div>
-          </div>
-
- 
-        </div>
-    
-        <div className="how-to-support-main-body-bank-info">
+          <div className="how-to-support-main-body-bank-info">
             <div className="how-to-support-main-body-bank-info-section1">
               <div className="how-to-support-main-body-bank-info-section1-title">
                 How to Donate
@@ -108,12 +125,11 @@ export default function HowToSupport() {
                 <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
                   Kshemabhoomi Sansadaya
                 </div>
-              <hr></hr>
-
+                <hr></hr>
               </div>
 
               <div className="how-to-support-main-body-bank-info-section2-col2">
-                <div className="how-to-support-main-body-bank-info-section2-subtitle">
+                <div className="how-to-support-main-body-bank-info-section2-subtitle-cust">
                   Account Number
                   <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
                     119165000021
@@ -121,90 +137,55 @@ export default function HowToSupport() {
                   <hr></hr>
                 </div>
 
-                <div className="how-to-support-main-body-bank-info-section2-subtitle">
-                Bank Name
+                <div className="how-to-support-main-body-bank-info-section2-subtitle-cust">
+                  Bank Name
                   <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
-                  Sampath Bank PLC
+                    Sampath Bank PLC
                   </div>
                   <hr></hr>
                 </div>
-              
               </div>
 
               <div className="how-to-support-main-body-bank-info-section2-col2">
-                <div className="how-to-support-main-body-bank-info-section2-subtitle">
-                Branch Name
+                <div className="how-to-support-main-body-bank-info-section2-subtitle-cust">
+                  Branch Name
                   <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
-                  Panchikawatte
+                    Panchikawatte
                   </div>
                   <hr></hr>
                 </div>
 
-                <div className="how-to-support-main-body-bank-info-section2-subtitle">
-                Bank Code
+                <div className="how-to-support-main-body-bank-info-section2-subtitle-cust">
+                  Bank Code
                   <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
-                  7278
+                    7278
                   </div>
                   <hr></hr>
                 </div>
               </div>
 
-              <div className="how-to-support-main-body-bank-info-section2-col2" style={{ paddingBottom:"23px"}}>
-                <div className="how-to-support-main-body-bank-info-section2-subtitle">
-                Branch Code
+              <div
+                className="how-to-support-main-body-bank-info-section2-col2"
+                style={{ paddingBottom: '23px' }}
+              >
+                <div className="how-to-support-main-body-bank-info-section2-subtitle-cust">
+                  Branch Code
                   <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
-                  191
+                    191
                   </div>
                 </div>
 
-                <div className="how-to-support-main-body-bank-info-section2-subtitle">
-                SWIFT Code
+                <div className="how-to-support-main-body-bank-info-section2-subtitle-cust">
+                  SWIFT Code
                   <div className="how-to-support-main-body-bank-info-section2-subtitle-val">
-                  BSAMLKLX
+                    BSAMLKLX
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
-      </Container>
-
-      <Container>
-        <hr></hr>
-        <div className="how-to-support-quote-container">
-          <blockquote className="blockquote mb-0 ">
-            <p className="how-to-support-quote">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.{' '}
-            </p>
-            <footer className="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
         </div>
       </Container>
-      {/* 
-      <div className="how-to-support-focus">
-        <Container>
-          <div className="how-to-support-how-to-donate-header">
-            How to Donate
-          </div>
-          <p className="how-to-support-donate-sub-header">
-            Devotees who wish to join this meritorious act can donate using the
-            below Account details.
-          </p>
-
-          <ul class="how-to-support-account-info">
-            <li>Account Name: Kshemabhoomi Sansadaya </li>
-            <li>Account Number: 119165000021</li>
-            <li>Bank Name: Sampath Bank PLC</li>
-            <li>Branch Name: Panchikawatte</li>
-            <li>Bank Code: 7278</li>
-            <li>Branch Code: 191</li>
-            <li>SWIFT Code: BSAMLKLX</li>
-          </ul>
-        </Container>
-      </div> */}
 
       <Footer />
     </div>

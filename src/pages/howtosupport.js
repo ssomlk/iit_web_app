@@ -94,17 +94,24 @@ export default function HowToSupport() {
               </div>
             </div>
             <div className="how-to-support-quote">
-              <hr className="how-to-support-hr-quote"></hr>
-              <div className="how-to-support-quote-container">
-                <blockquote className="blockquote mb-0 ">
-                  <p className="how-to-support-quote">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.{' '}
-                  </p>
-                  <footer className="how-to-support-source-name">
-                    Someone famous in source title
-                  </footer>
-                </blockquote>
+              <img
+                className="d-block w-100 banner-social-icon-max-width-45"
+                src="/leftQuote.svg"
+                alt="Quote"
+              />
+              <div>
+                <hr className="how-to-support-hr-quote"></hr>
+                <div className="how-to-support-quote-container">
+                  <blockquote className="blockquote mb-0 ">
+                    <p className="how-to-support-quote">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer posuere erat a ante.{' '}
+                    </p>
+                    <footer className="how-to-support-source-name">
+                      Someone famous in source title
+                    </footer>
+                  </blockquote>
+                </div>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="skeleton">
       <Head>
-        <title>iit</title>
+        <title>Home</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta

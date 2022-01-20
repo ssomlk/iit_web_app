@@ -30,7 +30,7 @@ function AboutUsComponent() {
   return (
     <div className={styles.rootContainer}>
       <div className={styles.aboutUsContainer}>
-        <div className={styles.aboutUsHeader}>
+        <div className={styles.aboutUsHeader} id="what-is-iit">
           <h1 className={styles.mainHeader}>What is IIT?</h1>
           <p className={styles.aboutUsMainIntro}>
             The International Institute of Theravada (IIT) is a comprehensive
@@ -80,7 +80,7 @@ function AboutUsComponent() {
             </div>
           </div>
         </div>
-        <div className={styles.missionHeading}>
+        <div className={styles.missionHeading} id="our-vision-and-mission">
           <h2 className={styles.subHeading2}>Our Vision & Mission</h2>
         </div>
         <div className={styles.missionDetails}>
@@ -103,7 +103,7 @@ function AboutUsComponent() {
           </div>
         </div>
       </div>
-      <div className={styles.ourFocusContainer}>
+      <div className={styles.ourFocusContainer} id="our-focus">
         <div className={styles.ourFocusInnerContainer}>
           <div className={styles.ourFocusHeader}>Our Focus</div>
           <div className={styles.ourFocusSubHeader}>

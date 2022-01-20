@@ -36,7 +36,9 @@ export default function Institute() {
       <NavigationCommonLayout navigationList={instituteList} />
 
       <Container>
-        <div className="inst-academic-header" id="academy">Academy</div>
+        <div className="inst-academic-header" id="academy">
+          Academy
+        </div>
         <div className="inst-academic-academy-text">
           In our Academy, we impart Theravada teachings in their purest form in
           Buddhist monks and train them in authentic Theravada meditation
@@ -45,7 +47,9 @@ export default function Institute() {
           doctrine and meditation practice as preserved by the tradition of
           Theravada.
         </div>
-        <div className="inst-academic-header" id="academic-staff">Academic Staff</div>
+        <div className="inst-academic-header" id="academic-staff">
+          Academic Staff
+        </div>
         <Row key="0" className="inst-academic-row">
           <Col key="1">
             <AcademicProfile
@@ -202,7 +206,9 @@ export default function Institute() {
           </Col>
         </Row>
 
-        <div className="inst-academic-header" id="monastery">Monastery</div>
+        <div className="inst-academic-header" id="monastery">
+          Monastery
+        </div>
         <div className="inst-academic-academy-text">
           IIT, being a monk-training center, has a monastery. In it, students
           can lead their lives well according to the disciplinary code advocated
@@ -224,99 +230,82 @@ export default function Institute() {
         </div>
 
         <div className="inst-admin-struct-sub-text">
-        IIT is governed by its General Assembly of which powers are exercised by three independent bodies, i.e., Executive Board, Senet and Vinaya Council.
+          IIT is governed by its General Assembly of which powers are exercised
+          by three independent bodies, i.e., Executive Board, Senet and Vinaya
+          Council.
         </div>
 
-        <div className="inst-admin-struct-general">
-        General Assembly
-        </div>
+        <div className="inst-admin-struct-general">General Assembly</div>
 
         <div className="inst-admin-struct-general-subtext">
-        Executive Board consisting of senior monks who are responsible in governing the IIT. It is divided into two sub-councils, i.e., Study Council and Monastic Council
-        </div>
-
-        {/* 
-        <Row className="inst-admin-struct-row">
-          <Col key="15">
-        
-            <div className="inst-admin-struct-sub-text">
-              IIT is an independent academic institution that would retain
-              autonomy with regard to, all aspects of decision-making.
-            </div>
-          </Col>
-
-          <Col className="inst-admin-struct-2nd-col">
-            <Row key="17" className="inst-admin-struct-row">
-              <Col>
-                <div className="inst-admin-struct-col-header">
-                  General Assembly
+          <div className="inst-assembly-container">
+            <p className="inst-admin-executive-content">
+              Executive Board consisting of senior monks who are responsible in
+              governing the IIT. It is divided into two sub-councils, i.e.,
+              Study Council and Monastic Council
+            </p>
+            <hr className="inst-assembly-vert-line"></hr>
+            <hr className="inst-assembly-horiz-line"></hr>
+            <div className="inst-council-container">
+              <div className="inst-council-container-col">
+                <div className="inst-council-container-col-item">
+                  <span className="inst-council-container-col-title">
+                    Executive Board
+                  </span>
+                  <p className="inst-council-container-col-desc">
+                    Executive Board consisting of senior monks who are
+                    responsible in governing the IIT. It is divided into two
+                    sub-councils, i.e., Study Council and Monastic Council
+                  </p>
                 </div>
-                <div className="inst-admin-struct-col-body">
-                  Executive Board consisting of senior monks who are responsible
-                  in governing the IIT. It is divided into two sub-councils,
-                  i.e., Study Council and Monastic Council
+                <div className="inst-assembly-vert-line-short-container">
+                  <hr className="inst-assembly-vert-line-short"></hr>
                 </div>
-              </Col>
-
-              <Col>
-                <div className="inst-admin-struct-col-header">
-                  Study Council
+                <div className="inst-council-container-col-item">
+                  <p className="inst-council-container-col-title-two">
+                    Study Council
+                  </p>
+                  <p className="inst-council-container-col-desc">
+                    Study Council is consisting of erudite monks who manage all
+                    academic and spriritual activities of the IIT
+                  </p>
                 </div>
-                <div className="inst-admin-struct-col-body">
-                  Study Council is consisting of erudite monks who manage all
-                  academic and spriritual activities of the IIT
+                <div className="inst-assembly-vert-line-short-container">
+                  <hr className="inst-assembly-vert-line-short"></hr>
                 </div>
-              </Col>
-            </Row>
-
-            <Row key="19" className="inst-admin-struct-row">
-              <Col>
-                <div className="inst-admin-struct-col-header">Senat</div>
-                <div className="inst-admin-struct-col-body">
+                <div className="inst-council-container-col-item">
+                  <p className="inst-council-container-col-title-two">
+                    Monsatic Council
+                  </p>
+                  <p className="inst-council-container-col-desc">
+                    Monastic Council is cosisiting of skilled monks who
+                    supervise the construction of the IIT and the well-being of
+                    the residents of the IIT
+                  </p>
+                </div>
+              </div>
+              <div className="inst-council-container-col">
+                <span className="inst-council-container-col-title">Senat</span>
+                <p className="inst-council-container-col-desc">
                   Senet is the body consisting of members of the IIT who are
                   knowlagable in the Theravada scriptures and who observe the
                   decisions taken by the Executive Board and discuss on Dhamma
                   Vinaya issues.
-                </div>
-              </Col>
-
-              <Col key="20">
-                <div className="inst-admin-struct-col-header">
-                  Executive Board
-                </div>
-                <div className="inst-admin-struct-col-body">
-                  Executive Board consisting of senior monks who are responsible
-                  in governing the IIT. It is divided into two sub-councils,
-                  i.e., Study Council and Monastic Council
-                </div>
-              </Col>
-            </Row>
-
-            <Row key="22" className="inst-admin-struct-row">
-              <Col>
-                <div className="inst-admin-struct-col-header">
-                  Monsatic Council
-                </div>
-                <div className="inst-admin-struct-col-body">
-                  Monastic Council is cosisiting of skilled monks who supervise
-                  the construction of the IIT and the well-being of the
-                  residents of the IIT
-                </div>
-              </Col>
-
-              <Col>
-                <div className="inst-admin-struct-col-header">
+                </p>
+              </div>
+              <div className="inst-council-container-col">
+                <span className="inst-council-container-col-title">
                   Vinay Council
-                </div>
-                <div className="inst-admin-struct-col-body">
+                </span>
+                <p className="inst-council-container-col-desc">
                   Vinaya Council consisting of monks well versed in the monks
                   disciplinary code, and decide on all disciplinary matters of
                   the IIT
-                </div>
-              </Col>
-            </Row>
-          </Col>
-        </Row> */}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </Container>
 
       <Footer />

@@ -491,10 +491,108 @@ p {
   color: #616057;
   opacity: 1;
   padding-top: 26px;
+  padding-bottom: 50px;
+}
 
-  /* padding-right: 583px;
-padding-left: 300px;
- */
+.inst-assembly-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inst-assembly-vert-line {
+  border: none;
+  background: repeating-linear-gradient(
+    180deg,
+    #000,
+    #000 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  height: 70px !important;
+  width: 1.6px !important;
+}
+
+.inst-assembly-vert-line-short-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inst-assembly-vert-line-short {
+  border: none;
+  background: repeating-linear-gradient(
+    180deg,
+    #000,
+    #000 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  height: 45px !important;
+  width: 1.6px !important;
+}
+
+.inst-assembly-horiz-line {
+  border: none;
+  height: 1.5px !important;
+  background: repeating-linear-gradient(
+    90deg,
+    #000,
+    #000 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.inst-council-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inst-council-container-col {
+  position: relative;
+  width: 33.33%;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.inst-council-container-col-title {
+  position: absolute;
+  top: -54px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 'Raleway';
+  font-weight: 600;
+  font-size: 24px;
+  color: #202020;
+  background-color: #ffffff;
+  padding-right: 15px;
+  padding-left: 15px;
+  line-height: 25px;
+}
+
+.inst-council-container-col-title-two {
+  font: 'Raleway';
+  font-weight: 600;
+  font-size: 19px;
+  color: #202020;
+  margin-bottom: 20px;
+  line-height: 23px;
+}
+
+.inst-council-container-col-desc {
+  font: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #616057;
+  margin-bottom: 0px;
+}
+
+.inst-admin-executive-content {
+  width: 60%;
+  margin-bottom: 0;
 }
 
 .inst-admin-struct-sub-text {
@@ -539,6 +637,7 @@ padding-left: 300px;
   .inst-academic-header {
     font: normal normal bold 24px/29px Raleway;
   }
+
   .inst-admin-struct-header {
     font: normal normal bold 22px/25px Raleway;
     margin-bottom: 40px;
@@ -641,6 +740,7 @@ padding-left: 300px;
   display: flex;
   flex-direction: row;
   margin-bottom: 170px;
+  margin-top: 100px;
 }
 
 .how-to-support-main-body {

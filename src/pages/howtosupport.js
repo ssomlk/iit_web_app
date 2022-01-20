@@ -66,30 +66,32 @@ export default function HowToSupport() {
               <div className="how-to-support-main-body-col">
                 <div className="how-to-support-main-aspects">Construction</div>
                 <div className="how-to-support-main-aspects-text">
-                  Currently constructions are underway in a 100-acre land
-                  donated by a devotee for a lecture hall and ten chambers
-                  (Kuti) in order to commence the five-year teacher training
-                  program. Constructions for the main complex will provide
-                  lodging facilities for 300 monks, lecture theatres and a
-                  library is expected to begin in the near future.
+                  Currently constructions are underway in a 100-acre land for
+                  forty (40) residential chambers (kuṭis), two Lecture Halls,
+                  one Permanent AV Studio, a Study Council, one Sewing Room and
+                  one Robe Washing Shed in order to commence the five-year
+                  teacher training program. <br />
+                  <br /> Constructions for the main complex that will provide
+                  lodging facilities for about 300 monks, Lecture Theatres and a
+                  Library is expected to begin in the near future.
                 </div>
               </div>
 
               <div className="how-to-support-main-body-col">
                 <div className="how-to-support-main-aspects">Healthcare</div>
                 <div className="how-to-support-main-aspects-text">
-                  Contributions can be made for the medical expenses and other
+                  Contributions can be made for the medical purposes and other
                   healthcare related needs of the monks residing in the
                   Institute.
                 </div>
                 <br></br>
                 <br></br>
                 <div className="how-to-support-main-aspects">
-                  Other Requisities
+                  Propagating Dhamma
                 </div>
                 <div className="how-to-support-main-aspects-text">
-                  Administration and other expenses required by the Institiute
-                  can be fullfilled.
+                  One can contribute to spread the noble Theravada Dhamma all
+                  around the globe for the benefit of humankind.
                 </div>
               </div>
             </div>

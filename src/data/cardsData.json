@@ -2,8 +2,8 @@
     {
         "title":"Courses and Trainings",
         "image":"coursesAndTrainningIcon.svg",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
-        "link":"www.google.com",
+        "description":"IIT provides three courses – Nissayamuttaka Course (NmC), Parisupaṭṭhāka Course (PuC) and Bhussuta Course (BstC).",
+        "link":"/education",
         "color":"#FFD426",
         "titleColor":"#132072",
         "arrowColor":""
@@ -11,16 +11,16 @@
     {
         "title":"Meditation Programme",
         "image":"meditationProgIcon.svg",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
-        "link":"",
+        "description":"Meditation becomes successful with proper guidance. ",
+        "link":"/meditation",
         "color":"#FFEDA5",
         "titleColor":"#132072",
         "arrowColor":""
     },
     {
-        "title":"Our Services",
+        "title":"Dhamma Lectures and Sermons ",
         "image":"ourServicesIcon.svg",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
+        "description":"In addition to occasional Dhamma discourses, IIT currently holds few valuable online Dhamma courses related to Theravada in both Sinhala and English medium.",
         "link":"",
         "color":"#025BC1",
         "titleColor":"#FFFFFF",
@@ -29,7 +29,7 @@
     {
         "title":"Get Registered",
         "image":"getRegisteredIcon.svg",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris. Pellentesque bibendum lorem ac mauris porta sodales. Quisque eu tortor ullamcorper, posuere velit nec, tincidunt nisl. Etiam ultrices placerat mi nec aliquet. Curabitur consequat sem at molestie efficitur.",
+        "description":"Monks who are willing to join our courses will be able to get registered soon. ",
         "link":"",
         "color":"#1E1EA2",
         "titleColor":"#FFFFFF",

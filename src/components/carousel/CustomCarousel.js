@@ -152,13 +152,9 @@ function CustomCarousel() {
                   </div>
                   <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
                     <div className={styles.sliderTwoText}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam dictum molestie magna. Class aptent taciti sociosqu ad
-                      litora torquent per conubia nostra, per inceptos
-                      himenaeos. Nunc et tellus nec est consectetur feugiat
-                      tincidunt interdum nulla. Mauris a gravida metus, varius
-                      sagittis nunc. Curabitur viverra condimentum orci et
-                      porttitor.
+                      IIT holds online Dhamma programs during full moon days.
+                      You can listen to various dhamma discourses, meditation
+                      instructions in both Sinhala and English medium.
                     </div>
                   </Carousel.Caption>
                 </div>

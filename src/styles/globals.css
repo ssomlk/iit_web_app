@@ -81,6 +81,8 @@ p {
 }
 
 .banner-social-icon-max-width-45 {
+  align-self: flex-start;
+  margin-right: 15px;
   max-width: 45px;
 }
 

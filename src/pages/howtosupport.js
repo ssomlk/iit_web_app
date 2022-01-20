@@ -49,8 +49,9 @@ export default function HowToSupport() {
 
       <MainLayoutSection
         title="How To Support"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Sāgārā anagārā ca - ubo aññoññanissitā Ārādhayanti saddhammaṃ - yogakkhemaṃ anuttaraṃ"
         photo="/Howtosupportimg.png"
+        info="While lay devotees support monks with relevant requisites, monks enrich them with the noble Dhamma. Thus, the disciples of the Tathāgata get freed from suffering."
         backgroundImg="url(/Ellipse-2.svg)"
       />
 
@@ -99,7 +100,7 @@ export default function HowToSupport() {
                 src="/leftQuote.svg"
                 alt="Quote"
               />
-              <div>
+              <div className="how-to-support-hr-quote-container">
                 <hr className="how-to-support-hr-quote"></hr>
                 <div className="how-to-support-quote-container">
                   <blockquote className="blockquote mb-0 ">

@@ -49,9 +49,8 @@ export default function HowToSupport() {
 
       <MainLayoutSection
         title="How To Support"
-        description="Sāgārā anagārā ca - ubo aññoññanissitā Ārādhayanti saddhammaṃ - yogakkhemaṃ anuttaraṃ"
         photo="/Howtosupportimg.png"
-        info="While lay devotees support monks with relevant requisites, monks enrich them with the noble Dhamma. Thus, the disciples of the Tathāgata get freed from suffering."
+        description="While lay devotees support monks with relevant requisites, monks enrich them with the noble Dhamma. Thus, the disciples of the Tathāgata get freed from suffering."
         backgroundImg="url(/Ellipse-2.svg)"
       />
 
@@ -105,11 +104,12 @@ export default function HowToSupport() {
                 <div className="how-to-support-quote-container">
                   <blockquote className="blockquote mb-0 ">
                     <p className="how-to-support-quote">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer posuere erat a ante.{' '}
+                      sāgārā anagārā ca, ubho aññoññanissitā. <br /> ārādhayanti
+                      saddhammaṃ, yogakkhemaṃ anuttaraṃ
                     </p>
                     <footer className="how-to-support-source-name">
-                      Someone famous in source title
+                      Sutta pitaka, kuddaka nikāya, itivuttaka, catukkanipāto,
+                      bahukārasuttaṃ
                     </footer>
                   </blockquote>
                 </div>

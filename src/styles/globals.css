@@ -184,6 +184,14 @@ p {
   padding: 40px;
 }
 
+.sliderThreeLogo {
+  height: 400px;
+  width: 400px;
+  min-height: 400px;
+  border-radius: 100%;
+  padding: 40px;
+}
+
 .flex {
   display: flex;
 }

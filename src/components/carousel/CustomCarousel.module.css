@@ -69,11 +69,15 @@
 }
 
 .bannerTextTwo {
-  font-size: 54px;
+  font-size: 40px;
   color: #616057;
   letter-spacing: 0;
-  line-height: 65px;
+  line-height: 50px;
   margin-bottom: 39px;
+  text-align: left;
+}
+
+.sliderLogoText{
   text-align: left;
 }
 
@@ -180,6 +184,18 @@
   font-family: "Raleway";
   font-weight: 400;
   color: #ffffff;
+}
+
+.sliderThreeText {
+  text-align: left;
+  font-size: 19px;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.sliderThreeTextLine {
+  padding: 6px 0 6px 0;
 }
 
 .sliderTwoInnerCont {

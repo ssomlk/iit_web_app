@@ -1,16 +1,16 @@
 [
     {
-        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum molestie magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc et tellus nec est consectetur feugiat tincidunt interdum nulla. Mauris a gravida metus, varius sagittis nunc. Curabitur viverra condimentum orci et porttitor.",
-        "author":"Ven. Panadure Seelarathana Thero",
+        "quote":"A Q&A platform that lets you connect with bhikkus of IIT via Telegram to get your dhamma questions answered. This YouTube playlist contains videos of such that were answered  according to the Theravada tradition.",
+        "author":"",
         "image":"",
-        "description":"Diploma in Buddha Dhamma at the International Theravāda Buddhist Missionary University, Yangon. He has undergone monastic training under the Thai Forest Tradition.",
+        "description":"",
         "video":"https://www.youtube.com/watch?v=zuIPOTyF1Ew"
     },
     {
-        "quote":"Lorem isociosqu ads sagittis nunc. Curabitur viverra condimentum orci et porttitor.",
-        "author":"Ven. Panadure Chandawimala Thero",
+        "quote":"Vision of IIT ( International Institute of Theravada )",
+        "author":"",
         "image":"",
-        "description":"Diploma in Buddha Dhamma at the International Theravāda Buddhist Missionary University.",
+        "description":"",
         "video":"https://www.youtube.com/watch?v=olkLu3BTLis"
     }
 ]

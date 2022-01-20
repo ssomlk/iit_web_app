@@ -1,6 +1,6 @@
 [
     {
-        "title":"Courses and Trainings",
+        "title":"Courses Conducted",
         "image":"coursesAndTrainningIcon.svg",
         "description":"IIT provides three courses – Nissayamuttaka Course (NmC), Parisupaṭṭhāka Course (PuC) and Bhussuta Course (BstC).",
         "link":"/education",
@@ -9,19 +9,19 @@
         "arrowColor":""
     },
     {
-        "title":"Meditation Programme",
-        "image":"meditationProgIcon.svg",
-        "description":"Meditation becomes successful with proper guidance. ",
-        "link":"/meditation",
+        "title":"Dhamma Lectures and Sermons",
+        "image":"ourServicesIcon.svg",
+        "description":"In addition to occasional Dhamma discourses, IIT currently holds few valuable online Dhamma courses related to Theravada in both Sinhala and English medium.",
+        "link":"https://www.youtube.com/watch?v=pQY_xMowfRA&list=PLdluojKrWhDe6PRlcaHvxqvqKA5kwo1Dz",
         "color":"#FFEDA5",
         "titleColor":"#132072",
         "arrowColor":""
     },
     {
-        "title":"Dhamma Lectures and Sermons ",
-        "image":"ourServicesIcon.svg",
-        "description":"In addition to occasional Dhamma discourses, IIT currently holds few valuable online Dhamma courses related to Theravada in both Sinhala and English medium.",
-        "link":"",
+        "title":"Meditation Instructions",
+        "image":"meditationProgIcon.svg",
+        "description":"Meditation becomes successful with proper guidance.",
+        "link":"/meditation",
         "color":"#025BC1",
         "titleColor":"#FFFFFF",
         "arrowColor":""
@@ -30,7 +30,7 @@
         "title":"Get Registered",
         "image":"getRegisteredIcon.svg",
         "description":"Monks who are willing to join our courses will be able to get registered soon. ",
-        "link":"",
+        "link":"#",
         "color":"#1E1EA2",
         "titleColor":"#FFFFFF",
         "arrowColor":""

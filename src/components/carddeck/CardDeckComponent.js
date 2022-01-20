@@ -81,9 +81,8 @@ const CardDeckComponent = () => {
     <Container className={`card-container ${styles.deckContainer}`}>
       <div className={styles.deckHeader}>
         <p className={styles.deckHeaderIntro}>
-          International Institute of Theravada is an inclusive bhikkhu training
-          center aiming at capacitating attahita, parahita and vinayadhara
-          Buddhist monks.
+        International Institute of Theravada is a monk training institute dedicated to capacitate monks who are capable in attaining their own liberation (atthahita bhikkhu), 
+        guiding others towards liberation (parahita bhikkhu) and sustaining the sāsana by accurately following the code of discipline (vinayadhara bhikkhu).
         </p>
       </div>
       <Row xs={1} sm={2} md={2} lg={4}>

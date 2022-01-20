@@ -78,7 +78,7 @@ export default function HowToSupport() {
               </div>
 
               <div className="how-to-support-main-body-col">
-                <div className="how-to-support-main-aspects">Healthcare</div>
+                <div className="how-to-support-main-aspects how-to-support-main-aspects-mobile">Healthcare</div>
                 <div className="how-to-support-main-aspects-text">
                   Contributions can be made for the medical purposes and other
                   healthcare related needs of the monks residing in the

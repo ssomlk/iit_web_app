@@ -49,8 +49,8 @@ export default function HowToSupport() {
 
       <MainLayoutSection
         title="How To Support"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         photo="/Howtosupportimg.png"
+        description="While lay devotees support monks with relevant requisites, monks enrich them with the noble Dhamma. Thus, the disciples of the Tathāgata get freed from suffering."
         backgroundImg="url(/Ellipse-2.svg)"
       />
 
@@ -94,17 +94,25 @@ export default function HowToSupport() {
               </div>
             </div>
             <div className="how-to-support-quote">
-              <hr className="how-to-support-hr-quote"></hr>
-              <div className="how-to-support-quote-container">
-                <blockquote className="blockquote mb-0 ">
-                  <p className="how-to-support-quote">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.{' '}
-                  </p>
-                  <footer className="how-to-support-source-name">
-                    Someone famous in source title
-                  </footer>
-                </blockquote>
+              <img
+                className="d-block w-100 banner-social-icon-max-width-45"
+                src="/leftQuote.svg"
+                alt="Quote"
+              />
+              <div className="how-to-support-hr-quote-container">
+                <hr className="how-to-support-hr-quote"></hr>
+                <div className="how-to-support-quote-container">
+                  <blockquote className="blockquote mb-0 ">
+                    <p className="how-to-support-quote">
+                      sāgārā anagārā ca, ubho aññoññanissitā. <br /> ārādhayanti
+                      saddhammaṃ, yogakkhemaṃ anuttaraṃ
+                    </p>
+                    <footer className="how-to-support-source-name">
+                      Sutta pitaka, kuddaka nikāya, itivuttaka, catukkanipāto,
+                      bahukārasuttaṃ
+                    </footer>
+                  </blockquote>
+                </div>
               </div>
             </div>
           </div>

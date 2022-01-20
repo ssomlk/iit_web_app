@@ -121,11 +121,11 @@ export default function HowToSupport() {
           <div className="how-to-support-main-body-bank-info">
             <div className="how-to-support-main-body-bank-info-section1">
               <div className="how-to-support-main-body-bank-info-section1-title">
-                How to Donate
+                How to Contribute
               </div>
               <div className="how-to-support-main-body-bank-info-section1-body">
-                Devotees who wish to join this meritorious act can donate using
-                the below Account details.
+                Devotees who are willing to join the meritorious act of
+                supporting the IIT can do so with the below information.
               </div>
             </div>
 

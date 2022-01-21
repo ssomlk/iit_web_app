@@ -13,6 +13,10 @@ interface FormData {
 }
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
+  res.setHeader('Access-Control-Allow-Origin', ['*']);
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
   const formData: FormData = req.body;
   const human = await validateHuman(formData.token);
   //const human = true;

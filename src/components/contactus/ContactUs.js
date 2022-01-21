@@ -57,7 +57,6 @@ function ContactUs() {
     setShowSpinner(true);
     disableDomElement(submitButton);
 
-    //const token = "7343dyeyydt**";
     const token = recaptchaRef.current.getValue();
     recaptchaRef.current.reset();
 

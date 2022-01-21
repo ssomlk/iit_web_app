@@ -90,20 +90,37 @@ Constructions for the main complex that will provide lodging facilities for abou
                 </div>
               </div>
             </div>
+
             <div className="how-to-support-quote">
-              <hr className="how-to-support-hr-quote"></hr>
-              <div className="how-to-support-quote-container">
-                <blockquote className="blockquote mb-0 ">
-                  <p className="how-to-support-quote">
-                  While lay devotees support monks with relevant requisites, monks enrich them with the noble Dhamma. Thus, the disciples of the Tathāgata get freed from suffering.
-                  </p>
-                  <footer className="how-to-support-source-name">
-                  Sāgārā anagārā ca - ubo aññoññanissitā
-                  Ārādhayanti saddhammaṃ - yogakkhemaṃ anuttaraṃ
-                  </footer>
-                </blockquote>
+              <img
+                className="d-block w-100 banner-social-icon-max-width-45"
+                src="/leftQuote.svg"
+                alt="Quote"
+              />
+              <div className="how-to-support-hr-quote-container">
+                <hr className="how-to-support-hr-quote"></hr>
+                <div className="how-to-support-quote-container">
+                  <blockquote className="blockquote mb-0 ">
+                    <p className="how-to-support-quote-p">
+                    Sāgārā anagārā ca - ubho aññoññanissitā, <br />
+                    Ᾱrādhayanti saddhammaṃ - yogakkhemaṃ anuttaraṃ.
+                    </p>
+                    <footer className="how-to-support-source-name">
+                      Sutta pitaka, kuddaka nikāya, itivuttaka, catukkanipāto,
+                      bahukārasuttaṃ
+                    </footer>
+                    < br />
+                    <p className="how-to-support-quote-p">
+                    While lay devotees support monks with relevant requisites, monks enrich them with the noble Dhamma. Thus, the disciples of the Tathāgata get freed from suffering.
+                    </p>
+                  </blockquote>
+                </div>
               </div>
             </div>
+
+            
+
+
           </div>
           <div className="how-to-support-main-body-bank-info">
             <div className="how-to-support-main-body-bank-info-section1">

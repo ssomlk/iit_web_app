@@ -767,6 +767,9 @@ p {
   margin-right: 40px;
 }
 
+.how-to-support-quote-p {
+  font-size: 26px;
+}
 .how-to-support-hr-quote {
   color: #616057;
   opacity: 1 !important;

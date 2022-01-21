@@ -91,26 +91,26 @@ function CustomCarousel() {
             </div>
             <div className={styles.bannerOneLeft}>
               <div className={styles.iconsButton}>
-                <img
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/twitter.svg"
                   alt="twitter"
-                />
+                /> */}
                 <img
                   className="d-block w-100 banner-social-icon-max-width banner-social-icon-max-height mt-10 mb-10"
                   src="/facebook-f.svg"
                   alt="facebook"
                 />
-                <img
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/instagram.svg"
                   alt="instagram"
-                />
-                <img
+                /> */}
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/linkedin.svg"
                   alt="linkedin"
-                />
+                /> */}
                 <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/youtube.svg"
@@ -164,26 +164,26 @@ function CustomCarousel() {
             </div>
             <div className={styles.bannerOneLeft}>
               <div className={styles.iconsButton}>
-                <img
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/twitter.svg"
                   alt="twitter"
-                />
+                /> */}
                 <img
                   className="d-block w-100 banner-social-icon-max-width banner-social-icon-max-height mt-10 mb-10"
                   src="/facebook-f.svg"
                   alt="facebook"
                 />
-                <img
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/instagram.svg"
                   alt="instagram"
-                />
-                <img
+                /> */}
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/linkedin.svg"
                   alt="linkedin"
-                />
+                /> */}
                 <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/youtube.svg"
@@ -200,7 +200,7 @@ function CustomCarousel() {
                 <div className={styles.sliderTwoInnerCont}>
                   <div className="width-25-per sliderThreeLogo">
                     <img
-                      className="d-block w-100 banner-img-max-width"
+                     className="d-block w-100 banner-social-icon-max-width-220"
                       src="/IIT-2.svg"
                       alt="Second slide"
                       width="698px"
@@ -229,26 +229,26 @@ function CustomCarousel() {
             </div>
             <div className={styles.bannerOneLeft}>
               <div className={styles.iconsButton}>
-                <img
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/twitter.svg"
                   alt="twitter"
-                />
+                /> */}
                 <img
                   className="d-block w-100 banner-social-icon-max-width banner-social-icon-max-height mt-10 mb-10"
                   src="/facebook-f.svg"
                   alt="facebook"
                 />
-                <img
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/instagram.svg"
                   alt="instagram"
-                />
-                <img
+                /> */}
+                {/* <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/linkedin.svg"
                   alt="linkedin"
-                />
+                /> */}
                 <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/youtube.svg"

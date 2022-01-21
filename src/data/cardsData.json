@@ -27,6 +27,15 @@
         "arrowColor":""
     },
     {
+        "title":"Meditation Instructions",
+        "image":"meditationProgIcon.svg",
+        "description":"Meditation becomes successful with proper guidance.",
+        "link":"/meditation",
+        "color":"#FFEDA5",
+        "titleColor":"#132072",
+        "arrowColor":""
+    },
+    {
         "title":"Get Registered",
         "image":"getRegisteredIcon.svg",
         "description":"Monks who are willing to join our courses will be able to get registered soon. ",

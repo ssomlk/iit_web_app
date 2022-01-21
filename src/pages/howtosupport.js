@@ -59,7 +59,7 @@ export default function HowToSupport() {
       <Container>
         <div className="how-to-support-content">
           <div className="how-to-support-main-body">
-            {/*<div className="how-to-support-how-to-donate-header">
+            {/* <div className="how-to-support-how-to-donate-header">
               Main Aspects
             </div> */}
             <div className="how-to-support-aspect-container">
@@ -73,7 +73,10 @@ Constructions for the main complex that will provide lodging facilities for abou
               </div>
 
               <div className="how-to-support-main-body-col">
-                <div className="how-to-support-main-aspects">Healthcare</div>
+                <div className="how-to-support-main-aspects how-to-support-main-aspects-mobile">
+                  Healthcare
+                </div>
+
                 <div className="how-to-support-main-aspects-text">
                   Contributions can be made for the medical purposes and other healthcare related needs of the monks residing in the Institute.
                 </div>

@@ -49,7 +49,7 @@ export default function HowToSupport() {
 
       <MainLayoutSection
         title="How To Support"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie blandit placerat. Nunc et feugiat ante, in consectetur mauris."
+        description="You can support us on our Construction of the IIT, Healthcare of monks of the IIT and Propagating the Dhamma."
         photo="/Howtosupportimg.png"
         backgroundImg="url(/Ellipse-2.svg)"
       />

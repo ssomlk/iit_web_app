@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
+import NextCors from 'nextjs-cors';
 import { recaptchaAxios } from "../../axios/axiosBackend";
 import sendGridMail from '@sendgrid/mail';
 sendGridMail.setApiKey(process.env.SENDGRID_API_KEY);
@@ -14,9 +15,15 @@ interface FormData {
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
 
+  await NextCors(req, res, {
+    // Options
+    methods: ['POST'],
+    origin: '*',
+    optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+ });
+
   const formData: FormData = req.body;
   const human = await validateHuman(formData.token);
-  //const human = true;
 
   if (!human) {
     res.status(400);

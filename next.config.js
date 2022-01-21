@@ -1,11 +1,10 @@
 const nextTranslate = require('next-translate');
 
 module.exports = {
-    images:{
-        domains:[]
-    },
-    env:{
-        
-    },
-    ...nextTranslate()
-}
+  distDir: 'build',
+  images: {
+    domains: [],
+  },
+  env: {},
+  ...nextTranslate(),
+};

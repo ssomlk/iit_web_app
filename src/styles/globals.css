@@ -90,6 +90,12 @@ p {
   max-width: 53px;
 }
 
+.banner-social-icon-max-width-220 {
+  max-width: 220px;
+  margin-left: 150px;
+}
+
+
 .course-icon-max-width-99 {
   max-width: 99px;
 }
@@ -1058,3 +1064,15 @@ div.card-description > p {
 }
 
 /* End of News and Events styles */
+
+.player-wrapper{
+  /* position: relative; */
+  padding: 10% ;
+  border-radius: 5px;
+
+}
+
+.react-player {
+  border-radius: 20px;
+  overflow: hidden;
+}

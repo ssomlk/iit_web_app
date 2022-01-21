@@ -66,7 +66,7 @@ function ContactUs() {
 
     const chunk = { ...data, token };
 
-    console.log('*******************************');
+    console.log('************** HOST NAME *****************');
     console.log(process.env.NEXT_PUBLIC_HOST);
 
     mainAxios
@@ -84,10 +84,10 @@ function ContactUs() {
       })
       .catch((e) => {
         console.log('error', e.response.data);
-        enableDomElement(submitButton);
         setShowSpinner(false);
         setAlertBox('danger', 'Failure', e.response.data.errors.join(', '));
         setShow(true);
+        enableDomElement(submitButton);
       });
   };
 

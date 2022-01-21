@@ -200,7 +200,7 @@ function CustomCarousel() {
                 <div className={styles.sliderTwoInnerCont}>
                   <div className="width-25-per sliderThreeLogo">
                     <img
-                     className="d-block w-100 banner-social-icon-max-width-220"
+                     className="d-block w-100 "
                       src="/IIT-2.svg"
                       alt="Second slide"
                       width="698px"

@@ -13,6 +13,15 @@
         "image":"ourServicesIcon.svg",
         "description":"In addition to occasional Dhamma discourses, IIT currently holds few valuable online Dhamma courses related to Theravada in both Sinhala and English medium.",
         "link":"https://www.youtube.com/watch?v=pQY_xMowfRA&list=PLdluojKrWhDe6PRlcaHvxqvqKA5kwo1Dz",
+        "color":"#FFEDA5",
+        "titleColor":"#132072",
+        "arrowColor":""
+    },
+    {
+        "title":"Meditation Instructions",
+        "image":"meditationProgIcon.svg",
+        "description":"Meditation becomes successful with proper guidance.",
+        "link":"/meditation",
         "color":"#025BC1",
         "titleColor":"#FFFFFF",
         "arrowColor":""

@@ -190,6 +190,14 @@ p {
   padding: 40px;
 }
 
+.sliderThreeLogo {
+  height: 500px;
+  width: 500px;
+  min-height: 500px;
+  border-radius: 100%;
+  padding: 40px;
+}
+
 .flex {
   display: flex;
 }
@@ -759,6 +767,9 @@ p {
   margin-right: 40px;
 }
 
+.how-to-support-quote-p {
+  font-size: 26px;
+}
 .how-to-support-hr-quote {
   color: #616057;
   opacity: 1 !important;

@@ -81,7 +81,7 @@ function AboutUsComponent() {
           </div>
         </div>
         <div className={styles.missionHeading} id="our-vision-and-mission">
-          <h2 className={styles.subHeading2}>Our Vision & Mission</h2>
+          <h2 className={styles.subHeading2}>Vision & Mission</h2>
         </div>
         <div className={styles.missionDetails}>
           <div className={styles.missionBriefing}>

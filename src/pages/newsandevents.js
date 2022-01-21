@@ -94,12 +94,12 @@ export default function NewsAndEvents() {
         />
       </div>
 
-      <Container>
+      {/* <Container> */}
         {/* <NavigationCommonLayout navigationList={instituteList} /> */}
 
-        <div className="newsandevents-heading">News and Events</div>
-        <NewsAndEventsComponent2 />
-      </Container>
+        {/* <div className="newsandevents-heading">News and Events</div> */}
+        {/* <NewsAndEventsComponent2 /> */}
+      {/* </Container> */}
       <div>
         <div className="news-and-events-chrono-container">
           <Container>

@@ -29,7 +29,7 @@ export default function AboutUs() {
       </div>
 
       <MainLayoutSection
-        title="About Us"
+        title="About Us AWS"
         description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks, based on Theravada teachings."
         photo="/monk-hike-deep-forest-reflection-with-lake-buddha-religion-concept.png"
         backgroundImg="url(/Ellipse-2.svg)"

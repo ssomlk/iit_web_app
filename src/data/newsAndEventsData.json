@@ -2,52 +2,58 @@
     {
         "type":"Event",
         "date":"25 Apr 2019",
-        "title":"Land donated to IIT",
-        "description":"",
+        "title":"Land Donation",
+        "description":"A land of approximately 85 acers with a house was offered to the IIT by pious devotee Mr. Chandrakeerthi Bandara and his family - mother-in-law D.M.M. Disanayaka and wife Mrs. Chandima Wanninayaka - under the guidance of well renow/ned meditation teacher Most Venerable Agulgamuwe Ariyananda Mahā Thera, the Abbot of the Na-Uyana forest monastery. The land is known as Heenatikalmawatta and is located in the provincial council of Karuwalagaswewa, Sri Lanka. Heenatikalmawatta was hereditary property of the Bandara Family which was owned by the father-in-law of Mr. Bandara, Late State Minister H.B. Wanninayaka. Donation was held on 25th April a day after the 80th Birthday of the Late Na-Uyane Ariyadhamma Mahā Nāyaka Thera, the Vice President of the Śrī Rāmañña Mahā Nikāya, Sri Lanka at the presence of number of renowned Mahā Theras of the Śrī Kaḷyāni Yogāshrama Saṃsthā.",
         "dateStr":	"2019-04-25",
         "image":"/blogImage.jpg"
     },
     {
         "type":"Event",
-        "date":"10 Sep 2021",
-        "title":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "description":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction. Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction. Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction.", 
-        "dateStr":	"2021-09-10" ,
-        "image":"/blogImage.jpg",
-        "category":"world"
-    },
-    {
-        "type":"News",
-        "date":"10 Nov 2021",
-        "title":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "description":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "dateStr":	"2021-11-10" ,
-        "image":"/blogImage.jpg",
-        "category":"local"
+        "date":"15 Nov 2019",
+        "title":"Establishment",
+        "description":"IIT was established with the offering of six residential chambers for monks (kuṭis) by Honorable Maithreepala Sirisena, the President of Democratic Socialist Republic of Sri Lanka on 15th November 2019. Event was participated by more than 25 monks of the Śrī Kaḷyāni Yogāshrama Saṃsthā.", 
+        "dateStr":	"2019-11-15" ,
+        "image":"/blogImage.jpg"
     },
     {
         "type":"Event",
-        "date":"11 Aug 2021",
-        "title":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "description":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "dateStr":	"2021-08-11" ,
+        "date":"2020",
+        "title":"Rains Retreat 2020",
+        "description":"Number of five monks observed the first rains retreat in the IIT premises with the invitation of Mr. Chandrakeerthi Bandara and Family together with the Kshemabhūmi Saṃsadaya.",
+        "dateStr":	"2020" ,
+        "image":"/blogImage.jpg"
+    },
+    {
+        "type":"Event",
+        "date":"19 Nov 2020",
+        "title":"Kaṭhina Ceremony 2020",
+        "description":"The first Kaṭhina ceremony was held on November 19 by Mr. Chandrakeerthi Bandara and Family together with the Kshemabhūmi Saṃsadaya with the participant of monks from the IIT and Katana Gangarama Meditation center.",
+        "dateStr":	"2020-11-19" ,
         "image":"/blogImage.jpg"
 
     },
     {
         "type":"Event",
-        "date":"12 Aug 2021",
-        "title":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "description":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "dateStr":	"2021-08-12" ,
+        "date":"2021",
+        "title":"Rains Retreat 2021",
+        "description":"Number of 16 monks observed the second rains retreat in the IIT premises with the invitation of renowned Neurologist Professor Mrs Ranjani Gamage and Gemologist Mr Amitha Gamage, together with the Kshemabhūmi Saṃsadaya.",
+        "dateStr":	"2021" ,
         "image":"/blogImage.jpg"
     },
     {
         "type":"Event",
-        "date":"21 Nov 2021",
-        "title":"Commander of the Navy visits 'Sanda Hiru Seya’ in Anuradhapura to review ongoing construction",
-        "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.       The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
-        "dateStr":	"2021-11-21" ,
+        "date":"14 Nov 2021",
+        "title":"Kaṭhina Ceremony 2021",
+        "description":"The second Kaṭhina ceremony of the IIT was held on 14th November by Professor Ranjani Gamage and Mr Amitha Gamage together with the Kshemabhūmi Saṃsadaya. A grand colouful Paṭṭhāna pūja was organized by the Gamage family on 13th November night wishing welfare for and longivity of the IIT and its members. ",
+        "dateStr":	"2021-11-14" ,
+        "image":"/blogImage.jpg"
+    },
+    {
+        "type":"Event",
+        "date":"02 Jan 2022",
+        "title":"Offering the LHP Studio ",
+        "description":"Professor Ranjani Gamage appreciating the urgent need for a separated building dedicated to conduct online Dhamma courses built a LHP studio in the IIT premises. Some other devotees also assisted her in this endeavor. The Studio was offered to the Mahā Saṅgha on 2nd January 2022. ",
+        "dateStr":	"2022-01-02" ,
         "image":"/blogImage.jpg"
     }
 ]

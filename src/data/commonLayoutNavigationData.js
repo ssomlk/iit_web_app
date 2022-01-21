@@ -8,7 +8,7 @@ export const aboutUsList = [
     id: 'establishment',
   },
   {
-    title: 'Our Vision & Mission',
+    title: 'Vision & Mission',
     id: 'our-vision-and-mission',
   },
   {

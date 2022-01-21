@@ -1087,3 +1087,7 @@ div.card-description > p {
   border-radius: 20px;
   overflow: hidden;
 }
+
+.pali-italics{
+  font-style: italic;
+}

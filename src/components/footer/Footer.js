@@ -65,7 +65,7 @@ function Footer() {
                   <a href="/aboutus#establishment">Establishment</a>
                 </li>
                 <li className={styles.liSub}>
-                  <a href="/aboutus#our-vision-and-mission">Our Vision &amp; Mission</a>
+                  <a href="/aboutus#our-vision-and-mission">Vision &amp; Mission</a>
                 </li>
                 <li className={styles.liSub}>
                   <a href="/aboutus#our-focus">Our Focus</a>
@@ -103,10 +103,10 @@ function Footer() {
                   {' '}
                   <a href="#"> Courses Conducted</a>
                 </li>
-                {/* <li className={styles.liSub}>
-                  <a href="#"> Online Courses</a>
+                 <li className={styles.liSub}>
+                  <a href="#"> Dhamma Lectures and Sermons</a>
                 </li>
-                <li className={styles.liSub}>
+               {/* <li className={styles.liSub}>
                   {' '}
                   <a href="#"> Programms Trainings</a>
                 </li> */}
@@ -128,10 +128,10 @@ function Footer() {
             <Col className={styles.removePaddingStyle}>
               <ul className={styles.ulPaddingStyle}>
                 <li className={styles.liMain}> News &amp; Events</li>
-                <li className={styles.liSub}>
+                {/* <li className={styles.liSub}>
                   {' '}
                   <a href="#"> News and Events</a>
-                </li>
+                </li> */}
                 <li className={styles.liSub}>
                   <a href="#"> Timeline</a>
                 </li>

@@ -66,7 +66,7 @@ export default function Institute() {
 
           <Col key="2">
             <AcademicProfile
-              body="BA & MA in Buddha Dhamma at the International Theravāda Buddhist
+              body="BA in Buddha Dhamma at the International Theravāda Buddhist
               Missionary University, Yangon. Also undergone monastic training
               under the Thai Forest Tradition."
               name="Ven Watagoda Maggavihari Thera"
@@ -84,7 +84,7 @@ export default function Institute() {
               five years."
               name="Ven Matugama Dhammanisanti Thera"
               profileImage="/profilepic/DhammanisanthiThero.webp"
-              title=""
+              title="Head in Monastic Duties"
             />
           </Col>
 
@@ -109,13 +109,17 @@ export default function Institute() {
               profileImage=""
               title=""
             /> */}
-            <AcademicProfile
-              body="Diploma in Buddha Dhamma, International Theravāda Buddhist
-              Missionary University, Yangon."
-              name="Ven Kuliyāpitiye Saṅgharatana Thera"
-              profileImage="/profilepic/SangarathanaThero.webp"
+               <AcademicProfile
+              body="Passed the Vinayācariya and Abhidhammācariya examinations held
+              under the Srī Kaḷyāṇī Yogāśrama Saṃsthā, Rāmañña Mahā Nikāya, Sri
+              Lanka. He is currently a Vinaya teacher at the Nā-Uyana Forest
+              Monastery, Sri Lanka."
+              name="Ven Labunoruwe Dhammavihari Thera"
+              profileImage="/profilepic/DhammavihariThero.webp"
               title=""
             />
+
+      
           </Col>
         </Row>
 
@@ -161,19 +165,18 @@ export default function Institute() {
           </Col>
 
           <Col key="10">
-            <AcademicProfile
-              body="Passed the Vinayācariya and Abhidhammācariya examinations held
-              under the Srī Kaḷyāṇī Yogāśrama Saṃsthā, Rāmañña Mahānikāya, Sri
-              Lanka. He is currently a Vinaya teacher at the Nā-Uyana Forest
-              Monastery, Sri Lanka."
-              name="Ven Labunoruwe Dhammavihari Thera"
-              profileImage="/profilepic/DhammavihariThero.webp"
-              title=""
+          <AcademicProfile
+              body="Diploma in Buddha Dhamma, International Theravāda Buddhist
+              Missionary University, Yangon."
+              name="Ven Kuliyāpitiye Saṅgharatana Thera"
+              profileImage="/profilepic/SangarathanaThero.webp"
+              title="Head in Monastic Well-Being"
             />
           </Col>
         </Row>
 
         <Row key="11" className="inst-academic-row">
+      
           {/* <Col key="12">
             <AcademicProfile
               body="Diploma in Buddha Dhamma, International Theravāda Buddhist

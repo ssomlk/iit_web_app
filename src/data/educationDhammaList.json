@@ -6,27 +6,45 @@
         "link":"https://www.youtube.com/watch?v=WeF9BYgeqF8&list=PLDkufrwzs8aUDYUHQQGODzJtMzVhdm6MZ"
     },
     {
-        "title":"Discipline",
-        "body":"Training according to the disciplinary rules as per the Vinaya Pitaka.",
-        "image":"discipline.png",
-        "link":"/discipline.png"
+        "title":"ථේරවාද බුදු දහමේ සිද්ධාන්ත",
+        "body":"පූජ්‍ය වටගොඩ මග්ගවිහාරී ස්වාමීන්වහන්සේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=u7iEJt4c57c&list=PLDkufrwzs8aWqIP4gnYxKI9bDZ6Nsu2fR"
     },
     {
-        "title":"Training in meditation",
-        "body":"Samatha and Vipassanā meditation practices.",
-        "image":"trainning-meditation.png",
-        "link":"/trainning-meditation.png"
+        "title":"සූවිසි ප්‍රත්‍යය අභිධර්ම සම්භාෂණය",
+        "body":"පූජ්‍ය දෙනියායේ උපසම ස්වාමීන්වහන්සේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=LvMGieIA4Ys&list=PLDkufrwzs8aVdSzzBdFDHeBy0Tx6nst_j"
     },
     {
-        "title":"Propagation",
-        "body":"Disseminating the Theravāda teachings to a global audience.",
-        "image":"propagation.png",
-        "link":"/propagation.png"
+        "title":"සූත්‍ර සම්භාෂණය",
+        "body":"පූජ්‍ය උඩදිගන සිද්ධත්ථ ස්වාමීන්වහන්සේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=CknJSJcYHMY&list=PLDkufrwzs8aVe0y6qca85fAap1kzTsZZA"
     },
     {
-        "title":"Prolongation",
-        "body":"Building the capacity of trainee-clergy (monks), so that once trained, they would be able to ordain and train novices to preserve the Bhikkhu lineage in an efficient manner..",
-        "image":"prolonging.png",
-        "link":"/prolonging.png"
+        "title":"ආර්ය උතුමෝ",
+        "body":"පූජ්‍ය වටගොඩ මග්ගවිහාරී ස්වාමීන්වහන්සේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=sbOSDQJVdNY&list=PLDkufrwzs8aUYyM16uaYzq4leyX6toIXE"
+    },
+    {
+        "title":"ජාතක කතා",
+        "body":"පූජ්‍යපාද පස්සර පදුමසිරි ස්වාමීන්වහනසේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=lA2VV-D73H0&list=PLDkufrwzs8aWMVLDNJ7O4OQeUAla9eaTU"
+    },
+    {
+        "title":"විමාන වස්තු",
+        "body":"පූජ්‍ය වලල්ලාවිට වජිරඤාණ ස්වාමීන්වහන්සේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=_CTEOO2eByg&list=PLDkufrwzs8aXyJMqC1YThc7txU1D2Qg32"
+    },
+    {
+        "title":"ධර්ම විනිශ්චය",
+        "body":"පූජ්‍ය වටගොඩ මග්ගවිහාරී ස්වාමීන්වහන්සේ",
+        "image":"learning.png",
+        "link":"https://www.youtube.com/watch?v=05jKhN-T_o8&list=PLDkufrwzs8aW7yzS6FOOXhEIfV_dO2zsd"
     }
 ]

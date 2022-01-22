@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Container } from 'react-bootstrap';
 import styles from './MeditationComponent.module.css';
 import VideoCardComponent from '../videoCardComponent/videoCardComponent';
-import cardInfo from '../../data/ourFocusData.json';
+import cardInfo from '../../data/meditationData.json';
 import Slider from '../slider/slider';
 
 function MeditationComponent() {
@@ -58,7 +58,9 @@ function MeditationComponent() {
           <div className={styles.ourFocusInnerContainer}>
             <div className={styles.ourFocusHeader}></div>
             <div className={styles.ourFocusSubHeader}>
-              <div className={styles.subHeaderText}>Videos on meditation</div>
+              <div className={styles.subHeaderText}>
+                Meditation Instructions
+              </div>
               <div className={styles.sliderButtonContainer}>
                 <div className={styles.sliderButton} onClick={slideRight}>
                   <svg

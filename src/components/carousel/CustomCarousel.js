@@ -64,9 +64,7 @@ function CustomCarousel() {
                   />
                 </div>
                 <div className="text-container text-width-215">
-                  <p className="text-white rotate-90-deg font-17">
-                    LOGO
-                  </p>
+                  <p className="text-white rotate-90-deg font-17">LOGO</p>
                 </div>
               </div>
             </div>
@@ -74,26 +72,21 @@ function CustomCarousel() {
               <div className="width-50-per">
                 <img
                   className="d-block w-100 banner-img-max-width"
-                  src="/buddha.svg"
+                  src="/buddha_new.png"
                   alt="Second slide"
                   width="698px"
                 />
               </div>
               <Carousel.Caption className="caroucap width-50-per banner-text-left">
                 <div className={styles.bannerTextOne}>
-                
-                <img
-                  src="/swirlLeftt.png"
-                  width="200px"
-                />
-                 &nbsp;IIT&nbsp;
-                <img
-                src="/swirlRight.png"
-                width="200px"
-              />
+                  <img src="/swirlLeftt.png" width="200px" />
+                  &nbsp;IIT&nbsp;
+                  <img src="/swirlRight.png" width="200px" />
                 </div>
                 <div className={styles.bannerTextTwo}>
-                  International Institute of Theravada is an inclusive bhikkhu training center aiming at capacitating attahita, parahita and vinayadhara Buddhist monks.
+                  International Institute of Theravada is an inclusive bhikkhu
+                  training center aiming at capacitating attahita, parahita and
+                  vinayadhara Buddhist monks.
                 </div>
                 {/* <button className={styles.learnMoreButton}>Learn More</button> */}
               </Carousel.Caption>
@@ -114,7 +107,6 @@ function CustomCarousel() {
                 />
               </div>
             </div> */}
-
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -129,9 +121,7 @@ function CustomCarousel() {
                   />
                 </div>
                 <div className="text-container text-width-215">
-                  <p className="text-white rotate-90-deg font-17">
-                    LOGO
-                  </p>
+                  <p className="text-white rotate-90-deg font-17">LOGO</p>
                 </div>
               </div>
             </div>
@@ -148,7 +138,9 @@ function CustomCarousel() {
                   </div>
                   <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
                     <div className={styles.sliderTwoText}>
-                      IIT holds online Dhamma programs during full moon days. You can listen to various dhamma discourses, meditation instructions in both Sinhala and English medium.
+                      IIT holds online Dhamma programs during full moon days.
+                      You can listen to various dhamma discourses, meditation
+                      instructions in both Sinhala and English medium.
                     </div>
                   </Carousel.Caption>
                 </div>
@@ -185,9 +177,7 @@ function CustomCarousel() {
                   /> */}
                 </div>
                 <div className="text-container text-width-215">
-                  <p className="text-white rotate-90-deg font-17">
-                    IIT
-                  </p>
+                  <p className="text-white rotate-90-deg font-17">IIT</p>
                 </div>
               </div>
             </div>
@@ -208,21 +198,43 @@ function CustomCarousel() {
                   </div>
                   <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
                     <div className={styles.sliderThreeText}>
-                      <div className={styles.sliderThreeTextLine}><strong>Brown Coloured Large Wheel of Dhamma</strong> indicates how the dispensation of the Buddha is spread all over the world.</div>
-                      <div className={styles.sliderThreeTextLine}><strong>Twenty-four Sparks</strong> of the wheel represent the twenty-four factors of the Noble Truths. </div>
-                      <div className={styles.sliderThreeTextLine}><strong>Palm-Leaf-Books</strong> which holds the wheel of Dhamma indicates how the dispensation depends upon studies on Dhamma and Vinaya after the passing away of the Buddha.</div>
-                      <div className={styles.sliderThreeTextLine}><strong>The Pen and the Palm Leaf</strong> inside the wheel depicts how a monk is involved in studies of Dhamma and Vinaya – pariyatti sāsana.</div>
-                      <div className={styles.sliderThreeTextLine}><strong>The Meditative Figure</strong> shows how a monk is involved in developing spiritual qualities – paṭipatti sāsana.</div>
-                      <div className={styles.sliderThreeTextLine}><strong>The Pagoda</strong> depicts how a monk who involves in both scriptural studies and spiritual practice becomes a noble being who deserves to be venerated having a pagoda built for him. </div>
-
+                      <div className={styles.sliderThreeTextLine}>
+                        <strong>Brown Coloured Large Wheel of Dhamma</strong>{' '}
+                        indicates how the dispensation of the Buddha is spread
+                        all over the world.
+                      </div>
+                      <div className={styles.sliderThreeTextLine}>
+                        <strong>Twenty-four Sparks</strong> of the wheel
+                        represent the twenty-four factors of the Noble Truths.{' '}
+                      </div>
+                      <div className={styles.sliderThreeTextLine}>
+                        <strong>Palm-Leaf-Books</strong> which holds the wheel
+                        of Dhamma indicates how the dispensation depends upon
+                        studies on Dhamma and Vinaya after the passing away of
+                        the Buddha.
+                      </div>
+                      <div className={styles.sliderThreeTextLine}>
+                        <strong>The Pen and the Palm Leaf</strong> inside the
+                        wheel depicts how a monk is involved in studies of
+                        Dhamma and Vinaya – pariyatti sāsana.
+                      </div>
+                      <div className={styles.sliderThreeTextLine}>
+                        <strong>The Meditative Figure</strong> shows how a monk
+                        is involved in developing spiritual qualities –
+                        paṭipatti sāsana.
+                      </div>
+                      <div className={styles.sliderThreeTextLine}>
+                        <strong>The Pagoda</strong> depicts how a monk who
+                        involves in both scriptural studies and spiritual
+                        practice becomes a noble being who deserves to be
+                        venerated having a pagoda built for him.{' '}
+                      </div>
                     </div>
                   </Carousel.Caption>
                 </div>
                 <div className={styles.outerTextThree}>
                   <div className="text-container text-width-215 height-100-per">
-                    <p className="text-white rotate-90-deg font-17">
-                      LOGO
-                    </p>
+                    <p className="text-white rotate-90-deg font-17">LOGO</p>
                   </div>
                 </div>
               </div>
@@ -251,9 +263,7 @@ function CustomCarousel() {
                   /> */}
                 </div>
                 <div className="text-container text-width-215">
-                  <p className="text-white rotate-90-deg font-17">
-                    IIT
-                  </p>
+                  <p className="text-white rotate-90-deg font-17">IIT</p>
                 </div>
               </div>
               <div className={styles.iconsButton2}>

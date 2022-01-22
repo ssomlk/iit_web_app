@@ -83,7 +83,7 @@ function AboutUsComponent() {
         <div className={styles.establishment} id="establishment">
           <h1 className={styles.mainHeader}>Establishment</h1>
           <div className={styles.establishmentContent}>
-            <p>
+            <p className="mbEstablishmentPara">
               The <i>Saṅgha</i> community, especially the Sri Lankan{' '}
               <i>Saṅgha</i> community has witnessed great setbacks during the
               past few decades in spirituality, knowledge and practice. One of
@@ -96,7 +96,7 @@ function AboutUsComponent() {
               of Theravada monks.
             </p>
 
-            <p>
+            <p className="mbEstablishmentPara">
               Due to the lack of learned and disciplined monks within the Sri
               Lankan society, pure philosophy of Theravada Buddhism is at the
               brink of being distorted, misinterpreted and misguided. Also, the
@@ -104,7 +104,9 @@ function AboutUsComponent() {
               are entirely against the real Dhamma and Vinaya.
             </p>
 
-            <div className={styles.aboutUsKutiContainer}>
+            <div
+              className={`${styles.aboutUsKutiContainer} mbEstablishmentPara`}
+            >
               <img
                 src="/kuti.png"
                 className={`${styles.establishmentImage1} ${styles.establishmentImage2}`}
@@ -125,7 +127,7 @@ function AboutUsComponent() {
 
             <div className={styles.establishmentSub}>
               <div className={styles.establishmentSubLeft}>
-                <p>
+                <p className="mbEstablishmentPara">
                   Founding monks of the IIT are students of the Most Venerable
                   Late Na-Uyane Ariyadhamma Mahā Nāyaka Thera, the Head of the
                   Śrī Kalyāṇī Yogashrama Saṃsthā and the Vice President of the
@@ -135,7 +137,7 @@ function AboutUsComponent() {
                   completed their studies.
                 </p>
 
-                <p>
+                <p className="mbEstablishmentPara">
                   The auspicious establishment of IIT took place on the 15th
                   November 2019 with the offering of six residential chambers
                   (kuṭis) for the Mahā Saṅgha by Honorable Maitreepala Sirisena,
@@ -145,7 +147,7 @@ function AboutUsComponent() {
               </div>
               <div className={styles.establishmentSubRight}>
                 <img
-                  src="/AriyadhammaThero.jpeg"
+                  src="/mahathero.png"
                   className={`${styles.establishmentImage1} ${styles.establishmentImage3}`}
                 />
               </div>

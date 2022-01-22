@@ -1102,3 +1102,7 @@ div.card-description > p {
 .pali-italics {
   font-style: italic;
 }
+
+.mbEstablishmentPara {
+  margin-bottom: 40px;
+}

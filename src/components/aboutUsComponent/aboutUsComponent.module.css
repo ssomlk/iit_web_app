@@ -12,10 +12,11 @@
   grid-area: aboutUs;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: auto 549px auto auto;
+  grid-template-rows: auto 549px auto auto auto;
   grid-template-areas:
     'heading heading'
     'map mapInfo'
+    'establishment establishment'
     'missionHead missionHead'
     'missiondetails missiondetails';
   grid-gap: 10px;
@@ -142,6 +143,17 @@
   font: normal normal bold 20px/24px Raleway;
   letter-spacing: 0px;
   color: #044884;
+}
+
+.establishment {
+  grid-area: establishment;
+  margin-top: 4%;
+}
+
+.establishmentContent {
+  font: normal normal normal 20px/35px Raleway;
+  letter-spacing: 0px;
+  color: #5d5d5d;
 }
 
 .missionHeading {
@@ -358,11 +370,12 @@
 @media (max-width: 768px) {
   .aboutUsContainer {
     grid-template-columns: 100%;
-    grid-template-rows: auto auto 549px auto auto auto;
+    grid-template-rows: auto auto 549px auto auto auto auto;
     grid-template-areas:
       'heading'
       'mapInfo'
       'map'
+      'establishment'
       'missionHead'
       'missiondetails';
     grid-gap: 8px;
@@ -439,6 +452,10 @@
   .aboutUsMainIntro {
     max-width: none;
     width: 100%;
+    font: normal normal normal 20px/24px Raleway;
+  }
+
+  .establishmentContent{
     font: normal normal normal 20px/24px Raleway;
   }
 

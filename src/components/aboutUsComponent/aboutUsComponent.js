@@ -80,6 +80,58 @@ function AboutUsComponent() {
             </div>
           </div>
         </div>
+        <div className={styles.establishment} id="establishment">
+          <h1 className={styles.mainHeader}>Establishment</h1>
+
+          <div className={styles.establishmentContent}>
+            <p>
+              The Saṅgha community, especially the Sri Lankan Saṅgha community has witnessed great
+              setbacks during the past few decades in spirituality, knowledge and practice.
+              One of the main reasons for this phenomenon is the absence of a proper monk-training program
+              during the initial stages of the monkhood. This vacuum was clearly visible at least for
+              the past seven decades. Though there had been a few attempts to rectify this situation,
+              no coherent, well-focused and well-structured mechanism had been established so far, mainly
+              in the contemporary tradition of Theravada monks.
+            </p>
+
+            <p>
+              Due to the lack of learned and disciplined monks within the Sri Lankan society,
+              pure philosophy of Theravada Buddhism is at the brink of being distorted, misinterpreted and
+              misguided. Also, the real purpose of monkhood is being diverted towards arenas which are
+              entirely against the real Dhamma and Vinaya.
+            </p>
+
+            <p>
+              Observing this timely need a group of young competent monks from the Śrī Kalyāṇī
+              Yogashrama Saṃsthā, Sri Lanka who have completed their studies in Myanmar and exposed
+              to forest traditions in Thailand and elsewhere took the initiatives to establish the International
+              Institute of Theravada (IIT), a monk training center focused on capacitating monks who can
+              lead their own spiritual lives and render correct spiritual advices to others. With the
+              erudition garnered from the courses conducted in the institute, student monks of IIT are
+              expected to sustain the lineage of the Theravada clergy in its purest form.
+            </p>
+
+            <p>
+              Founding monks of the IIT are students of the Most Venerable Late Na-Uyane Ariyadhamma
+              Mahā Nāyaka Thera, the Head of the Śrī Kalyāṇī Yogashrama Saṃsthā and the
+              Vice President of the Śrī Rāmñña Mahā Nikāya, Sri Lanka.
+            </p>
+
+            <p>
+              The auspicious occasion of establishing the IIT took place on 15th November 2019 with the
+              offering of six residential chambers (kuṭis) for the Mahā Saṅgha by Honorable Maitreepala
+              Sirisena, the President of Democratic Socialist Republic of Sri Lanka.
+            </p>
+
+            <p>
+              The land of approximately 87 acers known as Heenatikalma Watta, where
+              IIT is located, was offered to the Mahā Saṅgha, on 25th April 2019, by pious devotee
+              Mr Chandrakeerthi Bandara and his family under the guidance of Most Venerable Agulgamuwe
+              Ariyananda Mahā Thera, the abbot of the well-renowned Na-Uyana Forest Meditation Center,
+              Malsiripura, Sri Lanka.
+            </p>
+          </div>
+        </div>
         <div className={styles.missionHeading} id="our-vision-and-mission">
           <h2 className={styles.subHeading2}>Vision & Mission</h2>
         </div>

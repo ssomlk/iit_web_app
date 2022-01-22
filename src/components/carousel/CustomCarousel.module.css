@@ -60,12 +60,14 @@
 }
 
 .bannerTextOne {
-  font-size: 45px;
-  color: #616057;
+  font-size: 75px;
+  color: black;
   letter-spacing: 0;
   font-family: "Playfair Display";
   margin-bottom: 30px;
   text-align: left;
+  align-self: center;
+  opacity: 0.7;
 }
 
 .bannerTextTwo {
@@ -181,7 +183,7 @@
 
 .sliderTwoText {
   text-align: center;
-  font-size: 19px;
+  font-size: 25px;
   font-family: "Raleway";
   font-weight: 400;
   color: #ffffff;

@@ -34,6 +34,9 @@ export default function Home() {
       <CardDeckComponent />
       <NewsAndEventsComponent />
       <Testimonials />
+
+      {/* Remove below div when GeneralFAQ section added*/}
+      <div className="mt-4"></div>
       {/* <GeneralFAQ /> */}
       <Footer />
     </div>

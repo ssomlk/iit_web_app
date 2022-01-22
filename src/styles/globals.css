@@ -1080,10 +1080,19 @@ div.card-description > p {
 
 /* End of News and Events styles */
 
-.player-wrapper {
-  /* position: relative; */
+.testomonials-main{
+  display: flex;
   padding: 10%;
+}
+
+.player-wrapper {
+  /* position: relative;
+  padding: 10%;
+  align-items: left !important;
+  width: 50% !important;
+  height: 80% !important; */
   border-radius: 5px;
+
 }
 
 .react-player {

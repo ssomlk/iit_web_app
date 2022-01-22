@@ -1080,7 +1080,7 @@ div.card-description > p {
 
 /* End of News and Events styles */
 
-.testomonials-main{
+.testomonials-main {
   display: flex;
   padding: 10%;
 }
@@ -1092,7 +1092,6 @@ div.card-description > p {
   width: 50% !important;
   height: 80% !important; */
   border-radius: 5px;
-
 }
 
 .react-player {
@@ -1102,4 +1101,8 @@ div.card-description > p {
 
 .pali-italics {
   font-style: italic;
+}
+
+.mbEstablishmentPara {
+  margin-bottom: 40px;
 }

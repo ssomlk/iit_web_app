@@ -22,57 +22,33 @@ const Testomonials = () => {
   const renderCarousel = (item, index) => {
     return (
       <Carousel.Item key={index}>
-        <Row>
-          <Col>
-            <div className="player-wrapper">
-              <ReactPlayer url={item.video} controls={true}  className="react-player"/>
-            </div>
-          </Col>
-          <Col>
-            <img src={item.image} />
+        <div className="testomonials-main">
+          <div className="player-wrapper">
+            <ReactPlayer
+              url={item.video}
+              controls={true}
+              className="react-player"
+            />
+          </div>
 
-            <div
-              style={{
-                textAlign: 'left',
-                font: 'normal normal normal 41px/49px Raleway',
-                letterSpacing: '0px',
-                color: '#FFFFFF',
-                opacity: '0.73',
-                padding:'10%'
-              }}
-            >
+          <div
+            style={{
+              textAlign: 'left',
+              font: 'normal normal normal 41px/49px Raleway',
+              letterSpacing: '0px',
+              color: '#FFFFFF',
+              opacity: '0.73',
+              padding: '10%',
+            }}
+          >
             <img
-                className="d-block w-100 banner-social-icon-max-width-45"
-                src="/Path 691.svg"
-                alt="Quote"
-              /> &nbsp;{item.quote}
-            </div>
-
-            <div
-              style={{
-                color: '#D1C7BB',
-                textAlign: 'left',
-                font: 'normal normal 600 26px/61px Raleway',
-                letterSpacing: '0px',
-                opacity: '0.73',
-              }}
-            >
-              {item.author}
-            </div>
-
-            <div
-              style={{
-                color: '#FFFFFF',
-                textAlign: 'left',
-                font: 'normal normal 600 14px/19px Raleway',
-                letterSpacing: '0px',
-                opacity: '0.38',
-              }}
-            >
-              {item.description}
-            </div>
-          </Col>
-        </Row>
+              className="d-block w-100 banner-social-icon-max-width-45"
+              src="/Path 691.svg"
+              alt="Quote"
+            />
+            <div>{item.quote}</div>
+          </div>
+        </div>
       </Carousel.Item>
     );
   };

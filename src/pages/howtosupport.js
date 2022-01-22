@@ -49,7 +49,7 @@ export default function HowToSupport() {
 
       <MainLayoutSection
         title="How To Support"
-        description="You can support us on our Construction of the IIT, Healthcare of monks of the IIT and Propagating the Dhamma."
+        description="You can support us on Construction of IIT, Healthcare of monks of IIT and Propagating the Dhamma."
         photo="/Howtosupportimg.png"
         backgroundImg="url(/Ellipse-2.svg)"
       />
@@ -106,7 +106,7 @@ Constructions for the main complex that will provide lodging facilities for abou
                     Ᾱrādhayanti saddhammaṃ - yogakkhemaṃ anuttaraṃ.
                     </p>
                     <footer className="how-to-support-source-name">
-                      Sutta pitaka, kuddaka nikāya, itivuttaka, catukkanipāto,
+                      Sutta Pitaka, Kuddaka Nikāya, Itivuttaka, Catukkanipāta,
                       bahukārasuttaṃ
                     </footer>
                     < br />

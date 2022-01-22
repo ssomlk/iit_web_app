@@ -81,7 +81,7 @@ function CustomCarousel() {
               </div>
               <Carousel.Caption className="caroucap width-50-per banner-text-left">
                 <div className={styles.bannerTextOne}>
-                  Sasanassa Pariyatti Mullam
+                 ~ ~ ~ ~ IIT ~ ~ ~ ~
                 </div>
                 <div className={styles.bannerTextTwo}>
                   International Institute of Theravada is an inclusive bhikkhu training center aiming at capacitating attahita, parahita and vinayadhara Buddhist monks.

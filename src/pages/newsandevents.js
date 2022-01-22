@@ -1,17 +1,12 @@
-import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
 import { useRouter } from 'next/router';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
-import NavigationCommonLayout from '../components/navigationcommonlayout/NavigationCommonLayout';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import MainLayoutSection from '../components/maincommonlayout/MainCommonLayoutSection';
 import { Chrono } from 'react-chrono';
 import newsAndEvents from '../data/newsAndEventsData.json';
-import React, { useState, useEffect } from 'react';
-import $ from 'jquery';
-import { eventItems } from '../data/aboutUsData';
-import NewsAndEventsComponent2 from '../components/newsandevents/NewsAndEventsComponent2';
+import React, { useState } from 'react';
 
 export default function NewsAndEvents() {
   const { t, lang } = useTranslation();
@@ -43,43 +38,42 @@ export default function NewsAndEvents() {
     return new Date(b.dateStr) - new Date(a.dateStr);
   });
 
-    const items = [
-      {
-        title: 'May 1940',
-        cardTitle: 'Dunkirk',
-        url: 'http://www.history.com',
-        cardSubtitle:
-          'Men of the British Expeditionary Force (BEF) wade out to..',
-        cardDetailedText:
-          'Men of the British Expeditionary Force (BEF) wade out to..',
-        media: {
-          type: 'IMAGE',
-          source: {
-            url: 'http://someurl/image.jpg',
-          },
-        },
-      },
-      {
-        title: 'May 1940',
-        cardTitle: 'Dunkirk',
-        url: 'http://www.history.com',
-        cardSubtitle:
-          'Men of the British Expeditionary Force (BEF) wade out to..',
-        cardDetailedText:
-          'Men of the British Expeditionary Force (BEF) wade out to..',
-        media: {
-          type: 'IMAGE',
-          source: {
-            url: 'http://someurl/image.jpg',
-          },
-        },
-      },
-    ];
+  // const items = [
+  //   {
+  //     title: 'May 1940',
+  //     cardTitle: 'Dunkirk',
+  //     url: 'http://www.history.com',
+  //     cardSubtitle:
+  //       'Men of the British Expeditionary Force (BEF) wade out to..',
+  //     cardDetailedText:
+  //       'Men of the British Expeditionary Force (BEF) wade out to..',
+  //     media: {
+  //       type: 'IMAGE',
+  //       source: {
+  //         url: 'http://someurl/image.jpg',
+  //       },
+  //     },
+  //   },
+  //   {
+  //     title: 'May 1940',
+  //     cardTitle: 'Dunkirk',
+  //     url: 'http://www.history.com',
+  //     cardSubtitle:
+  //       'Men of the British Expeditionary Force (BEF) wade out to..',
+  //     cardDetailedText:
+  //       'Men of the British Expeditionary Force (BEF) wade out to..',
+  //     media: {
+  //       type: 'IMAGE',
+  //       source: {
+  //         url: 'http://someurl/image.jpg',
+  //       },
+  //     },
+  //   },
+  // ];
 
-    arrayEvents.sort(function (a, b) {
-      return new Date(b.dateStr) - new Date(a.dateStr);
-    });
-
+  arrayEvents.sort(function (a, b) {
+    return new Date(b.dateStr) - new Date(a.dateStr);
+  });
 
   return (
     <div>
@@ -95,29 +89,27 @@ export default function NewsAndEvents() {
       </div>
 
       {/* <Container> */}
-        {/* <NavigationCommonLayout navigationList={instituteList} /> */}
+      {/* <NavigationCommonLayout navigationList={instituteList} /> */}
 
-        {/* <div className="newsandevents-heading">News and Events</div> */}
-        {/* <NewsAndEventsComponent2 /> */}
+      {/* <div className="newsandevents-heading">News and Events</div> */}
+      {/* <NewsAndEventsComponent2 /> */}
       {/* </Container> */}
       <div>
         <div className="news-and-events-chrono-container">
-          <Container>
+          <Container className="news-and-events-container-timeline">
             <p className="news-and-events-chrono-title">Timeline</p>
-
             <Chrono
-            items={newArr}
-            theme={{
-              primary: '#532F00',
-              secondary: '#FFD607',
-              cardBgColor: "rgba(255, 237, 165, .24)",
-              cardForeColor: 'black',
-              titleColor: '#532F00',
-            }}
-          />
-
+              items={newArr}
+              mode="HORIZONTAL"
+              theme={{
+                primary: '#532F00',
+                secondary: '#FFD607',
+                cardBgColor: 'transparent',
+                cardForeColor: '#545454',
+                titleColor: '#616057',
+              }}
+            />
           </Container>
-          
         </div>
       </div>
 

@@ -1,8 +1,8 @@
 .rootContainer {
   display: grid;
   grid-template-areas:
-    '. aboutUs .'
-    'focusContainer focusContainer focusContainer';
+    ". aboutUs ."
+    "focusContainer focusContainer focusContainer";
   grid-template-columns: 10.78125% 78.4375% 10.78125%;
   grid-template-rows: auto auto;
   width: 100%;
@@ -14,11 +14,11 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: auto 549px auto auto auto;
   grid-template-areas:
-    'heading heading'
-    'map mapInfo'
-    'establishment establishment'
-    'missionHead missionHead'
-    'missiondetails missiondetails';
+    "heading heading"
+    "map mapInfo"
+    "establishment establishment"
+    "missionHead missionHead"
+    "missiondetails missiondetails";
   grid-gap: 10px;
   align-items: center;
   justify-items: center;
@@ -62,8 +62,8 @@
   grid-template-columns: 100%;
   grid-template-rows: auto auto;
   grid-template-areas:
-    'mapDetails'
-    'link';
+    "mapDetails"
+    "link";
 }
 
 .mapInformationDetails {
@@ -156,6 +156,23 @@
   color: #5d5d5d;
 }
 
+.establishmentSub {
+  display: flex;
+}
+
+.establishmentSubLeft {
+  flex-grow: 1;
+  padding-right: 40px;
+}
+
+.establishmentSubRight {
+  flex-grow: 1;
+}
+
+.establishmentImage1{
+  max-width: 300px;
+}
+
 .missionHeading {
   grid-area: missionHead;
   justify-self: start;
@@ -166,7 +183,7 @@
   grid-area: missiondetails;
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-template-areas: 'briefing moreInfo';
+  grid-template-areas: "briefing moreInfo";
   width: 100%;
 }
 
@@ -191,7 +208,7 @@
 .missionDataContainer {
   display: grid;
   grid-template-columns: 0.8fr 4.7fr;
-  grid-template-areas: 'missionImage missionDetails';
+  grid-template-areas: "missionImage missionDetails";
   margin-bottom: 10%;
 }
 
@@ -217,8 +234,8 @@
   grid-area: focusContainer;
   display: grid;
   grid-template-areas:
-    '. focusDataArea .'
-    '. focusCardArea focusCardArea';
+    ". focusDataArea ."
+    ". focusCardArea focusCardArea";
   grid-template-columns: 10.78125% 78.4375% 10.78125%;
   grid-template-rows: auto auto;
   background: linear-gradient(180deg, #d3eaef 50%, transparent 50%);
@@ -229,8 +246,8 @@
   grid-area: focusDataArea;
   display: grid;
   grid-template-areas:
-    'focusMainHeader'
-    'focusSubHeader';
+    "focusMainHeader"
+    "focusSubHeader";
 }
 
 .ourFocusHeader {
@@ -372,12 +389,12 @@
     grid-template-columns: 100%;
     grid-template-rows: auto auto 549px auto auto auto auto;
     grid-template-areas:
-      'heading'
-      'mapInfo'
-      'map'
-      'establishment'
-      'missionHead'
-      'missiondetails';
+      "heading"
+      "mapInfo"
+      "map"
+      "establishment"
+      "missionHead"
+      "missiondetails";
     grid-gap: 8px;
   }
 
@@ -418,8 +435,8 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas:
-      'briefing'
-      'moreInfo';
+      "briefing"
+      "moreInfo";
     width: 100%;
   }
 
@@ -455,7 +472,7 @@
     font: normal normal normal 20px/24px Raleway;
   }
 
-  .establishmentContent{
+  .establishmentContent {
     font: normal normal normal 20px/24px Raleway;
   }
 

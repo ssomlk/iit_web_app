@@ -110,26 +110,54 @@ function AboutUsComponent() {
               erudition garnered from the courses conducted in the institute, student monks of IIT are
               expected to sustain the lineage of the Theravada clergy in its purest form.
             </p>
+            <div className={styles.establishmentSub}>
+              <div className={styles.establishmentSubLeft}>
+                <p>
+                  Founding monks of the IIT are students of the Most Venerable Late Na-Uyane Ariyadhamma
+                  Mahā Nāyaka Thera, the Head of the Śrī Kalyāṇī Yogashrama Saṃsthā and the
+                  Vice President of the Śrī Rāmñña Mahā Nikāya, Sri Lanka. They visited Myanmar for higher studies
+                  in Theravada doctrine with the blessings of the Mahā Thera and return to Sri Lanka,
+                  having successfully completed their studies.
+                </p>
 
-            <p>
-              Founding monks of the IIT are students of the Most Venerable Late Na-Uyane Ariyadhamma
-              Mahā Nāyaka Thera, the Head of the Śrī Kalyāṇī Yogashrama Saṃsthā and the
-              Vice President of the Śrī Rāmñña Mahā Nikāya, Sri Lanka.
-            </p>
 
-            <p>
-              The auspicious occasion of establishing the IIT took place on 15th November 2019 with the
-              offering of six residential chambers (kuṭis) for the Mahā Saṅgha by Honorable Maitreepala
-              Sirisena, the President of Democratic Socialist Republic of Sri Lanka.
-            </p>
+                <p>
+                  The auspicious establishment of IIT took place on the 15th November 2019 with the
+                  offering of six residential chambers (kuṭis) for the Mahā Saṅgha by Honorable Maitreepala
+                  Sirisena, the President of Democratic Socialist Republic of Sri Lanka. Contruction of the
+                  kuṭis were done by the Sri Lankan army.
+                </p>
+              </div>
+              <div className={styles.establishmentSubRight}>
+                <img src="/AriyadhammaThero.jpeg" className={styles.establishmentImage1} />
+              </div>
+            </div>
 
             <p>
               The land of approximately 87 acers known as Heenatikalma Watta, where
-              IIT is located, was offered to the Mahā Saṅgha, on 25th April 2019, by pious devotee
+              IIT is located, was offered to the Mahā Saṅgha, on the 25th April 2019, by pious devotee
               Mr Chandrakeerthi Bandara and his family under the guidance of Most Venerable Agulgamuwe
               Ariyananda Mahā Thera, the abbot of the well-renowned Na-Uyana Forest Meditation Center,
               Malsiripura, Sri Lanka.
             </p>
+
+            {/* <div className={styles.establishmentSub}>
+              <div className={styles.establishmentSubLeft}>
+                <div className={styles.establishmentSubRight}>
+                  <img src="/VenAgulugamaThero.jpg" className={styles.establishmentImage1} />
+                </div>
+              </div>
+              <div className={styles.establishmentSubRight}>
+                <p>
+                  The land of approximately 87 acers known as Heenatikalma Watta, where
+                  IIT is located, was offered to the Mahā Saṅgha, on the 25th April 2019, by pious devotee
+                  Mr Chandrakeerthi Bandara and his family under the guidance of Most Venerable Agulgamuwe
+                  Ariyananda Mahā Thera, the abbot of the well-renowned Na-Uyana Forest Meditation Center,
+                  Malsiripura, Sri Lanka.
+                </p>
+              </div>
+            </div> */}
+
           </div>
         </div>
         <div className={styles.missionHeading} id="our-vision-and-mission">

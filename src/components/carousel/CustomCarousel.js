@@ -84,40 +84,28 @@ function CustomCarousel() {
                  ~ ~ ~ ~ IIT ~ ~ ~ ~
                 </div>
                 <div className={styles.bannerTextTwo}>
-                International Institute of Theravada is an inclusive bhikkhu training center aiming at capacitating attahita, parahita and vinayadhara Buddhist monks.
+                  International Institute of Theravada is an inclusive bhikkhu training center aiming at capacitating attahita, parahita and vinayadhara Buddhist monks.
                 </div>
                 {/* <button className={styles.learnMoreButton}>Learn More</button> */}
               </Carousel.Caption>
             </div>
-            <div className={styles.bannerOneLeft}>
+            {/* <div className={styles.bannerOneLeft}>
               <div className={styles.iconsButton}>
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/twitter.svg"
-                  alt="twitter"
-                /> */}
+
                 <img
                   className="d-block w-100 banner-social-icon-max-width banner-social-icon-max-height mt-10 mb-10"
                   src="/facebook-f.svg"
                   alt="facebook"
                 />
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/instagram.svg"
-                  alt="instagram"
-                /> */}
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/linkedin.svg"
-                  alt="linkedin"
-                /> */}
+
                 <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/youtube.svg"
                   alt="youtube"
                 />
               </div>
-            </div>
+            </div> */}
+
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -151,7 +139,7 @@ function CustomCarousel() {
                   </div>
                   <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
                     <div className={styles.sliderTwoText}>
-                    IIT holds online Dhamma programs during full moon days. You can listen to various dhamma discourses, meditation instructions in both Sinhala and English medium.
+                      IIT holds online Dhamma programs during full moon days. You can listen to various dhamma discourses, meditation instructions in both Sinhala and English medium.
                     </div>
                   </Carousel.Caption>
                 </div>
@@ -162,33 +150,36 @@ function CustomCarousel() {
                 </div>
               </div>
             </div>
-            <div className={styles.bannerOneLeft}>
+            {/* <div className={styles.bannerOneLeft}>
               <div className={styles.iconsButton}>
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/twitter.svg"
-                  alt="twitter"
-                /> */}
+                
                 <img
                   className="d-block w-100 banner-social-icon-max-width banner-social-icon-max-height mt-10 mb-10"
                   src="/facebook-f.svg"
                   alt="facebook"
                 />
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/instagram.svg"
-                  alt="instagram"
-                /> */}
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/linkedin.svg"
-                  alt="linkedin"
-                /> */}
+                
                 <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/youtube.svg"
                   alt="youtube"
                 />
+              </div>
+            </div> */}
+            <div className={styles.bannerOneLeft}>
+              <div className={styles.iconsButton2}>
+                <div className="img-container">
+                  {/* <img
+                    className="d-block w-100 banner-social-icon-max-width-53"
+                    src="/owada.svg"
+                    alt="owada"
+                  /> */}
+                </div>
+                <div className="text-container text-width-215">
+                  <p className="text-white rotate-90-deg font-17">
+                    IIT
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -200,7 +191,7 @@ function CustomCarousel() {
                 <div className={styles.sliderTwoInnerCont}>
                   <div className="width-25-per sliderThreeLogo">
                     <img
-                     className="d-block w-100 "
+                      className="d-block w-100 "
                       src="/IIT-2.svg"
                       alt="Second slide"
                       width="698px"
@@ -208,9 +199,9 @@ function CustomCarousel() {
                   </div>
                   <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
                     <div className={styles.sliderThreeText}>
-                      <div className={styles.sliderThreeTextLine}><strong>Brown Coloured Large Wheel of Dhamma</strong> indicates how the dispensation of the Buddha is spread all over the world.</div> 
-                      <div className={styles.sliderThreeTextLine}><strong>Twenty-four Sparks</strong> of the wheel represent the twenty-four factors of the Noble Truths. </div> 
-                      <div className={styles.sliderThreeTextLine}><strong>Palm-Leaf-Books</strong> which holds the wheel of Dhamma indicates how the dispensation depends upon studies on Dhamma and Vinaya after the passing away of the Buddha.</div> 
+                      <div className={styles.sliderThreeTextLine}><strong>Brown Coloured Large Wheel of Dhamma</strong> indicates how the dispensation of the Buddha is spread all over the world.</div>
+                      <div className={styles.sliderThreeTextLine}><strong>Twenty-four Sparks</strong> of the wheel represent the twenty-four factors of the Noble Truths. </div>
+                      <div className={styles.sliderThreeTextLine}><strong>Palm-Leaf-Books</strong> which holds the wheel of Dhamma indicates how the dispensation depends upon studies on Dhamma and Vinaya after the passing away of the Buddha.</div>
                       <div className={styles.sliderThreeTextLine}><strong>The Pen and the Palm Leaf</strong> inside the wheel depicts how a monk is involved in studies of Dhamma and Vinaya – pariyatti sāsana.</div>
                       <div className={styles.sliderThreeTextLine}><strong>The Meditative Figure</strong> shows how a monk is involved in developing spiritual qualities – paṭipatti sāsana.</div>
                       <div className={styles.sliderThreeTextLine}><strong>The Pagoda</strong> depicts how a monk who involves in both scriptural studies and spiritual practice becomes a noble being who deserves to be venerated having a pagoda built for him. </div>
@@ -228,32 +219,33 @@ function CustomCarousel() {
               </div>
             </div>
             <div className={styles.bannerOneLeft}>
-              <div className={styles.iconsButton}>
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/twitter.svg"
-                  alt="twitter"
-                /> */}
+              {/* <div className={styles.iconsButton}>
+                
                 <img
                   className="d-block w-100 banner-social-icon-max-width banner-social-icon-max-height mt-10 mb-10"
                   src="/facebook-f.svg"
                   alt="facebook"
                 />
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/instagram.svg"
-                  alt="instagram"
-                /> */}
-                {/* <img
-                  className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
-                  src="/linkedin.svg"
-                  alt="linkedin"
-                /> */}
+                
                 <img
                   className="d-block w-100 banner-social-icon-max-width mt-10 mb-10"
                   src="/youtube.svg"
                   alt="youtube"
                 />
+              </div> */}
+              <div className={styles.iconsButton2}>
+                <div className="img-container">
+                  {/* <img
+                    className="d-block w-100 banner-social-icon-max-width-53"
+                    src="/owada.svg"
+                    alt="owada"
+                  /> */}
+                </div>
+                <div className="text-container text-width-215">
+                  <p className="text-white rotate-90-deg font-17">
+                    IIT
+                  </p>
+                </div>
               </div>
               <div className={styles.iconsButton2}>
                 <div className="img-container">

@@ -28,11 +28,11 @@ export default function newsandevents(props) {
         <Header />
       </div>
       <MainLayoutSection
-        title="News and Events"
-        description="Stay up to date on the News and Events."
-        photo="/one-buddha-gold-temple-thailand.png"
-        backgroundImg="url(/Ellipse-4.svg)"
-      />
+          title="News and Events"
+          description="Be informed of our wholesome activities. Join, Rejoice, and Accumulate Great Merits."
+          photo="/Group 1071.png"
+          backgroundImg="url(/MaskGroup3.svg)"
+        />
       {/* <NavigationCommonLayout navigationList={instituteList} /> */}
 
       <Container style={{ marginBottom: '40px' }}>

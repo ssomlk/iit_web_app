@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styles from './aboutUsComponent.module.css';
 import { missionData } from '../../data/aboutUsData';
-import OurFocusCardComponent from '../ourFocusCardComponent/ourFocusCardComponent';
+import OurFocusCardComponent2 from '../ourFocusCardComponent/ourFocusCardComponent2';
 import cardInfo from '../../data/ourFocusData.json';
 import Slider from '../slider/slider';
 
@@ -9,7 +9,7 @@ function AboutUsComponent() {
   // Create an array for card components to view in
   // card slider.
   const cards = cardInfo.map((data, index) => {
-    return <OurFocusCardComponent key={index} cardData={data} />;
+    return <OurFocusCardComponent2 key={index} cardData={data} />;
   });
 
   // Reference to the Slider component
@@ -104,8 +104,11 @@ function AboutUsComponent() {
               are entirely against the real Dhamma and Vinaya.
             </p>
 
-            <div className="">
-              <img src="/kuti.png" className={styles.establishmentImage1} />
+            <div className={styles.aboutUsKutiContainer}>
+              <img
+                src="/kuti.png"
+                className={`${styles.establishmentImage1} ${styles.establishmentImage2}`}
+              />
               <p>
                 Observing this timely need a group of young competent monks from
                 the Śrī Kalyāṇī Yogashrama Saṃsthā, Sri Lanka who have completed
@@ -143,7 +146,7 @@ function AboutUsComponent() {
               <div className={styles.establishmentSubRight}>
                 <img
                   src="/AriyadhammaThero.jpeg"
-                  className={styles.establishmentImage1}
+                  className={`${styles.establishmentImage1} ${styles.establishmentImage3}`}
                 />
               </div>
             </div>

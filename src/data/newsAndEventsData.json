@@ -5,7 +5,7 @@
         "title":"Land Donation",
         "description":"A land of approximately 85 acers with a house was offered to the IIT by pious devotee Mr. Chandrakeerthi Bandara and his family - mother-in-law D.M.M. Disanayaka and wife Mrs. Chandima Wanninayaka - under the guidance of well renow/ned meditation teacher Most Venerable Agulgamuwe Ariyananda Mahā Thera, the Abbot of the Na-Uyana forest monastery. The land is known as Heenatikalmawatta and is located in the provincial council of Karuwalagaswewa, Sri Lanka. Heenatikalmawatta was hereditary property of the Bandara Family which was owned by the father-in-law of Mr. Bandara, Late State Minister H.B. Wanninayaka. Donation was held on 25th April a day after the 80th Birthday of the Late Na-Uyane Ariyadhamma Mahā Nāyaka Thera, the Vice President of the Śrī Rāmañña Mahā Nikāya, Sri Lanka at the presence of number of renowned Mahā Theras of the Śrī Kaḷyāni Yogāshrama Saṃsthā.",
         "dateStr":	"2019-04-25",
-        "image":"/blogImage.jpg"
+        "image":"/land-offering.jpg"
     },
     {
         "type":"Event",
@@ -13,15 +13,15 @@
         "title":"Establishment",
         "description":"IIT was established with the offering of six residential chambers for monks (kuṭis) by Honorable Maithreepala Sirisena, the President of Democratic Socialist Republic of Sri Lanka on 15th November 2019. Event was participated by more than 25 monks of the Śrī Kaḷyāni Yogāshrama Saṃsthā.", 
         "dateStr":	"2019-11-15" ,
-        "image":"/blogImage.jpg"
+        "image":"/establishment.jpg"
     },
     {
-        "type":"Event",
+        "type":"News",
         "date":"2020",
         "title":"Rains Retreat 2020",
         "description":"Number of five monks observed the first rains retreat in the IIT premises with the invitation of Mr. Chandrakeerthi Bandara and Family together with the Kshemabhūmi Saṃsadaya.",
         "dateStr":	"2020" ,
-        "image":"/blogImage.jpg"
+        "image":""
     },
     {
         "type":"Event",
@@ -29,16 +29,16 @@
         "title":"Kaṭhina Ceremony 2020",
         "description":"The first Kaṭhina ceremony was held on November 19 by Mr. Chandrakeerthi Bandara and Family together with the Kshemabhūmi Saṃsadaya with the participant of monks from the IIT and Katana Gangarama Meditation center.",
         "dateStr":	"2020-11-19" ,
-        "image":"/blogImage.jpg"
+        "image":""
 
     },
     {
-        "type":"Event",
+        "type":"News",
         "date":"2021",
         "title":"Rains Retreat 2021",
         "description":"Number of 16 monks observed the second rains retreat in the IIT premises with the invitation of renowned Neurologist Professor Mrs Ranjani Gamage and Gemologist Mr Amitha Gamage, together with the Kshemabhūmi Saṃsadaya.",
         "dateStr":	"2021" ,
-        "image":"/blogImage.jpg"
+        "image":""
     },
     {
         "type":"Event",
@@ -46,7 +46,7 @@
         "title":"Kaṭhina Ceremony 2021",
         "description":"The second Kaṭhina ceremony of the IIT was held on 14th November by Professor Ranjani Gamage and Mr Amitha Gamage together with the Kshemabhūmi Saṃsadaya. A grand colouful Paṭṭhāna pūja was organized by the Gamage family on 13th November night wishing welfare for and longivity of the IIT and its members. ",
         "dateStr":	"2021-11-14" ,
-        "image":"/blogImage.jpg"
+        "image":"/katina-2021.JPG"
     },
     {
         "type":"Event",
@@ -54,6 +54,6 @@
         "title":"Offering the LHP Studio ",
         "description":"Professor Ranjani Gamage appreciating the urgent need for a separated building dedicated to conduct online Dhamma courses built a LHP studio in the IIT premises. Some other devotees also assisted her in this endeavor. The Studio was offered to the Mahā Saṅgha on 2nd January 2022. ",
         "dateStr":	"2022-01-02" ,
-        "image":"/blogImage.jpg"
+        "image":"/studio-offering.jpg"
     }
 ]

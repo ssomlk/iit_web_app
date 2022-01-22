@@ -95,7 +95,6 @@ p {
   margin-left: 150px;
 }
 
-
 .course-icon-max-width-99 {
   max-width: 99px;
 }
@@ -924,13 +923,18 @@ p {
   /* opacity: 0.24; */
 }
 
+.news-and-events-container-timeline {
+  padding-top: 137px;
+  padding-bottom: 200px;
+}
+
 .news-and-events-chrono-title {
   text-align: left !important;
-  font: normal normal bold 50px/59px Raleway !important;
-  letter-spacing: 0px !important;
-  color: #5d5d5d !important;
-  opacity: 1 !important;
-  padding-top: 197px;
+  font: 'Raleway';
+  font-size: 40px;
+  font-weight: 700;
+  color: #5d5d5d;
+  padding-bottom: 37px;
 }
 
 .timeline-main-wrapper {
@@ -957,10 +961,10 @@ p {
   visibility: visible;
 }
 
-.css-wdjp2-MediaDetailsWrapper {
+/* .css-wdjp2-MediaDetailsWrapper {
   width: 100% !important;
   margin-left: 20px !important;
-}
+} */
 
 p.card-sub-title {
   font-size: 20px !important;
@@ -1076,11 +1080,10 @@ div.card-description > p {
 
 /* End of News and Events styles */
 
-.player-wrapper{
+.player-wrapper {
   /* position: relative; */
-  padding: 10% ;
+  padding: 10%;
   border-radius: 5px;
-
 }
 
 .react-player {
@@ -1088,6 +1091,6 @@ div.card-description > p {
   overflow: hidden;
 }
 
-.pali-italics{
+.pali-italics {
   font-style: italic;
 }

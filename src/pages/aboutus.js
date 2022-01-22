@@ -32,7 +32,7 @@ export default function AboutUs() {
         title="About Us"
         description="Comprehensive training institute aimed at facilitating spiritual and academic development of Buddhist monks, based on Theravada teachings."
         photo="/aboutus.png"
-        backgroundImg="url(/Ellipse-2.svg)"
+        backgroundImg="url(/Ellipse-4.svg)"
       />
 
       <NavigationCommonLayout navigationList={aboutUsList} />

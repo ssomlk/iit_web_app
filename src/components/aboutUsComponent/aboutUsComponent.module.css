@@ -147,11 +147,11 @@
 
 .establishment {
   grid-area: establishment;
-  margin-top: 85px;
+  margin-top: 100px;
 }
 
 .establishmentContent {
-  font: normal normal normal 20px/35px Raleway;
+  font: normal normal normal 20px/40px Raleway;
   letter-spacing: 0px;
   color: #5d5d5d;
   text-align: justify;
@@ -160,6 +160,7 @@
 .establishmentSub {
   display: flex;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .establishmentSubLeft {
@@ -178,7 +179,7 @@
 .missionHeading {
   grid-area: missionHead;
   justify-self: start;
-  margin-top: 10%;
+  margin-top: 80px;
 }
 
 .missionDetails {
@@ -315,7 +316,7 @@
 
 .aboutUsKutiContainer {
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   align-items: center;
 }
 

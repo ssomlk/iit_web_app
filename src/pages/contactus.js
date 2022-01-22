@@ -29,7 +29,7 @@ export default function AboutUs() {
 
       <MainLayoutSection
         title="Contact Us"
-        description="Our mission is to disseminate Theravada Buddhist teachings in its pure form. We are always willing to assist you in your quest to realize the Noble Dhamma.Please feel at ease to contact us."
+        description="Our mission is to disseminate Theravada Buddhist teachings in its pure form. We are always willing to assist you in your quest to realize the Noble Dhamma. Please feel at ease to contact us."
         photo="/contactus.png"
         backgroundImg="url(/Ellipse-3.svg)"
       />

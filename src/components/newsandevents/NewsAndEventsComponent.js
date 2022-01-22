@@ -26,6 +26,8 @@ const NewsAndEventsComponent = () => {
   };
 
   const renderCard = (card, index) => {
+
+const indexval = index;
     return (
       <Card
         className={styles.cardBody}
@@ -47,7 +49,7 @@ const NewsAndEventsComponent = () => {
         <Card.Text className={styles.custDescription}>
           {`${card.description.slice(0, 200)}...`}
         </Card.Text>
-        <Card.Link href="#">Read more...</Card.Link>
+        <Card.Link href={`/newsandevents/${indexval}`} target="_blank">Read more...</Card.Link>
       </Card>
     );
   };

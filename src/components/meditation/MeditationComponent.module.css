@@ -89,7 +89,7 @@
 
 .focusCards {
   grid-area: focusCardArea;
-  margin-top: 4%;
+  margin-top: 40px;
 }
 
 .sliderButton {

@@ -85,7 +85,7 @@ function AboutUsComponent() {
 
           <div className={styles.establishmentContent}>
             <p>
-              The Saṅgha community, especially the Sri Lankan Saṅgha community has witnessed great
+              The <i>Saṅgha</i> community, especially the Sri Lankan <i>Saṅgha</i> community has witnessed great
               setbacks during the past few decades in spirituality, knowledge and practice.
               One of the main reasons for this phenomenon is the absence of a proper monk-training program
               during the initial stages of the monkhood. This vacuum was clearly visible at least for

@@ -83,8 +83,8 @@ function ContactUs() {
         setShow(true);
       })
       .catch((e) => {
-        console.log('error', e.response.data);
         setShowSpinner(false);
+        console.log('error', e.response.data);
         setAlertBox('danger', 'Failure', e.response.data.errors.join(', '));
         setShow(true);
         enableDomElement(submitButton);

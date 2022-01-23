@@ -23,6 +23,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
  });
 
   const formData: FormData = req.body;
+  console.log("form Data >>>>>>>>>>>>>>",formData)
   const human = await validateHuman(formData.token);
 
   if (!human) {
@@ -49,6 +50,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     res.status(200);
     return res.json({ success: true, errors: [] });
   } catch (error) {
+    console.log(error);
     res.status(500);
     return res.json({ success: false, errors: ['Error occured while trying to send your details to International Institute of Theravada. Please contact your Administrator.']});
   }
@@ -58,5 +60,6 @@ async function validateHuman(token: string): Promise<boolean> {
   const secret = process.env.RECAPTCHA_SECRET_KEY;
   const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{}, {});
   const success = response.data['success'];
+  console.log("server >>>>>>>>>>>>>",success);
   return success;
 }

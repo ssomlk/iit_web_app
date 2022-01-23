@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
+//axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
 
 const mainAxios = axios.create({
   baseURL: `${process.env.NEXT_PUBLIC_HOST}/api`,

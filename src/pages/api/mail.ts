@@ -60,6 +60,6 @@ async function validateHuman(token: string): Promise<boolean> {
   const secret = process.env.RECAPTCHA_SECRET_KEY;
   const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{}, {});
   const success = response.data['success'];
-  console.log("server >>>>>>>>>>>>>",success);
+  console.log("server siteverify >>>>>>>>>>>>>",response);
   return success;
 }

@@ -58,8 +58,22 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
 async function validateHuman(token: string): Promise<boolean> {
   const secret = process.env.RECAPTCHA_SECRET_KEY;
-  const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{}, {});
+
+  const payload = {
+    secret,
+    response: token,
+    remoteip: undefined,
+  };
+
+  //const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{},{});
+  const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+    }
+  },
+  {});
+
   const success = response.data['success'];
-  console.log("server siteverify >>>>>>>>>>>>>",response);
+  console.log("<<<<<<<<<<<<< server siteverify >>>>>>>>>>>>>",response);
   return success;
 }

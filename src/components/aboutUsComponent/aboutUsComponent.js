@@ -178,6 +178,23 @@ function AboutUsComponent() {
                 </p>
               </div>
             </div> */}
+
+            {/* <div className={styles.establishmentSub}>
+              <div className={styles.establishmentSubLeft}>
+                <div className={styles.establishmentSubRight}>
+                  <img src="/VenAgulugamaThero.jpg" className={styles.establishmentImage1} />
+                </div>
+              </div>
+              <div className={styles.establishmentSubRight}>
+                <p>
+                  The land of approximately 87 acers known as Heenatikalma Watta, where
+                  IIT is located, was offered to the Mahā Saṅgha, on the 25th April 2019, by pious devotee
+                  Mr Chandrakeerthi Bandara and his family under the guidance of Most Venerable Agulgamuwe
+                  Ariyananda Mahā Thera, the abbot of the well-renowned Na-Uyana Forest Meditation Center,
+                  Malsiripura, Sri Lanka.
+                </p>
+              </div>
+            </div> */}
           </div>
         </div>
         <div className={styles.missionHeading} id="our-vision-and-mission">

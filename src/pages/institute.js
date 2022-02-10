@@ -234,7 +234,7 @@ export default function Institute() {
 
         <div className="inst-admin-struct-sub-text">
           IIT is governed by its General Assembly of which powers are exercised
-          by three independent bodies, i.e., Executive Board, Senet and Vinaya
+          by three independent bodies, namely Executive Board, Senat and Vinaya
           Council.
         </div>
 
@@ -281,7 +281,7 @@ export default function Institute() {
                     Monsatic Council
                   </p>
                   <p className="inst-council-container-col-desc">
-                    Monastic Council is cosisiting of skilled monks who
+                    Monastic Council is consisting of skilled monks who
                     supervise the construction of the IIT and the well-being of
                     the residents of the IIT
                   </p>
@@ -290,15 +290,15 @@ export default function Institute() {
               <div className="inst-council-container-col">
                 <span className="inst-council-container-col-title">Senat</span>
                 <p className="inst-council-container-col-desc">
-                  Senet is the body consisting of members of the IIT who are
+                  Senat is the body consisting of members of the IIT who are
                   knowlagable in the Theravada scriptures and who observe the
-                  decisions taken by the Executive Board and discuss on Dhamma
+                  decisions taken by the Executive Board and discuss Dhamma
                   Vinaya issues.
                 </p>
               </div>
               <div className="inst-council-container-col">
                 <span className="inst-council-container-col-title">
-                  Vinay Council
+                  Vinaya Council
                 </span>
                 <p className="inst-council-container-col-desc">
                   Vinaya Council consisting of monks well versed in the monks

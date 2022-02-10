@@ -25,13 +25,15 @@ const Testomonials = () => {
         <div className="testomonials-main">
           <div className="player-wrapper">
             <ReactPlayer
+              width="100%"
+              height="100%"
               url={item.video}
               controls={true}
               className="react-player"
             />
           </div>
 
-          <div
+          <div className="testimonial-caption"
             style={{
               textAlign: 'left',
               font: 'normal normal normal 41px/49px Raleway',
@@ -54,7 +56,7 @@ const Testomonials = () => {
   };
 
   return (
-    <Carousel style={{ background: '#532F00', width: '100%', height: '100%' }}>
+    <Carousel style={{ background: '#532F00', width: '100%', height: '100%' }} interval={null}>
       {data.map(renderCarousel)}
     </Carousel>
   );

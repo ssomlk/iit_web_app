@@ -222,9 +222,43 @@ p {
   padding-right: 20px;
 }
 
+@media (max-width: 1199px) {
+  .sliderThreeLogo{
+    height:300px;
+    width:300px;
+    min-height: 300px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sliderThreeLogo{
+    height:300px;
+    width:300px;
+    min-height: 300px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sliderThreeLogo{
+    height:300px;
+    width:300px;
+    min-height: 300px;
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 575px) {
   .banner-text-left-about-pd {
     align-items: center;
+  }
+
+  .sliderThreeLogo{
+    height:300px;
+    width:300px;
+    min-height: 300px;
+    padding-bottom: 10px;
   }
 }
 
@@ -1051,6 +1085,50 @@ div.card-description > p {
   font-size: 20px !important;
 }
 
+.player-wrapper {
+  width: 640px;
+  height: 360px;
+  border-radius: 5px;
+}
+
+.testimonial-caption{
+  flex:3;
+  margin-top: -50px;
+}
+
+@media (max-width: 1399px) {
+  
+}
+
+@media (max-width: 1199px) {
+
+}
+  
+@media (max-width: 991px) {
+  .player-wrapper {
+    width: 620px;
+    height: 340px;
+    border-radius: 5px;
+  }
+
+  .testimonial-caption{
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .player-wrapper {
+    padding-left: 5%;
+    width: 620px;
+    height: 280px;
+    border-radius: 5px;
+  }
+
+  .testimonial-caption{
+    font-size: 20px !important;
+  }
+}
+
 @media (max-width: 575px) {
   p.card-sub-title {
     font-size: 18px !important;
@@ -1106,6 +1184,30 @@ div.card-description > p {
     margin-bottom: 40px;
     margin-top: 40px;
   }
+
+  .player-wrapper {
+    padding-left: 0;
+    width: 450px;
+    height: 280px;
+    border-radius: 5px;
+  }
+
+  .testimonial-caption{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .player-wrapper {
+    padding-left: 0;
+    width: 375px;
+    height: 280px;
+    border-radius: 5px;
+  }
+
+  .testimonial-caption{
+    display: none;
+  }
 }
 
 /* End of News and Events styles */
@@ -1115,14 +1217,14 @@ div.card-description > p {
   padding: 10%;
 }
 
-.player-wrapper {
-  /* position: relative;
+/* .player-wrapper {
+   position: relative;
   padding: 10%;
   align-items: left !important;
   width: 50% !important;
-  height: 80% !important; */
+  height: 80% !important; 
   border-radius: 5px;
-}
+} */
 
 .react-player {
   border-radius: 20px;

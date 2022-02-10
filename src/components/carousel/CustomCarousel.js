@@ -224,7 +224,7 @@ function CustomCarousel() {
                         all over the world.
                       </div>
                       <div className={styles.sliderThreeTextLine}>
-                        <strong>Twenty-four Sparks</strong> of the wheel
+                        <strong>Twenty-four Spokes</strong> of the wheel
                         represent the twenty-four factors of the Noble Truths.{' '}
                       </div>
                       <div className={styles.sliderThreeTextLine}>

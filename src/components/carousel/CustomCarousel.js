@@ -39,7 +39,7 @@ function CustomCarousel() {
   return (
     <div className={styles.customCarouselWrapper}>
       <div className={styles.customEllipse}></div>
-      <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <div className={styles.carouwrap}>
             <div className={styles.bannerOneRight}>

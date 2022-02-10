@@ -15,36 +15,10 @@
   background-position: bottom right;
 }
 
-@media (max-width: 1199px) {
-}
-
-@media (max-width: 1399px) {
-}
-
-@media (max-width: 991px) {
-}
-
-@media (max-width: 767px) {
-}
-
-@media (max-width: 575px) {
-  .customEllipse {
-    bottom: 50%;
-    left: -2%;
-    width: 100%;
-  }
-}
-
 .bannerOneLeft {
   display: flex;
   flex: 1;
   justify-content: space-evenly;
-}
-
-@media (max-width: 575px) {
-  .bannerOneLeft {
-    display: none;
-  }
 }
 
 .bannerOneRight {
@@ -53,21 +27,16 @@
   justify-content: space-evenly;
 }
 
-@media (max-width: 575px) {
-  .bannerOneRight {
-    display: none;
-  }
-}
-
 .bannerTextOne {
   font-size: 75px;
   color: black;
   letter-spacing: 0;
   font-family: "Playfair Display";
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
   align-self: center;
   opacity: 0.7;
+  margin-top:22%;
 }
 
 .bannerTextTwo {
@@ -84,20 +53,6 @@
   text-align: left;
 }
 
-@media (max-width: 575px) {
-  .bannerTextOne {
-    font-size: 18px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .bannerTextTwo {
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-  }
-}
-
 .learnMoreButton {
   border: 2px solid #174b78;
   border-radius: 33px;
@@ -108,13 +63,6 @@
   padding-bottom: 12px;
   background-color: transparent;
   color: #174b78;
-}
-
-@media (max-width: 575px) {
-  .learnMoreButton {
-    font-size: 15px;
-    margin-bottom: 30px;
-  }
 }
 
 .iconsButton {
@@ -148,11 +96,12 @@
   max-width: 1500px;
 }
 
-@media (max-width: 575px) {
-  .motoContainer {
-    flex-direction: column;
-    align-items: center;
-  }
+.motoItem {
+  flex-basis: 50%;
+}
+
+.motoImage {
+  padding:0;
 }
 
 .iconsButton2 {
@@ -189,6 +138,28 @@
   color: #ffffff;
 }
 
+.sliderTwoTemple {
+  height: 190px;
+  width: 190px;
+  min-width: 190px;
+  min-height: 190px;
+  background-color: #65471f;
+  border-radius: 100%;
+  margin: 20px;
+  padding: 40px;
+}
+
+.sliderThreeContainer {
+  display: flex;
+  min-height: 356px;
+  flex: 7;
+  flex-direction: row-reverse;
+  max-width: 1500px;
+  background: #966304 0% 0% no-repeat padding-box;
+  border-radius: 48px;
+  opacity: 0.85;
+}
+
 .sliderThreeText {
   text-align: left;
   text-align: justify;
@@ -196,6 +167,7 @@
   font-family: "Raleway";
   font-weight: 400;
   color: #ffffff;
+  padding:30px;
 }
 
 .sliderThreeTextLine {
@@ -215,4 +187,374 @@
 
 .outerTextThree {
   width: 154px;
+}
+
+.sliderThreeLogo {
+  height: 500px;
+  width: 500px;
+  min-height: 500px;
+  border-radius: 100%;
+  padding: 40px;
+}
+
+@media (max-width: 1399px) {
+  .motoImage{
+    padding-left:20px;
+    padding-right: 20px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    margin-top:10px;
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .bannerTextTwo{
+    font-size: 30px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+  }
+
+  .sliderThreeContainer {
+    margin:30px;
+  }
+
+  .sliderThreeText {
+    text-align: center;
+    text-align: justify;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .customEllipse {
+    bottom: 30%;
+    left: -30%;
+    width: 100%;
+  }
+
+  .iconsButton2{
+    width:70px;
+    margin-right:5px; 
+  }
+
+ .motoImage{
+    padding-left:20px;
+    padding-right: 20px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    margin-top:10px;
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .bannerTextTwo{
+    font-size: 30px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+  }
+
+  .sliderThreeContainer {
+    margin:30px;
+  }
+
+  .sliderThreeText {
+    text-align: center;
+    text-align: justify;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .customEllipse {
+    bottom: 50%;
+    left: -30%;
+    width: 100%;
+  }
+
+  .bannerOneLeft {
+    display: none;
+  }
+  
+  .bannerOneRight {
+    display: none;
+  }
+
+  .motoImage{
+    padding-left:10px;
+    padding-right: 10px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    padding-top:28%;
+    text-align: center;
+  }
+
+  .bannerTextOne img{
+    width:150px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    margin-top:30px;
+    text-align: center;
+  }
+
+  .bannerTextOne img{
+    width:120px;
+  }
+
+  .bannerTextTwo{
+    font-size: 23px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+  }
+
+  .outer{
+    flex-direction: column;
+  }
+
+  .sliderTwoText {
+    font-size: 20px;
+  }
+
+  .outerTextThree{
+    display: none;
+  }
+
+  .sliderTwoContainer{
+    margin-left:20px;
+    margin-right:20px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
+  .sliderTwoInnerCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sliderThreeContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sliderThreeText {
+    text-align: center;
+    text-align: justify;
+    font-size: 15px;
+    padding:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .customEllipse {
+    bottom: 75%;
+    left: -25%;
+    width: 100%;
+  }
+
+  .bannerOneLeft {
+    display: none;
+  }
+  
+  .bannerOneRight {
+    display: none;
+  }
+  
+  .motoContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .motoImage{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    padding-top:0;
+    margin-top:10px;
+    text-align: center;
+  }
+
+  .bannerTextOne img{
+    width:150px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    margin-top:30px;
+    text-align: center;
+  }
+
+  .bannerTextOne img{
+    width:120px;
+  }
+
+  .bannerTextTwo{
+    font-size: 23px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+  }
+
+  .outer{
+    flex-direction: column;
+  }
+
+  .sliderTwoText {
+    font-size: 20px;
+  }
+
+  .outerTextThree{
+    display: none;
+  }
+
+  .sliderTwoContainer{
+    margin-left:20px;
+    margin-right:20px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .sliderTwoInnerCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sliderThreeContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sliderThreeText {
+    text-align: center;
+    text-align: justify;
+    font-size: 15px;
+    padding:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .customEllipse {
+    bottom: 50%;
+    left: -2%;
+    width: 100%;
+  }
+  
+  .bannerOneLeft {
+    display: none;
+  }
+  
+  .bannerOneRight {
+    display: none;
+  }
+
+  .motoContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .motoImage{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .bannerTextOne{
+    font-size: 50px;
+    padding-top:0;
+    margin-top:10px;
+    text-align: center;
+  }
+
+  .bannerTextOne img{
+    width:150px;
+  }
+
+  .bannerTextTwo{
+    font-size: 25px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+  }
+
+  .learnMoreButton {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .outer{
+    flex-direction: column;
+  }
+
+  .sliderTwoText {
+    font-size: 20px;
+  }
+
+  .outerTextThree{
+    display: none;
+  }
+
+  .sliderTwoContainer{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 190px;
+    padding-bottom: 190px;
+  }
+
+  .sliderInnerCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sliderThreeContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sliderThreeText {
+    text-align: center;
+    text-align: justify;
+    font-size: 15px;
+    padding:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px){
+  .bannerTextOne img{
+    width:100px;
+  }
+
+  .sliderTwoContainer{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+  }
 }

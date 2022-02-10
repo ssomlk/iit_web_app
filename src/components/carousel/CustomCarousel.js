@@ -39,7 +39,7 @@ function CustomCarousel() {
   return (
     <div className={styles.customCarouselWrapper}>
       <div className={styles.customEllipse}></div>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
         <Carousel.Item>
           <div className={styles.carouwrap}>
             <div className={styles.bannerOneRight}>
@@ -69,7 +69,28 @@ function CustomCarousel() {
               </div>
             </div>
             <div className={styles.motoContainer}>
-              <div className="width-50-per">
+              <div className={styles.motoItem}>
+                <div className={styles.motoImage}>
+                  <img
+                    className="d-block w-100 banner-img-max-width"
+                    src="/buddha_new.png"
+                    alt="Second slide"
+                  />
+                </div>
+              </div>
+              <div className={styles.motoItem}>
+                <div className={styles.bannerTextOne}>
+                  <img src="/swirlLeftt.png" width="200px" />
+                  &nbsp;IIT&nbsp;
+                  <img src="/swirlRight.png" width="200px" />
+                </div>
+                <div className={styles.bannerTextTwo}>
+                  International Institute of Theravada is an inclusive bhikkhu
+                  training center aiming at capacitating attahita, parahita and
+                  vinayadhara Buddhist monks.
+                </div>
+              </div>
+              {/* <div className="width-50-per">
                 <img
                   className="d-block w-100 banner-img-max-width"
                   src="/buddha_new.png"
@@ -88,8 +109,8 @@ function CustomCarousel() {
                   training center aiming at capacitating attahita, parahita and
                   vinayadhara Buddhist monks.
                 </div>
-                {/* <button className={styles.learnMoreButton}>Learn More</button> */}
-              </Carousel.Caption>
+                <button className={styles.learnMoreButton}>Learn More</button>
+              </Carousel.Caption> */}
             </div>
             {/* <div className={styles.bannerOneLeft}>
               <div className={styles.iconsButton}>
@@ -133,7 +154,6 @@ function CustomCarousel() {
                       className="d-block w-100 banner-img-max-width"
                       src="/temple.svg"
                       alt="Second slide"
-                      width="698px"
                     />
                   </div>
                   <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
@@ -185,18 +205,18 @@ function CustomCarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <div className={styles.carouwrap}>
-            <div className={styles.sliderTwoContainer}>
+            <div className={styles.sliderThreeContainer}>
               <div className={styles.outer}>
                 <div className={styles.sliderTwoInnerCont}>
                   <div className="width-25-per sliderThreeLogo">
                     <img
                       className="d-block w-100 "
                       src="/IIT-2.svg"
-                      alt="Second slide"
-                      width="698px"
+                      alt="Third slide"
                     />
                   </div>
-                  <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left">
+                  {/* <Carousel.Caption className="caroucap pd-30 width-75-per banner-text-left"> */}
+                  <Carousel.Caption className="caroucap width-75-per banner-text-left">
                     <div className={styles.sliderThreeText}>
                       <div className={styles.sliderThreeTextLine}>
                         <strong>Brown Coloured Large Wheel of Dhamma</strong>{' '}

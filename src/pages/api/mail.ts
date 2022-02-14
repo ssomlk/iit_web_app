@@ -61,7 +61,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
 async function validateHuman(token: string): Promise<any> {
   const secret = process.env.RECAPTCHA_SECRET_KEY;
-  //const secret = 'S3cR3T';
 
   const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{},{});
 

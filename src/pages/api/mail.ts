@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import NextCors from 'nextjs-cors';
 import { recaptchaAxios } from "../../axios/axiosBackend";
 import sendGridMail from '@sendgrid/mail';
+import { AxiosResponse } from "axios";
 sendGridMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 interface FormData {
@@ -26,16 +27,18 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   console.log("form Data >>>>>>>>>>>>>>",formData)
   const human = await validateHuman(formData.token);
 
+  return res.status(400).json(human);
+
   if (!human) {
     res.status(400);
-    return res.json({ success: false, errors: ["You are not authenticated", res.statusMessage.toString()] });
+    return res.json({ success: false, errors: ["You are not authenticated"] });
   }
 
   const message = {
-    to: process.env.SENDGRID_MAIL_RECEIVER, 
+    to: process.env.SENDGRID_MAIL_RECEIVER,
     from: process.env.SENDGRID_MAIL_SENDER, // Change to your verified sender
     subject: formData.contactSubject,
-    text: `Name: ${formData.contactName}\n 
+    text: `Name: ${formData.contactName}\n
            Contact: ${formData.contactPhone} \n
            Email: ${formData.contactEmail} \n
            Message: ${formData.contactMessage}`,
@@ -56,24 +59,21 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   }
 };
 
-async function validateHuman(token: string): Promise<boolean> {
-  const secret = process.env.RECAPTCHA_SECRET_KEY;
+async function validateHuman(token: string): Promise<any> {
+  //const secret = process.env.RECAPTCHA_SECRET_KEY;
+  const secret = 'S3cR3T';
 
-  const payload = {
-    secret,
-    response: token,
-    remoteip: undefined,
-  };
+  // const payload = {
+  //   secret,
+  //   response: token,
+  //   remoteip: undefined,
+  // };
 
-  //const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{},{});
-  const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
-    }
-  },
-  {});
+  const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{},{});
 
-  const success = response.data['success'];
+  //const success = response.data['success'];
   console.log("<<<<<<<<<<<<< server siteverify >>>>>>>>>>>>>",response);
-  return success;
+  //return success;
+
+  return response.data;
 }

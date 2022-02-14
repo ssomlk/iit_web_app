@@ -84,8 +84,9 @@ function ContactUs() {
       })
       .catch((e) => {
         setShowSpinner(false);
+        //console.log('error', e.response.data);
         console.log('error', e.response.data);
-        setAlertBox('danger', 'Failure', e.response.data.errors.join(', '));
+        //setAlertBox('danger', 'Failure', e.response.data.errors.join(', '));
         setShow(true);
         enableDomElement(submitButton);
       });

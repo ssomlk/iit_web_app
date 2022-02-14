@@ -27,7 +27,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   console.log("form Data >>>>>>>>>>>>>>",formData)
   const human = await validateHuman(formData.token);
 
-  return res.status(400).json(human);
+  return res.status(400).json({human});
 
   if (!human) {
     res.status(400);
@@ -75,5 +75,11 @@ async function validateHuman(token: string): Promise<any> {
 
   logger.info(`response : ${response}`);
 
-  return response.data;
+  const payload = {
+    token,
+    secret,
+  }
+
+  //return response.data;
+  return payload;
 }

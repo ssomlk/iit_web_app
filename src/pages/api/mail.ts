@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import NextCors from 'nextjs-cors';
 import { recaptchaAxios } from "../../axios/axiosBackend";
 import sendGridMail from '@sendgrid/mail';
-import { AxiosResponse } from "axios";
+import { Logger } from 'aws-amplify';
 sendGridMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 interface FormData {
@@ -60,13 +60,20 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 };
 
 async function validateHuman(token: string): Promise<any> {
+  const logger = new Logger('IIT logger');
+
   const secret = process.env.RECAPTCHA_SECRET_KEY;
+  logger.info(`token : ${token}`);
+  logger.info(`secret : ${secret}`);
+
 
   const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{},{});
 
   //const success = response.data['success'];
   console.log("<<<<<<<<<<<<< server siteverify >>>>>>>>>>>>>",response);
   //return success;
+
+  logger.info(`response : ${response}`);
 
   return response.data;
 }

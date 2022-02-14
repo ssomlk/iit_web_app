@@ -60,20 +60,12 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 };
 
 async function validateHuman(token: string): Promise<any> {
-  const logger = new Logger('IIT logger');
-
   const secret = process.env.RECAPTCHA_SECRET_KEY;
-  logger.info(`token : ${token}`);
-  logger.info(`secret : ${secret}`);
-
-
   const response = await recaptchaAxios.post(`/siteverify?secret=${secret}&response=${token}`,{},{});
 
   //const success = response.data['success'];
   console.log("<<<<<<<<<<<<< server siteverify >>>>>>>>>>>>>",response);
   //return success;
-
-  logger.info(`response : ${response}`);
 
   const payload = {
     token,

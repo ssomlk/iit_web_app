@@ -28,7 +28,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   if (!human) {
     res.status(400);
-    return res.json({ success: false, errors: ["You are not authenticated"] });
+    return res.json({ success: false, errors: ["You are not authenticated", res.statusMessage.toString()] });
   }
 
   const message = {
